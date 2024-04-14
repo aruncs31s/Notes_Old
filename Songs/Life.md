@@ -1,14 +1,14 @@
 # Neffex Life
 
 Yeah, yeah, let's go
-I ain't the first with the curse, with the thirst
-That I wanna be better, not worse, man, it hurts
+==I ain't the first with the curse, with the thirst==
+==That I wanna be better, not worse, man, it hurts==
 I'm on this earth with my words
 And I put 'em all together, insert, 'cause I wanna have worth
 Working hella hard, 'til they put me in the dirt
 Gonna go far, man, listen to my words
 Gonna be a star, man, life's like a blur
-When you're working this hard, yeah, you get what you deserve (let's go)
+==When you're working this hard, yeah, you get what you deserve== (let's go)
 Yeah, I ain't taking a back seat
 I'm passing anybody else who is rapping
 I'm nasty, ain't nobody able to catch me
@@ -35,8 +35,8 @@ My name out now, yeah, they hearing me loud
 All the crowds rapping the sound, I'm hitting the ground
 Running, up and coming, ain't nothing, yeah
 Rookie of the year, I'ma keep it one hundred
-Cold-blooded, no budget, from nothing
-To something, nah, I ain't bluffing
+==Cold-blooded, no budget, from nothing==
+==To something, nah, I ain't bluffing==
 I got a full hand and a full plan
 I ain't gonna stop 'til I'm at the top, man
 Every single drop got me feeling awesome
