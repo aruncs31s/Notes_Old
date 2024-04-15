@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"c771d3dc78f8226f","type":"file","file":"BTech/S6/ElectroMagnetics/Module 1.md","x":-920,"y":-250,"width":400,"height":400},
+		{"id":"1292d5ef54cd0223","type":"file","file":"BTech/S6/ElectroMagnetics/coulomb's law.md","x":-1360,"y":440,"width":540,"height":400,"color":"5"},
+		{"id":"f13d4183c41222b2","x":-140,"y":-250,"width":400,"height":400,"type":"file","file":"BTech/S6/ElectroMagnetics/Electromagnetics.md"},
+		{"id":"af8e5a4e0e25f1c3","type":"text","text":"# Module 2","x":-65,"y":380,"width":250,"height":60},
+		{"id":"7ba14adfe326b5da","type":"text","text":"# Module 4","x":-65,"y":-440,"width":250,"height":60},
+		{"id":"7013fe449437fded","type":"text","text":"# Module 3","x":400,"y":-80,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"62d3a56a96fefa0b","fromNode":"c771d3dc78f8226f","fromSide":"bottom","toNode":"1292d5ef54cd0223","toSide":"top"},
+		{"id":"7b3bc3f603e10820","fromNode":"f13d4183c41222b2","fromSide":"left","toNode":"c771d3dc78f8226f","toSide":"right"},
+		{"id":"7318b5fbb53dd025","fromNode":"f13d4183c41222b2","fromSide":"bottom","toNode":"af8e5a4e0e25f1c3","toSide":"top"},
+		{"id":"395c5ef2ce1e5b52","fromNode":"f13d4183c41222b2","fromSide":"top","toNode":"7ba14adfe326b5da","toSide":"bottom"},
+		{"id":"2b024efbef6a3818","fromNode":"f13d4183c41222b2","fromSide":"right","toNode":"7013fe449437fded","toSide":"left"}
+	]
+}

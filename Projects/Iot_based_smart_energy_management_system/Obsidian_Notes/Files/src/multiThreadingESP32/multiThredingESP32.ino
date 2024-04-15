@@ -10,12 +10,27 @@ Gtihub : https://github.com/aruncs31s/
 
 #include <ESP32Servo.h>
 
-// Define the GPIO (2,15) pin connected to the servo
 
-const int SERVO_PIN_1 = 2;
-const int SERVO_PIN_2 = 15;
+
+// NOTE: All Pin Declaration Must be done here
+
+// Interfaced Pins for Energy Management
+
+const int RELAY_PIN = 26 ;
+const int RELAY_PIN = 27 ;
+
+const int PIR_SENSOR_PIN = 13;
+
+
+// Interfaced Pins for  Solar Tracking
+// Define the GPIO (2,15) pin connected to the servo for Solar tracking
+// FIXME: Find which servo(Horizontal,Vertical) is connected to which pin
+const int SERVO_PIN_1 = 2; // For connecting the horizontal servo
+const int SERVO_PIN_2 = 15;// For connecting the Vertical servo
 
 // Define the GPIO ADC Pins for LDR Sensors
+
+
 // TODO:  Rearange the pins or rearange the structure where the ldr is placed to match the reading values and position
 
 const int LDR_LEFT_TOP = 36;
@@ -91,6 +106,7 @@ void setup() {
 
 //Task1code: blinks an LED every 1000 ms
 void Solar_Management( void * pvParameters ){
+  // OPTIMIZE: Need to optimize this code
   Serial.print("Task1 running on core ");
   Serial.println(xPortGetCoreID());
   int reading_LDR_left_bottom = analogRead(LDR_LEFT_BOTTOM);
@@ -104,10 +120,11 @@ void Solar_Management( void * pvParameters ){
     (reading_LDR_right_bottom + reading_LDR_right_top) / 2;
   int reading_LDR_bottom_avg =
     (reading_LDR_right_bottom + reading_LDR_left_bottom) / 2;
-  
+
 
   int reading_LDR_top_avg = (reading_LDR_right_top + reading_LDR_left_top) / 2;
-  while (1){
+  
+  while (1){ // OPTIMIZE: 
     if (reading_LDR_top_avg < reading_LDR_bottom_avg) {
       Servo_2.write(current_Servo_1_value - 1);
       if (current_Servo_1_value > SERVO_LIMIT_HIGH) {
@@ -167,7 +184,7 @@ void Energy_Management(void * pvParameters ){
   - [ ]
     */
 
-  const int PIR_SENSOR_PIN = 13;
+  
   pinMode(PIR_SENSOR_PIN, INPUT);
 
   int warm_up;
