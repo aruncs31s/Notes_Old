@@ -1,7 +1,14 @@
 # Information theory and Coding
+
+- [Module 1](./Module%201)
+- [Module 2](Embedded%20Systems/Module%203.md)
+- [Module 3](Embedded%20Systems/Module%203.md)
+- [Module 4](Embedded%20Systems/Module%204.md)
+
 ## Contents
 
 - Shannon Limit
+
 
 #### Shannon Limit
 [https://www.gaussianwaves.com/2008/04/channel-capacity/](https://www.gaussianwaves.com/2008/04/channel-capacity/)

@@ -4,7 +4,6 @@ aliases: []
 tags: []
 ---
 
-
 ## ESP32
 
 ### Contents
@@ -19,7 +18,7 @@ tags: []
 	- 
 - Whole Code
 	- [Servo Motor]()
-- [Interfaced Pins](#interfaced%20pins)
+- [Interfaced Pins7](#interfaced%20pins)
 - [Multi Threding](#multi%20threding)
 - 
 ##### Esp32 Specs
@@ -168,6 +167,7 @@ void loop() {
 ![|500x300](https://esp32io.com/images/tutorial/esp32-relay-pinout.jpg)
 
 
+
 | Pins | Uses                                   |
 | ---- | -------------------------------------- |
 | DC + | Connect to +5v                         |
@@ -177,6 +177,18 @@ void loop() {
 | NC   | Normally Closed Pin                    |
 | COM  | Common Pin                             |
 
+<!-- TODO: Find the code to interface the relay module  -->
+
+##### Circuit Diagram
+![|500x300](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/12/relay-esp32-wiring.png?quality=100&strip=all&ssl=1)
+
+#TestCode 
+```cpp
+void setup(){
+
+Serial.begin(115200);
+
+```
 
 
 
@@ -186,15 +198,17 @@ void loop() {
 
 
 
-| Pin No | GPIO   | Used For                                        |
-| :----- | :----- | :---------------------------------------------- |
-| D2     | GPIO2  | Connecting the Horzontal Servo - Solar Tracking |
-| D15    | GPIO15 | Connecting the Vertical Servo - Solar Tracking  |
-| D34    | GPIO34 | Connecting the LDR at Top Right                 |
-| D35    | GPIO35 | Connecting the LDR at Bottom Right              |
-| VP     | GPIO36 | Connecting the LDR at Top Left                  |
-| VN     | GPIO39 | Connecting the LDR at Top Right                 |
-| D13    | GPIO13 | Connecting the PIR Sensor                       |
+| Pin No | GPIO   | Used For                                        |                  |
+| :----- | :----- | :---------------------------------------------- | ---------------- |
+| D2     | GPIO2  | Connecting the Horzontal Servo - Solar Tracking | Solar Tracking   |
+| D15    | GPIO15 | Connecting the Vertical Servo - Solar Tracking  | ST               |
+| D34    | GPIO34 | Connecting the LDR at Top Right                 | ST               |
+| D35    | GPIO35 | Connecting the LDR at Bottom Right              | ST               |
+| VP     | GPIO36 | Connecting the LDR at Top Left                  | ST               |
+| VN     | GPIO39 | Connecting the LDR at Top Right                 | ST               |
+| D13    | GPIO13 | Connecting the PIR Sensor                       | Energy Managment |
+| D26    | GPIO26 | Connecting the Relay Module IN1                 | EM               |
+| D27    | GPIO27 | Connecting the Relay Module IN1                 | EM               |
 #pinDefine
 ```c
 // Define the GPIO (2,15) pin connected to the servo
@@ -206,6 +220,9 @@ const int LDR_LEFT_BOTTOM = 39;
 const int LDR_RIGHT_TOP = 34;
 const int LDR_RIGHT_BOTTOM = 35;
 ```
+
+
+
 
 #### Multi Threding
 ```c
