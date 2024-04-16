@@ -205,7 +205,7 @@ Serial.begin(115200);
 | D34    | GPIO34 | Connecting the LDR at Top Right                 | ST               |
 | D35    | GPIO35 | Connecting the LDR at Bottom Right              | ST               |
 | VP     | GPIO36 | Connecting the LDR at Top Left                  | ST               |
-| VN     | GPIO39 | Connecting the LDR at Top Right                 | ST               |
+| VN     | GPIO39 | Connecting the LDR at Bottom Left               | ST               |
 | D13    | GPIO13 | Connecting the PIR Sensor                       | Energy Managment |
 | D26    | GPIO26 | Connecting the Relay Module IN1                 | EM               |
 | D27    | GPIO27 | Connecting the Relay Module IN1                 | EM               |
