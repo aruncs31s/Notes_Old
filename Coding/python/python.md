@@ -1,7 +1,7 @@
 # Python
 ## Modules
 
-- [Numpy](./numpy.md)
+- [Numpy](Coding/python/numpy.md)
 - [matplotlib](./matplotlib.md)
 ## Contents
 
@@ -73,9 +73,9 @@ print(len(someList))
 | -------------------- | ----------------- | --------- | ------ | ---------------------------- | ------- |
 | List                 | Array             | 1         | Vector | [1,2,4,5]                    | 4       |
 | List of List(lol)    | Matrix            | 2         | Vector | \[[1,2,3,4],[2,3,4,5\]]      | (2,4)   |
-| List of List of List | Matrix            | 3         | Vector | [Lists](/python/python#list) | (1,3,3) |
+| List of List of List | Matrix            | 3         | Vector | [Lists](Coding/python/python.md#list) | (1,3,3) |
 
-> More about [Lists](/python/python#list)
+> More about [Lists](Coding/python/python.md#list)
 
 
 > [!NOTE] List of List

@@ -2,8 +2,8 @@
 ## Contents
 1. [Neurons, Weights and Biases](#neurons%20,weights%20and%20biases)
 2. Tools Used
-	1. [Python](/python/python)
-	2. [Numpy](numpy.md)
+	1. [Python](Coding/python/python.md)
+	2. [Numpy](Coding/python/numpy.md)
  
 ## Neurons ,Weights and Biases 
 
@@ -43,7 +43,7 @@ print(output)
 $$Y[i] =( \sum_{k=1}^K inputs[i][k]  \  * \ weights[i][k]  \ )+ bias)$$
 $$ Where \ Y = 1:\infty$$
 
-![[Neural Network With 3 Weights.canvas|Neural Network With 3 Weights]]
+![[Coding/AI/Machine Learning/Neural Networks/canvases/Neural Network With 3 Weights.canvas|Neural Network With 3 Weights]]
 
 
 - More Dynamic example
@@ -66,7 +66,7 @@ for neuron_weights, neuron_bias in zip(weights, biases):
 print(output)
 ```
 ###### Explanation
-- [zip](/python/python#zip)
+- [zip](Coding/python/python.md#zip)
 ```python
 output= []
 
@@ -158,7 +158,7 @@ $$
 
 
 #### Multiple Inputs
-- [Lists](/python/python#list)
+- [Lists](Coding/python/python.md#list)
 - [Numpy](/python/python/numpy)
 ##### Dot product of single set of inputs and weights
 
