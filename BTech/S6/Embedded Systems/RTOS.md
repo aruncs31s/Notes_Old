@@ -97,7 +97,7 @@ xReturned = xTaskCreate(
 - Differentiate yourself as a fresher
 ---
 ##### Suggested Class
-![esp.png](/Embedded%20Systems/Files/esp.png)
+![esp.png](BTech/S6/Embedded%20Systems/Files/esp.png)
 
 1. https://youtu.be/F321087yYy4?feature=shared
 
@@ -116,5 +116,5 @@ xReturned = xTaskCreate(
 
 ### Connected To
 
-[[Embedded Systems]]
+[[BTech/S6/Embedded Systems/Embedded Systems]]
 

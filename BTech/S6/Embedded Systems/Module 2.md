@@ -4,7 +4,7 @@ aliases: []
 tags: []
 ---
 
-[[Module 2 PDFs]]
+[[BTech/S6/Embedded Systems/Files/Module 2/Module 2 PDFs]]
 #### Syllabus
 1. Communication Devices
 - Serial Communication Standards and Devices - UART, HDLC and SPI.
@@ -19,10 +19,10 @@ tags: []
 - Shared data problem, Interrupt latency
 
 #### Topics
-- [[Serial Comm]]
-- [[Memory]]
-- [[I_O Devices]]
+- [[BTech/S6/Embedded Systems/Files/Module 2/Serial Comm]]
+- [[BTech/S6/Embedded Systems/Files/Module 2/Memory]]
+- [[BTech/S6/Embedded Systems/Files/Module 2/I_O Devices]]
 ##### Serial Comm
-![[Pasted image 20240311233704.png|400x300]]
+![[BTech/S6/Embedded Systems/Files/Images/Pasted image 20240311233704.png|400x300]]
 
 

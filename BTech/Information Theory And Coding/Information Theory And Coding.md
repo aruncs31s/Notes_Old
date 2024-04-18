@@ -1,9 +1,9 @@
 # Information theory and Coding
 
 - [Module 1](./Module%201)
-- [Module 2](Embedded%20Systems/Module%203.md)
-- [Module 3](Embedded%20Systems/Module%203.md)
-- [Module 4](Embedded%20Systems/Module%204.md)
+- [Module 2](BTech/S6/Embedded%20Systems/Module%203.md)
+- [Module 3](BTech/S6/Embedded%20Systems/Module%203.md)
+- [Module 4](BTech/S6/Embedded%20Systems/Module%204.md)
 
 ## Contents
 

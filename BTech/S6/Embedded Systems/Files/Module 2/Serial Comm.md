@@ -12,12 +12,12 @@ tags: []
 
 
 #### Serial Communication
-- [[SPI Serial Peripheral Interface]]
-- [[I2C]]
-- [[HDLC]]
-- [[USB]]
+- [[BTech/S6/Embedded Systems/Files/Module 2/SPI Serial Peripheral Interface]]
+- [[BTech/S6/Embedded Systems/Files/Module 2/I2C]]
+- [[BTech/S6/Embedded Systems/Files/Module 2/HDLC]]
+- [[BTech/S6/Embedded Systems/Files/Module 2/USB]]
 
 
 #RelatedTopics
-1.[[Parity]]
+1.[[BTech/S6/Embedded Systems/Files/Module 2/Parity]]
 

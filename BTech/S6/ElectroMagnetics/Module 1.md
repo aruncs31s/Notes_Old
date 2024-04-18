@@ -194,6 +194,8 @@ $=    [ 6z+{3z^2 \over 2} ]_{0}^{2}$
 
 $= 12 + 6 = 18$
 
+
+
 $\int \overrightarrow \nabla . \overrightarrow F dV = 18$
 
 #todo 
