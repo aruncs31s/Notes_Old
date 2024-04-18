@@ -2,8 +2,8 @@
 
 ## Concepts
 
-1. [Neural Networks](./neural%20networks)
-2. [Deep Learning](./deep%20learning)
+1. [Neural Networks](Coding/AI/Machine%20Learning/Neural%20Networks.md)
+2. [Deep Learning](Coding/AI/Machine%20Learning/Deep%20Learning.md)
 
 #### Class outline
 1. Python
@@ -26,13 +26,13 @@ Machine Learning is a subset of AI
 
 #### Setup
 
-![[AI/Machine Learning/Pasted image 20240409020055.png]]
+![[Coding/AI/Machine Learning/Pasted image 20240409020055.png]]
 - Software Distributions
 	- Anaconda
 	- Miniconda
 	- Conda (Package Manager)
 
-![[AI/Machine Learning/Pasted image 20240409020238.png]]
+![[Coding/AI/Machine Learning/Pasted image 20240409020238.png]]
 
 
 

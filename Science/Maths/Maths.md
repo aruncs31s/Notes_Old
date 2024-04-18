@@ -119,7 +119,7 @@ let a = arr2(&[[1, 2, 3], [4, 5, 6]]);
 
 #### Reduced Row Echelon Form
 
-[[Gauss–Jordan elimination]]
+[[Science/Maths/Gauss–Jordan elimination]]
 
  
 ##### Matrix Multiplication

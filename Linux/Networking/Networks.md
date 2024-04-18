@@ -3,5 +3,5 @@
 
 Note : *It is in random order*
 
-[[Proxy]]
+[[Linux/Networking/Proxy]]
 [[HTTP]]

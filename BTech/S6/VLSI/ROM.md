@@ -6,7 +6,7 @@ Created : 2024-04-18 00:07
 
 ### Memory Organization
 
-![](BTech/S6/Embedded%20Systems/Screenshot_2024-04-18-00-13-32_2646x1024.png)
+![](BTech/S6/Embedded%20Systems/Files/Screenshot_2024-04-18-00-13-32_2646x1024.png)
 - ![[VLSI/Memory/WordLine]]
 - ![[VLSI/Memory/BitLine]]
 

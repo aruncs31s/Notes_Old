@@ -33,8 +33,8 @@
 5. **Applications**: Electromagnetic theory has numerous practical applications in technology and engineering, including telecommunications, electronics, power generation and transmission, radar systems, medical imaging, and many others
 
 ## Prerequisites
-- [Vector Algebra](Maths/Maths.md#Vector%20Algebra)
-- [Del Operator](Maths/Maths.md#Del%20Operator)
+- [Vector Algebra](Science/Maths/Maths.md#Vector%20Algebra)
+- [Del Operator](Science/Maths/Maths.md#Del%20Operator)
 
 
 #### Electric Fields
@@ -152,7 +152,7 @@ $$
 #uses
 1. It is used in application of fluid mechanics
 2. It is used to understand electromechanics
-3. It is used to understand the flaw of fields (eg : [[Quantum Mechanics/Gravitational Field|Gravitational Fields]],[Electric Field](#electric%20fields) 
+3. It is used to understand the flaw of fields (eg : [[Science/Quantum Mechanics/Gravitational Field|Gravitational Fields]],[Electric Field](#electric%20fields) 
 4. Used in aerodynamics
 
 #exampleProblem
@@ -222,7 +222,7 @@ $Curl(\overrightarrow P) =  \overrightarrow \nabla \times \overrightarrow P = \u
 
 => $\underset{\Delta S \to 0}{\lim} \overrightarrow \nabla \times \overrightarrow P \ \Delta S = \underset{\Delta S \to 0}{\lim} \oint \overrightarrow P dl$
 
-*Which is basically [[Maths/Integration.md|integration]]*
+*Which is basically [[Science/Maths/Integration|integration]]*
 > [!NOTE] Integration 
 > $\underset{\Delta S \to 0}{\lim} a \ function = its \ integral$
 
