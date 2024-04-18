@@ -123,7 +123,7 @@ $$
 \oint P.dS = \oint \overrightarrow \nabla . \overrightarrow P \ dV 
 $$
 
-> [!NOTE] Relation
+> [!WARNING] Relation
 > *surface intetegral of that function is = volume intetegral of  [[Divergence of a Vector|Divergence]] of that function* 
 > So it explains the relationship between surface intetegral and volume intetegral
 
