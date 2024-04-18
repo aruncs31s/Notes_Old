@@ -16,9 +16,9 @@
 
 1.  - **Normal Response Mode (NRM)** − *Here, two types of stations are there, a primary station that send commands and secondary station that can respond to received commands. It is used for both point - to - point and multipoint communications*
 
-![[Pasted image 20240312002754.png|400x300]]
+![[BTech/S6/Embedded Systems/Files/Images/Pasted image 20240312002754.png|400x300]]
 2. **Asynchronous Balanced Mode (ABM)** − *Here, the configuration is balanced, i.e. each station can both send commands and respond to commands. It is used for only point - to - point communications*
-![[Pasted image 20240312002822.png|400x300]]
+![[BTech/S6/Embedded Systems/Files/Images/Pasted image 20240312002822.png|400x300]]
 
 ####  Types of HDLC Frames
 
@@ -27,11 +27,11 @@
 - **S-frame** − S-frames or Supervisory frames do not contain information field. They are used for flow and error control when piggybacking is not required. The first two bits of control field of S-frame is 10.
     
 - **U-frame** − U-frames or Un-numbered frames are used for myriad miscellaneous functions, like link management. It may contain an information field, if required. The first two bits of control field of U-frame is 11.
-![[Pasted image 20240312003455.png|400x300]]
+![[BTech/S6/Embedded Systems/Files/Images/Pasted image 20240312003455.png|400x300]]
 
 #### Structure
 #arch
-![[Pasted image 20240312003020.png|500x150]]
+![[BTech/S6/Embedded Systems/Files/Images/Pasted image 20240312003020.png|500x150]]
 1. **Frame Structure**: HDLC frames consist of a header, data, and trailer, with each part performing specific functions:
     
     - **Header**: Contains control information such as frame type, addressing, and error detection.

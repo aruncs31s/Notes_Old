@@ -25,12 +25,12 @@
 - Embedded product development cycle (EDLC)
 	- Different phases of EDLC, EDLC models
 #### Study Materials
-[[Embedded_module1_1.pdf]]
-[[Embedded_module1_2.pdf]]
-[[Embedded_module1_3.pdf]]
-[[Embedded_module1_4.pdf]]
-[[Embedded_module1_5.pdf]]
-[[Embedded_systems_23_24_module1.pdf]]
+[[BTech/S6/Embedded Systems/Files/Module 1/Embedded_module1_1.pdf]]
+[[BTech/S6/Embedded Systems/Files/Module 1/Embedded_module1_2.pdf]]
+[[BTech/S6/Embedded Systems/Files/Module 1/Embedded_module1_3.pdf]]
+[[BTech/S6/Embedded Systems/Files/Module 1/Embedded_module1_4.pdf]]
+[[BTech/S6/Embedded Systems/Files/Module 1/Embedded_module1_5.pdf]]
+[[BTech/S6/Embedded Systems/Files/Module 1/Embedded_systems_23_24_module1.pdf]]
 
 
 #### Embedded System

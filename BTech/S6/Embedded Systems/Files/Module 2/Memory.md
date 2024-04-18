@@ -7,7 +7,7 @@ tags:
 ---
 ## Memory
 ### Contents
-- [[Memory PDFs]]
+- [[BTech/S6/Embedded Systems/Files/Module 2/Memory PDFs]]
 - [Syllabus](#syllabus)
 ---
 
@@ -36,12 +36,12 @@ tags:
 ->> *Cache Miss* : If the location is not in the cache, the controller waits for the value from main memory and forwards it to the CPU; this situation is known as a *cache miss*
 
 
-[[memory1.pdf#page=1&selection=61,1,63,11|memory1, page 1]]
+[[BTech/S6/Embedded Systems/Files/Module 2/memory1.pdf#page=1&selection=61,1,63,11|memory1, page 1]]
 ![[Pasted image 20240330203604.png]]
 #fig The cache in the memory system
 
 
 
-![[Embedded Systems/Files/Pasted image 20240330204044.png]]
+![[BTech/S6/Embedded Systems/Files/Pasted image 20240330204044.png]]
 #fig Two Level Cache System
 
