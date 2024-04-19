@@ -125,6 +125,52 @@ Interrupt Handling is done by following stages
 	- ARM implementation
 	- The ARM coprocessor interface. 
 ### ARM Processor architecture
+The **stored-program** digital computer keeps its instructions and data in the same program memory system, allowing the instructions to be treated as data when necessary. This Computer enables the processor itself to generate instructions which it can subsequently execute.
+
+> [!question] Stored Program
+> This 
+Computer enables the processor itself to generate instructions which it can subsequently execute. 
+Although programs that do this at a fine granularity (self-modifying code) are gener-
+ally considered bad form these days since they are very difficult to debug, use at a 
+coarser granularity is fundamental to the way most computers operate. Whenever a 
+computer loads in a new program from disk (overwriting an old program) and then 
+executes it the computer is employing this ability to change its own program. 
+Computer Because of its programmability a stored-program digital computer is universal,
+applications which means that it can undertake any task that can be described by a suitable algo-
+rithm. Sometimes this is reflected by its configuration as a desktop machine where 
+the user runs different programs at different times, but sometimes it is reflected by 
+the same processor being used in a range of different applications, each with a fixed 
+program. Such applications are characteristically embedded into products such as 
+mobile telephones, automotive engine-management systems, and so on.
+
+#### Reduced Instruction Set Computer
+
+
+
+##### Pipelining
+
+A processor executes an individual instruction in a sequence of steps. A typical sequence is
+1. Fetch the instruction from memory (fetch). 
+2. Decode it to see what sort of instruction it is (dec). 
+3. Access any operands that may be required from the register bank (reg). 
+4. Combine the operands to form the result or a memory address (ALU). 
+5. Access memory for a data operand, if necessary (mem). 
+6. Write the result back to the register bank (res). 
+Not all instructions will require every step, but most instructions will require most 
+of them. These steps tend to use different hardware functions, for instance the ALU is 
+probably only used in step 4. Therefore, if an instruction does not start before its pred-
+ecessor has finished, only a small proportion of the processor hardware will be in use 
+in any step.
+An obvious way to improve the utilization of the hardware resources, and also the 
+processor throughput, would be to start the next instruction before the current one has 
+finished. This technique is called pipelining, and is a very effective way of exploiting 
+concurrency in a general-purpose processor.
+
+###### CPSR
+>CPSR is crucial for maintaining the execution state of the processor and controlling its behavior during program execution. It's frequently accessed and modified by the processor during instruction execution.
+
+
+##### 3 Stage Pipelining In ARM
 
 
 #### ARM Assembly Programming
