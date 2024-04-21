@@ -73,3 +73,23 @@ plt.legend()
 plt.show()
 
 ```
+
+
+###### Generate SIne
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+# Generate x values
+x = np.linspace(-np.pi, np.pi, 10000) # 10 points from 0 to 10
+# Generate y values (sine wave)
+y = np.sin(x)
+
+# Create the plot
+plt.plot(x, y)
+
+# Show the plot
+plt.show()
+
+```
+
+

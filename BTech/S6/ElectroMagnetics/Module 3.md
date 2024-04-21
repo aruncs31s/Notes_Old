@@ -25,3 +25,110 @@
 
 - $\omega$ : is the angular frequency of the wave
 
+
+### Reflection and Refraction of electromagnetic wave
+
+#### Poynting Vector
+
+^1fe371
+
+Poynting Vector Denoted by $\overrightarrow S$  is givent by the *vector product* of $\overrightarrow E \ \& \overrightarrow H$
+ $$ \overrightarrow S = \overrightarrow E \times \overrightarrow H $$
+
+> Pointing Vector measures the rate of flow of energy of the wave as it Propagates. The diection of $\overrightarrow S$ represents the direction of power flow and it is perpendicular to the plane containing $\overrightarrow E \ \& \ \overrightarrow H$
+
+
+#### Poynting Theorem
+
+^48dd7d
+
+When ==electromagnetic wave Propagates through space, there will be a transfer of energy==. There exist a simple and direct relation between the rate of this energy transfer and the amplitudes of $E \ \& \ H$
+
+
+##### Statement
+> The Vector product of electric field intensity and magnetic field intensity at any point is a measure of the rate of energy flow per unit area at the point.
+
+##### Derivation
+Consider the field intensities $\overrightarrow E \ \& \overrightarrow H$ from `Maxwell's Eqn`
+
+>1. $$\nabla \times \overrightarrow E = \frac{- \partial \overrightarrow B}{\partial t} = \frac{- \mu \partial \overrightarrow H}{\partial t}$$[^3]
+
+[^3]: [[Faraday's Law of induction]] 
+[^3]: 
+>2. $$ \nabla \times \overrightarrow H = \overrightarrow J = \sigma \overrightarrow E + \frac{\partial \overrightarrow D}{\partial t}$$
+
+>3. 
+>$$= \sigma \overrightarrow E + \epsilon \frac{\partial \overrightarrow E}{\partial t}$$
+> We know the Poynting vector
+>$$ \overrightarrow S = \ \overrightarrow E \times \overrightarrow H$$
+Taking Dot product on both voltage 
+>$$\nabla \overrightarrow S = \nabla .\ (\overrightarrow E \times \overrightarrow H)$$
+>
+By Vector identity[^2]
+>
+>$$\nabla . (\overrightarrow E \times \overrightarrow H) = \overrightarrow H .(\nabla \times \overrightarrow E) - \overrightarrow E .(\nabla \overrightarrow H)$$
+>
+>
+[^2]: Vector identity $\nabla .(\overrightarrow A \times \overrightarrow B) = \overrightarrow B (\nabla \times \overrightarrow A)$
+
+>5. Substituting the values
+>$$
+\nabla .(\overrightarrow E \times \overrightarrow H) = \overrightarrow H .(\frac{\mu \partial \overrightarrow H}{\partial t} ) - \overrightarrow H ( \sigma \overrightarrow E + \frac{\partial \overrightarrow D}{\partial t})
+$$
+>$$
+= -\mu \overrightarrow H . \frac{\partial \overrightarrow H}{\partial t} - \sigma E^2 + \overrightarrow E . {\partial \overrightarrow E \over \partial t} \ \ \ \ \ \ \ \ \ \ \ \ (1)
+$$
+
+ ^faf03e
+>6. Let by [[Maths#Product Rule|Product Rule]]
+>$$
+{\partial (\overrightarrow H . \overrightarrow H) \over \partial t} = \overrightarrow H {\partial \overrightarrow H \over \partial t} + \overrightarrow H {\partial \overrightarrow H \over \partial t}$$
+>$$
+= 2 . \overrightarrow H . {\partial \overrightarrow H \over \partial t}
+$$
+Since the cross product $|\overrightarrow{H} \times \overrightarrow{H}| = H^2$
+>
+>$$
+\therefore \overrightarrow H {\partial \overrightarrow H \over \partial t} = {1 \over 2} {\partial( \overrightarrow H . \overrightarrow H) \over \partial t } = {1 \over 2} {\partial( H^2) \over \partial t }  \ \ \\ \ \ \ \ \ (A)
+$$ 
+
+^ec7bb9
+
+
+> [!WARNING]
+> - The magnitude of the cross product is related to the magnitude of **H**: $|\overrightarrow{H} \times \overrightarrow{H}| = H^2$ but
+> - In Geometric Interpretation
+> 	->  Geometrically, when we take the cross product of a vector with itself, the resulting vector is **zero** (since the angle between them is zero).
+> 	-> Therefore, the magnitude of this zero vector is also zero: $|\overrightarrow{H} \times \overrightarrow{H}| = 0$
+> - ==while the cross product itself is zero, its magnitude squared is indeed equal to the square of the magnitude of vector **H**==
+> - In summary, we have: $\overrightarrow{H} \times \overrightarrow{H} = \overrightarrow{0} ] [ |\overrightarrow{H} \times \overrightarrow{H}| = H^2$
+> 
+
+>7. Substituting [[BTech/S6/ElectroMagnetics/Module 3#^ec7bb9|A]] in [[BTech/S6/ElectroMagnetics/Module 3#^faf03e|1]]
+>$$
+\nabla (\overrightarrow E \times \overrightarrow H) = {-\mu \over 2 } {\partial H^2 \over \partial t} - \sigma E^2 - {\epsilon \partial E^2 \over 2\partial t} \ \ \ \because {\overrightarrow E . \partial \overrightarrow E \over \partial t } = {1 \over 2} {\partial E^2 \over \partial t} \ \ \ \ (2 )
+ 
+$$
+
+>8. Taking Integral on both sides
+>$$
+\int \nabla .(\overrightarrow E \times \overrightarrow H) dv = -{\partial \over \partial t} \int_{v} [{1 \over 2}\epsilon E^2 + {1 \over 2} \mu H^2]dv - \int_{v} \sigma E^2 dv$$
+
+>9. Applying the Divergence Theorem to LHS
+>$$
+\oint_{s} (\overrightarrow E \times \overrightarrow H) .ds =-{\partial \over \partial t} \int_{v} [{1 \over 2}\epsilon E^2 + {1 \over 2} \mu H^2]dv - \int_{v} \sigma E^2 dv
+$$
+
+in words
+==Toltal power leaving the volume = Rate of dicrease in energy stored in electric and magnetic fields  - Ohmic power dissipated==
+
+
+This equation is known as **[[#^48dd7d|Poynting Theorem]]** and the quantity 
+$\overrightarrow E  \times \overrightarrow H$ is know as [[#^1fe371| Poynting Vector]] 
+$$P = \overrightarrow E  \times \overrightarrow H$$
+
+
+> [!Summary] Summary
+> [[#^48dd7d|Poynting's Theorem]]  states that the ==net power flowing out of a given volume V = the time rate of decrease in the energy stored within V - Conductor loss==
+> 
+
