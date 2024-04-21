@@ -2,7 +2,7 @@
 
 
 # Rust
-[Rust By Example](Rust%20By%20Example)
+[Rust By Example](Rust%20By%20Example.md)
 - []
 ...
 ...

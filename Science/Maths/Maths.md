@@ -3,14 +3,16 @@
 	- [Properties]
 	- [Area]()
 		- [Triangle](#area%20of%20triangle)
-
+	- [Differentiation](#differentiation)
+		- [Product Rule](#product%20rule)
 - [Vector Algebra]()
 	- [Dot Product](#dot%20product)
 	- 
 - [Matrices](#Matrices)
 	- [Multiplication](#matrix%20multiplication)
 
-
+- [Sets](#sets)
+	- [Mandelbrot Set](#mandelbrot%20set)
 #### Properties
 
 $$
@@ -77,6 +79,14 @@ There are 4 possible operations with $\nabla$
 - [[Curl of a Vector ]] $\overrightarrow A \ as \  \nabla \times \overrightarrow A$
 - [[Laplacian of a Scalar V]]
 
+### Differentiation
+####  Product Rule
+The product rule states that if f(x) and g(x) are two differentiable functions of x, then the derivative of their product, h(x) = f(x) · g(x), with respect to x is given by:
+
+$$
+{d\over dx} [f(x) · g(x)] = f'(x) · g(x) + f(x) · g'(x)
+$$
+
 ### Vector Algebra
 ### Dot Product
 
@@ -125,3 +135,45 @@ let a = arr2(&[[1, 2, 3], [4, 5, 6]]);
 ##### Matrix Multiplication
 
 [Source](https://youtu.be/aAFP5wsmH2k?si=6OVmgu5MlKmEk48q)
+
+
+### Mandelbrot Set
+
+
+
+$$
+f(z_{n+1}) = {z_n}^2 \ + c
+$$
+> Points inside the Mandelbrot set remain bounded under this iteration
+> 
+
+```python
+# Mandelbrot
+import numpy as np
+import matplotlib.pyplot as plt
+
+def compute_mandelbrot(N_max, some_threshold, nx, ny):
+    # Create a grid of c-values
+    x = np.linspace(-2, 1, nx)
+    y = np.linspace(-1.5, 1.5, ny)
+    c = x[:, np.newaxis] + 1j * y[np.newaxis, :]
+
+    # Mandelbrot iteration
+    z = c
+    for j in range(N_max):
+        z = z**2 + c
+
+    # Determine membership in the Mandelbrot set
+    mandelbrot_set = (abs(z) < some_threshold)
+    return mandelbrot_set
+
+# Compute the Mandelbrot set
+mandelbrot_set = compute_mandelbrot(50, 50., 601, 401)
+
+# Plot the Mandelbrot set
+plt.imshow(mandelbrot_set.T, extent=[-2, 1, -1.5, 1.5])
+plt.gray()
+plt.show()
+
+```
+
