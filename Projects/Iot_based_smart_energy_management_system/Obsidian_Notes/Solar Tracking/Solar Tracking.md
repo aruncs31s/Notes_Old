@@ -15,7 +15,11 @@ tags: []
 - [ ] Measure the output voltage using esp32
 #### Todos 
 - [ ] 3D print the model
-
+- [ ] Check LDR Sensor
+	- [ ] Solder the LDRs
+	- [ ] Check without sheild 
+	- [ ] Check With Sheild
+- [ ] Finalize the circuit
 #### Introduction
 *Adjust the panel position according to available sunlight using Servo motor*
 
