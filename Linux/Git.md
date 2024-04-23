@@ -1,3 +1,31 @@
+- [[Merge Conflict]]
+#### Merge Conflict
+
+```bash
+git log --merge 
+```
+
+The `git log --merge` command helps to produce the list of commits that are causing the conflict
+```bash
+git diff
+```
+To identify state of repocitories or files
+
+```bash
+git checkout 
+```
+
+The git checkout command is used to undo the changes made to the file, or for changing branches.
+
+```bash
+git merge --abort
+```
+Cancels the merge and return back to origina state before merge was started
+```bash
+git reset
+```
+
+
 
 #### Creating a new branch with an existing branch files
 
