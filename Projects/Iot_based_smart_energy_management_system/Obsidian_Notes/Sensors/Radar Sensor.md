@@ -33,6 +33,35 @@ The RCWL-0516 module employs ==“Doppler Radar”== – a specialized radar tha
 >  The change in frequency observed by a stationary observer when the source of the frequency is moving. This holds true for all sorts of waves, such as water, light, radio, and sound
 > Contents
 
+#### Interfacing
+#TestCode 
+
+```C++
+int sensorPin = 18;
+int motionState = LOW;
+ 
+void setup() {
+  Serial.begin(9600);
+  pinMode(sensorPin, INPUT);
+}
+ 
+void loop() {
+  if (digitalRead(sensorPin) == HIGH) {
+    if (motionState == LOW) {
+     Serial.println("Motion detected!");
+      motionState = HIGH;
+    }
+  }
+ 
+  else {   
+    if (motionState == HIGH) {
+     Serial.println("Motion ended!");
+      motionState = LOW;
+    }
+  }
+}
+```
+- From [[#References| 1]]
 
 ## References
 1. https://www.electronicwings.com/esp32/rcwl-0516-microwave-radar-sensor-interface-with-esp32

@@ -200,11 +200,11 @@ Serial.begin(115200);
 
 | Pin No | GPIO   | Used For                                        |                  |
 | :----- | :----- | :---------------------------------------------- | ---------------- |
-| D2     | GPIO2  | Connecting the Horzontal Servo - Solar Tracking | Solar Tracking   |
-| D15    | GPIO15 | Connecting the Vertical Servo - Solar Tracking  | ST               |
+| D25    | GPIO2  | Connecting the Horzontal Servo - Solar Tracking | Solar Tracking   |
+| D33    | GPIO15 | Connecting the Vertical Servo - Solar Tracking  | ST               |
 | D34    | GPIO34 | Connecting the LDR at Top Right                 | ST               |
-| D35    | GPIO35 | Connecting the LDR at Bottom Right              | ST               |
-| VP     | GPIO36 | Connecting the LDR at Top Left                  | ST               |
+| D35    | GPIO35 | Connecting the LDR at Top Left                  | ST               |
+| VP     | GPIO36 | Connecting the LDR at  Bottom Right             | ST               |
 | VN     | GPIO39 | Connecting the LDR at Bottom Left               | ST               |
 | D13    | GPIO13 | Connecting the PIR Sensor                       | Energy Managment |
 | D26    | GPIO26 | Connecting the Relay Module IN1                 | EM               |
