@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"c5dceb3dbcee9eb0","x":-520,"y":-80,"width":360,"height":340,"type":"text","text":"![](https://www.youtube.com/watch?v=vi-qMzxxtYs)\n"},
+		{"id":"1c27c429f99e4c3b","x":20,"y":-240,"width":400,"height":280,"type":"text","text":"![](https://www.youtube.com/watch?v=vi-qMzxxtYs)"}
+	],
+	"edges":[
+		{"id":"c9353ea39e314999","fromNode":"c5dceb3dbcee9eb0","fromSide":"right","toNode":"1c27c429f99e4c3b","toSide":"left"}
+	]
+}

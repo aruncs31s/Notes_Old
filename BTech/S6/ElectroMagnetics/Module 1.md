@@ -40,13 +40,9 @@
 #### Electric Fields
 
 #### Electric Flux
-The electric flux through an area is defined as the number of electric field lines passing through that area normally.
+The electric flux through an area is defined as the ==number of electric field lines passing through that area normally==.If the electric field at a certain point be $\overrightarrow E$ ,Then, the electric flux through an infinitesimal area with an area vector $\overrightarrow{dS}$ around that point will be given by:
 
-If the electric field at a certain point be $\overrightarrow E$
-
-Then, the electric flux through an infinitesimal area with an area vector $\overrightarrow{dS}$ around that point will be given by:
-
-$d \phi = \overrightarrow E . \overrightarrow dS$
+$$d \phi = \overrightarrow E . \overrightarrow dS$$
 
 **Electric Field Intensity**
 
@@ -77,7 +73,7 @@ D→=εE→D→=ε×14πε⋅qr2 r^D→=q4πr2 r^
 ---
 ### Co-ordinate Systems
 
-![](BTech/S6/ElectroMagnetics/Videos/00011-Cartesian%20Vector%20to%20Cylindrical%20Vector%20Conversion,%20CartesianVector,%20CylindricalVector,%20Conversion.mp4)
+
 
 ![](BTech/S6/ElectroMagnetics/Videos/00012-Cylindrical%20Coordinate%20System%20line,%20Surface,%20Volume,%20Gradient,%20Divergence%20and%20Curl%20Calculation.mp4)
 

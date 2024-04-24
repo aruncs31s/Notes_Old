@@ -1,8 +1,10 @@
-## Contents
+<h1 align="center"> Electromagnetics Module 3</h1>
+
+<h2 align="center">Contents</h2>
  - [[#Syllabus]]
  - 
 
-### Syllabus
+<h3 align="center">Syllabus</h3>
 - Propagation of plane EM wave in 
 	- perfect dielectric
 	- lossy medium
@@ -66,15 +68,13 @@ Consider the field intensities $\overrightarrow E \ \& \overrightarrow H$ from `
 $$ \overrightarrow S = \ \overrightarrow E \times \overrightarrow H$$
 Taking Dot product on both voltage 
 $$\nabla \overrightarrow S = \nabla .\ (\overrightarrow E \times \overrightarrow H)$$
-
-By Vector identity[^2]
+>By Vector identity[^2]
 
 $$\nabla . (\overrightarrow E \times \overrightarrow H) = \overrightarrow H .(\nabla \times \overrightarrow E) - \overrightarrow E .(\nabla \overrightarrow H)$$
 
 [^2]: Vector identity $\nabla .(\overrightarrow A \times \overrightarrow B) = \overrightarrow B (\nabla \times \overrightarrow A)$
 
-5. Substituting the values
-$$
+5. Substituting the values$$
 \nabla .(\overrightarrow E \times \overrightarrow H) = \overrightarrow H .(\frac{\mu \partial \overrightarrow H}{\partial t} ) - \overrightarrow H ( \sigma \overrightarrow E + \frac{\partial \overrightarrow D}{\partial t})
 $$
 
@@ -89,7 +89,7 @@ $$
 $$
 = 2 . \overrightarrow H . {\partial \overrightarrow H \over \partial t}
 $$
-Since the cross product $|\overrightarrow{H} \times \overrightarrow{H}| = H^2$
+>Since the cross product $|\overrightarrow{H} \times \overrightarrow{H}| = H^2$
 
 $$
 \therefore \overrightarrow H {\partial \overrightarrow H \over \partial t} = {1 \over 2} {\partial( \overrightarrow H . \overrightarrow H) \over \partial t } = {1 \over 2} {\partial( H^2) \over \partial t }  \ \ \\ \ \ \ \ \ (A)
@@ -137,5 +137,14 @@ $$
 > 
 
 
+----
 
-#### Pro
+<h4 align="center" >Reflection of plane wave At Normal incidence</h4>
+
+#####  Deflection By Dielectric - Normal Incidence
+
+
+
+
+
+

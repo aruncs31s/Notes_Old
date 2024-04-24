@@ -14,6 +14,4 @@
 
 
 
-### Capacitance of Coaxial Cable
-
  

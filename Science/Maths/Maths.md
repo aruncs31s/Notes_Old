@@ -5,7 +5,7 @@
 		- [Triangle](#area%20of%20triangle)
 	- [Differentiation](#differentiation)
 		- [Product Rule](#product%20rule)
-- [Vector Algebra]()
+- [Vector Algebra](#vector%20algebra)
 	- [Dot Product](#dot%20product)
 	- 
 - [Matrices](#Matrices)
@@ -86,11 +86,6 @@ The product rule states that if f(x) and g(x) are two differentiable functions o
 $$
 {d\over dx} [f(x) · g(x)] = f'(x) · g(x) + f(x) · g'(x)
 $$
-
-### Vector Algebra
-### Dot Product
-
-- If $\overrightarrow A . \overrightarrow B = 0$ then $\overrightarrow A$ and $\overrightarrow B$ are said to be `Orthogonal` or `perpendicular`
 
 
 ### Matrix
