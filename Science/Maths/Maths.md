@@ -139,6 +139,7 @@ let a = arr2(&[[1, 2, 3], [4, 5, 6]]);
 $$
 f(z_{n+1}) = {z_n}^2 \ + c
 $$
+- Where `C` is the complex number
 > Points inside the Mandelbrot set remain bounded under this iteration
 > 
 
