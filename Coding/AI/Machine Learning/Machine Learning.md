@@ -4,6 +4,24 @@
 
 1. [Neural Networks](Coding/AI/Machine%20Learning/Neural%20Networks.md)
 2. [Deep Learning](Coding/AI/Machine%20Learning/Deep%20Learning.md)
+3. Types of AI Models
+#### Types of AI Models
+- Black Box Models - ML Models
+- Customised Research Based Models
+- Generative AI Open Source Models
+- Generative AI Closed Source Models
+
+##### Black Box Models - ML Models
+- SVM
+- Regression
+- Classification
+- Neural Network
+> wrapers ?
+
+###### Auto GPT
+
+##### Closed Source Models
+
 
 #### Class outline
 1. Python
