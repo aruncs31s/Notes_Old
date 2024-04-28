@@ -12,4 +12,4 @@ tags: []
 - [ ] [[Expt_5]]
 
 #### Manuel
-![[BTech/S6/Communication_LAB/Files/LAB manual full.pdf|LAB manual full]]
+- [[BTech/S6/Communication_LAB/Files/LAB manual full.pdf|LAB manual full]]

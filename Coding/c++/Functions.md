@@ -10,3 +10,11 @@ int myFunction(vector<int>& myVector) {
 }
 ```
 This allows to modify original vector elements inside the vector 
+
+
+
+```c
+main(){
+printf("HI");
+}
+```
