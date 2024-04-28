@@ -1,36 +1,49 @@
 # Error Performance of BPSK
-
 ## Contents
-- [CodeFile Github](https://github.com/aruncs31s/BtechEC/blob/S6/Communication%20Lab/Expt_1_Generation_and_Detection_of_BPSK/generation_and_Detection_of_BPSK.m)
-- 
+- [CodeFile Github](https://github.com/aruncs31s/BtechEC/blob/S6/Communication%20Lab/Expt_1_Generation_and_Detection_of_BPSK/generation_and_Detection_of_BPSK.md]
 
-*BPSK stands for Binary Phase Shift Keying. It's a type of digital modulation technique in which a carrier signal is modulated to convey information. The carrier signal's phase is changed between two discrete states to represent the binary data being transmitted. This technique is used in various communication systems, such as wireless and satellite communication*
 
 ---
 
-
-Aim: 
+**Aim:** 
 1. Generate a string of message bits.
-2. Encode using `BPSK` with energy per bit `Eb` and represent it using points in a signal-space.
+2. Encode using `BPSK`[^1] with energy per bit `Eb` and represent it using points in a signal-space.
 3. Simulate transmission of the `BPSK` modulated signal via an [[AWGN]] channel with variance `N0/2`.
 4. Detect using an ML decoder and plot the probability of error as a function of [[BTech/S6/Communication_LAB/Expt 1 Error Performance of BPSK/SNR]] per bit `Eb/N0`.
+
+[^1]:  ***BPSK*** stands for Binary Phase Shift Keying. It's a type of digital modulation technique in which a carrier signal is modulated to convey information. The carrier signal's phase is changed between two discrete states to represent the binary data being transmitted. This technique is used in various communication systems, such as wireless and satellite communication*
+
 ---
 
 #### Theory 
-In a coherent binary PSK system, the pair of signals S1(t) and S2 (t) used to represent binary symbols
+
+In a coherent binary PSK system, the pair of signals $S1(t)$ and $S2 (t)$ used to represent binary symbols
 1 & 0 are defined by
 $$ S1 (t) = √2Eb/τb Cos 2πfct $$
 $$S2 (t) =√2Eb/Tb (2πfct+π)$$
 $$ = - √ 2Eb/Tb Cos 2πfct$$
-*where 0 ≤ t< Tb and*
-*Eb = Transmitted signed energy for bit*
+- where 0 ≤ t< Tb and
+- Eb = Transmitted signed energy for bit
+
 *In BPSK, there is only one basis function of unit energy.*
-$$Øb (t) = √2/Tb cos 2fπct\ \ \ \ \ for\ \ \  0 \ ≤  \ t \ < Tb$$
-$$S1 (t) = √Eb Ø1 (t) 0≤ t ≤Tb$$
-$$S2 (t) = √Eb Ø1 (t) 0≤ t< Tb$$
-*The signal space is 1dimensional (N=1) having two message points (M = 2)*
+$$Øb (t) = {\sqrt{2/Tb}}\  cos (2\pi f_ct)\ \ \ \ \ for\ \ \  0 \ ≤  \ t \ < Tb$$
+$$S_1 (t) = √Eb Ø1 (t) \ \  0≤ t ≤Tb$$
+$$S_2 (t) = √Eb Ø1 (t) \ \ 0≤ t< Tb$$
+> Where $S_1$ and $S_2$ represents transmitted signals corresponding to bit 1 and bit 0, respectively.
+> The signal space is 1 dimensional ($N=1$) having two message points ($M = 2$)*
+
+
+![[BPSK Block diagram]]
+
+
+##### BPSK Reciever
+The recieved *BPSK* signal is applied to a correlator[^2]
+
+[^2]: A *correlator* is a signal processing device that measures the similarity between two signals
 
 ---
+
+
 
 - Modulation : bpskMod()
 - Demodulation : bpskDemod()
@@ -154,3 +167,4 @@ Notes -
 ```matlab
  BER = zeros(1,length(EbN0dB))
 ```
+		

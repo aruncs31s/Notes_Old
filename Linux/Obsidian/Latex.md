@@ -23,3 +23,7 @@ A - B
 ```latex
 \int_{0}^{\infty} A \ dt
 ```
+7. $\sqrt{a/b}$
+```latex
+\sqrt{q/b}
+```
