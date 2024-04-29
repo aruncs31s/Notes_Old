@@ -5,7 +5,8 @@ tags: []
 ---
 
 #### Experiments
-- [.] [[BTech/S6/Communication_LAB/Expt 1 Error Performance of BPSK/Error Performance of BPSK|Expt3]]
+- [ ] [[Experiment 1]]
+- [.] [[Error Performance of BPSK|Expt3]]
 - [ ] [[Expt_2]]
 - [ ] [[Expt_3]]
 - [ ] [[Expt_4]]
