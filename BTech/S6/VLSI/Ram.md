@@ -21,8 +21,8 @@ It is a type of Random Access Memory(RAM) that uses latching circuit[^3](flip fl
 ![|400x300](https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/SRAM_Cell_(6_Transistors).svg/800px-SRAM_Cell_(6_Transistors).svg.png)
 
 Here
-![WordLine](VLSI/Memory/WordLine.md)
-![BitLine](VLSI/Memory/BitLine.md)
+![WordLine](WordLine.md)
+![BitLine](BitLine.md)
 
 #working 
 - If a 1 is created in one side, then automatically , a 0 is generated at other side due to inverters.

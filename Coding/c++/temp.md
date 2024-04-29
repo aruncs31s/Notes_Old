@@ -56,3 +56,12 @@ int main() {
 - It provides public member functions (`setBrand`, `getBrand`, `setYear`, `getYear`) to allow controlled access to these private members.
 - The `display` function demonstrates accessing private members indirectly through public member functions.
 - This encapsulation ensures that the internal representation of a `Car` object is hidden from outside access and manipulation, promoting data integrity and better maintenance of the codebase
+
+
+
+
+
+```dataview
+n
+```
+
