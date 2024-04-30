@@ -36,6 +36,8 @@
 - [Vector Algebra](Science/Maths/Maths.md#Vector%20Algebra)
 - [Del Operator](Science/Maths/Maths.md#Del%20Operator)
 
+### Differential Volume , Surface, and Line Elements
+When the co-ordinates of point P are expanded to $(x + dx,y+dy+z+dz)$ or $(r + dr,\phi + d\phi , z+ dz)$ or $(r+dr , \theta + d\theta , \phi + d\phi)$ a **differential volume** $dv$ is formed   
 
 #### Electric Fields
 
