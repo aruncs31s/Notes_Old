@@ -65,3 +65,20 @@ int main() {
 n
 ```
 
+
+
+
+```c
+// C program demonstrating conversion of
+// char to int using typecasting
+#include <stdio.h>
+ 
+// Driver code
+int main()
+{
+    short  k ;
+    k = 10;
+    printf("%d", sizeof(k));
+    return 0;
+}
+```
