@@ -34,10 +34,17 @@ _Electromagnetic theory is a branch of physics that deals with the study of elec
 5. **Applications**: Electromagnetic theory has numerous practical applications in technology and engineering, including telecommunications, electronics, power generation and transmission, radar systems, medical imaging, and many others
 
 ### Vector Calculus
+#### Vector Algebra
 ![[Vector Algebra]]
-[[Line Integral]]
-
+#### Line Integral
+![[Line Integral]]
+#### Surface Integral
+![[Surface Integral]]
+#### Volume Integral
+![[Volume Integral]]
+#### Curl
 ![[Curl]]
+#### Divergence
 ![[Divergence]]
 
 ### Co-ordinate Systems
