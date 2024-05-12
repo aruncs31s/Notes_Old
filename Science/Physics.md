@@ -1,5 +1,7 @@
 # Physics
 - [Forces](#forces)
+- [[PDE]]
+	- [[Heat Equation]]
 #### Forces
 
 

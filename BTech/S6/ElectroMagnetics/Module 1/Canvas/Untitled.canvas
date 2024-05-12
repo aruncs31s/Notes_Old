@@ -1,0 +1,114 @@
+{
+  "nodes": [
+    {
+      "id": "02de43b08fd1c1a9",
+      "type": "text",
+      "text": "# Co-ordinate Systems",
+      "isStartNode": false,
+      "x": 20,
+      "y": -60,
+      "width": 250,
+      "height": 100
+    },
+    {
+      "id": "1d07a73c84baa57c",
+      "type": "text",
+      "text": "## Spherical\n",
+      "x": 470,
+      "y": 40,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "b748166a48d4ec3f",
+      "type": "text",
+      "text": "## Cylindrical",
+      "x": 470,
+      "y": -40,
+      "width": 250,
+      "height": 55
+    },
+    {
+      "id": "d170f06763a1b9ad",
+      "type": "text",
+      "text": "## Cartesian",
+      "x": 470,
+      "y": -120,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "fb99651e91c66456",
+      "type": "text",
+      "text": "## Cylindrical",
+      "x": 920,
+      "y": -120,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "5235453409789171",
+      "type": "text",
+      "text": "",
+      "x": 920,
+      "y": -40,
+      "width": 250,
+      "height": 55
+    },
+    {
+      "id": "624cd5350221e32b",
+      "type": "text",
+      "text": "",
+      "x": 920,
+      "y": 40,
+      "width": 250,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "a4607e3aa7a17ac8",
+      "fromNode": "02de43b08fd1c1a9",
+      "fromSide": "right",
+      "toNode": "d170f06763a1b9ad",
+      "toSide": "left"
+    },
+    {
+      "id": "fb9fb74f1f1523c6",
+      "fromNode": "02de43b08fd1c1a9",
+      "fromSide": "right",
+      "toNode": "b748166a48d4ec3f",
+      "toSide": "left"
+    },
+    {
+      "id": "f8cfefed2ba098a8",
+      "fromNode": "02de43b08fd1c1a9",
+      "fromSide": "right",
+      "toNode": "1d07a73c84baa57c",
+      "toSide": "left"
+    },
+    {
+      "id": "aa65b9c6d1a252e1",
+      "edgePathRoute": "a-star",
+      "fromNode": "d170f06763a1b9ad",
+      "fromSide": "right",
+      "toNode": "fb99651e91c66456",
+      "toSide": "left"
+    },
+    {
+      "id": "87d4fe4d951f5b37",
+      "fromNode": "b748166a48d4ec3f",
+      "fromSide": "right",
+      "toNode": "5235453409789171",
+      "toSide": "left"
+    },
+    {
+      "id": "0076e7aa2a584e34",
+      "fromNode": "1d07a73c84baa57c",
+      "fromSide": "right",
+      "toNode": "624cd5350221e32b",
+      "toSide": "left"
+    }
+  ],
+  "metadata": {}
+}

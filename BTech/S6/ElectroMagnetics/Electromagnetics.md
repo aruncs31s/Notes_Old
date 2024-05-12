@@ -1,7 +1,7 @@
 # ElectroMagnetic Theory
 ## Contents
 - [Text](https://drive.google.com/file/d/1lFXMNLvuTDy1JrL4NnVrQtpwg9xTWLt3/view?usp=drive_link)
-- [[BTech/S6/ElectroMagnetics/Module 1|Module 1]] 
+- [[Module 1 old|Module 1 old]] 
 - [[BTech/S6/ElectroMagnetics/Module 2|Module 2]]
 - [[BTech/S6/ElectroMagnetics/Module 3|Module 3]]
 - [[BTech/ElectroMagnetics/Module 4|Module 4]]
@@ -16,22 +16,25 @@
 > 6. $\rho$v = the volume charge density
 > 7. J = the current density
 
-- [Coulomb's law](BTech/S6/ElectroMagnetics/coulomb's%20law.md)
+#### Important Topics
+- Module 1 
+	- Point/vector transformation
+	- [[coulomb's law]]
+	- Finding Electric Field Intensity
+- Module 2
+	- Capacitance
+	- Inductance of coaxial and two wire transmission line
+	- Boundary conditions
+- Module 3
+	- Propagation of EM wave in different mdedium
+- Module 4
+	- Finding Line parameters
+	- Reflection and VSWR
+- Module 5
+	- Problems using Smith chart
 
-#### Magnetic Flux
-$$
-\phi_B = \int \overrightarrow B \ . d \overrightarrow A
-$$
-where
-- $\phi_B$ ->  `Magnetic Flux`
-- $\overrightarrow B$ -> `Magnetic Field`
-- $d\overrightarrow A$ -> `Local Vector`
-
-$$
-E  = {d {\phi_B} \over dt}
-$$
-- [Lenz Law](lenz%20law)
-- 
+#### Important Laws
+- [Coulomb's law](coulomb's%20law.md)
 
 
 ```python
@@ -85,3 +88,6 @@ ax.set_aspect('equal')
 plt.show()
 
 ```
+
+
+

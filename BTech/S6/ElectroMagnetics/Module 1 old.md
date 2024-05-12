@@ -1,0 +1,270 @@
+---
+id: Module 1
+aliases: []
+tags: []
+---
+
+
+
+#### Electric Fields
+
+#### Electric Flux
+
+The electric flux through an area is defined as the ==number of electric field lines passing through that area normally==.If the electric field at a certain point be $\overrightarrow E$ ,Then, the electric flux through an infinitesimal area with an area vector $\overrightarrow{dS}$ around that point will be given by:
+
+$$d \phi = \overrightarrow E . \overrightarrow dS$$
+
+**Electric Field Intensity**
+
+The electric field intensity at a point in an electric field is the electric force[^10] experienced by a unit positive point charge located at that particular point.
+
+[^10]:
+    Force is a physical quatity used to move something
+    **Electric Flux Density**
+
+Electric flux density is the electric flux passing through a unit area normal to the direction of the flux.
+
+**Relation between Electric Field Intensity and Electric Flux Density**
+
+The electric flux density (D→) is equal to the electric field intensity (E→) multiplied by the permittivity (ε) of the medium concerned.
+
+This, we write:
+
+D→=εE→.
+
+The electric field intensity at a distance r from a point charge
+
+E→=14πε⋅qr2 r^.
+
+The electric flux density at the same point will be given by:
+
+D→=εE→D→=ε×14πε⋅qr2 r^D→=q4πr2 r^
+
+#### Magnetic Flux
+$$
+\phi_B = \int \overrightarrow B \ . d \overrightarrow A
+$$
+where
+- $\phi_B$ ->  `Magnetic Flux`
+- $\overrightarrow B$ -> `Magnetic Field`
+- $d\overrightarrow A$ -> `Local Vector`
+
+$$
+E  = {d {\phi_B} \over dt}
+$$
+- [Lenz Law](lenz%20law.md)
+- 
+
+---
+
+### Co-ordinate Systems
+
+![](BTech/S6/ElectroMagnetics/Videos/00012-Cylindrical%20Coordinate%20System%20line,%20Surface,%20Volume,%20Gradient,%20Divergence%20and%20Curl%20Calculation.mp4)
+
+#### Cylindrical Coordinate System
+
+![](BTech/S6/ElectroMagnetics/Videos/00010-Cylindrical%20Coordinate%20System%20and%20Conversion%20of%20Cartesian%20point%20into%20Cylindrical%20point%20&%20Visa-versa.mp4)
+
+#### Spherical Coordinate System
+
+![](BTech/S6/ElectroMagnetics/Videos/00013-Spherical%20Coordinate%20System,%20Basics%20and%20Representation%20of%20Spherical%20Coordinate%20System.mp4)
+![](BTech/S6/ElectroMagnetics/Videos/00014-Spherical%20Coordinate%20System%20Line,%20Surface,%20Volume,%20Gradient,%20Divergence%20&%20Curl.mp4)
+
+### Co-ordinate System Conversion
+
+| Given | Transform                         |
+| ----- | --------------------------------- |
+| $x$   | $\rho = \sqrt{x^2+y^2}$           |
+| $y$   | $\theta = \tan^{-1}(\frac{y}{x})$ |
+| $z$   | $z$                               |
+
+#### Cartesian Co-ordinate System to Cylindrical
+
+| To  | From                |
+| --- | ------------------- |
+| $x$ | $\rho \cos(\theta)$ |
+| $y$ | $\rho \sin(\theta)$ |
+| $z$ | $z$                 |
+
+#### Divergence
+
+#### Curl
+![[Curl]]
+
+#### Gradient
+
+---
+#### Coulomb's Law
+### ![coulomb's law](coulomb's%20law.md)
+
+---
+
+![](BTech/S6/ElectroMagnetics/Videos/00016-1.%20Examples%20based%20on%20Coulomb's%20Law,%20Direction%20of%20force%20by%20Coulomb's%20Law,%20CoulombsLaw.mp4)
+
+---
+
+#### Gauss Divergence Theorem
+
+- It can be used to see the location of `source`[^4.1] and `sink`[^4.1]
+- It explains rate of change of function with respect to position
+- It is a flux density[^3], it explains how much flux is entering or leaving the source[^1] or sink[^2]
+- If divergence[^4] is positive then that acting like a source and if negative it acting like a sink
+
+[^4.1]: A source is a ==component or device that provides power to a circuit==. This could be a battery, a power supply, or any other device that generates electrical energy. In a circuit, the source is where the electrical energy begins its journey. It is the ==starting point for the flow of current==
+[^4.2]: A sink is a ==component or device that consumes power from a circuit==
+
+#statement
+
+$$
+\oint P.dS = \oint \overrightarrow \nabla . \overrightarrow P \ dV
+$$
+
+> [!WARNING] Relation
+> _surface intetegral of that function is = volume intetegral of [[Divergence|Divergence]] of that function_
+> So it explains the relationship between surface intetegral and volume intetegral
+
+#proof
+
+1. Divergence of $\overrightarrow P$ can be calculated by the following expression
+
+$Div(P) = \overrightarrow \nabla . \overrightarrow P = \underset{\Delta V  \to \infty}{\lim} \frac{\oint \overrightarrow P\, dS}{\Delta V}$
+
+2. This calculation can be done by
+
+$\underset{\Delta V \to \infty}{\lim}  \overrightarrow \nabla . \overrightarrow P \ \Delta V$ = $\underset{\Delta V  \to \infty}{\lim} \oint \overrightarrow P \ dS$
+
+3. And says that ==Volume Integration of Divergence of P = Surface intetegral of Function P==
+
+$$
+\oint P.dS = \oint \overrightarrow \nabla . \overrightarrow P \ dV
+$$
+
+> [!important] Summary
+> This proof comes form the basic definition of divergence as in stage 1 and it basically says that ==taking volume integral of divergence of a function is same as taking the surface integral of that function==
+
+#uses
+
+1. It is used in application of fluid mechanics
+2. It is used to understand electromechanics
+3. It is used to understand the flaw of fields (eg : [[Science/Quantum Mechanics/Gravitational Field|Gravitational Fields]],[Electric Field](#electric%20fields)
+4. Used in aerodynamics
+
+#exampleProblem
+
+- If $\overrightarrow F = xy \hat i_x \ + yz \hat i_y \ + zx \hat i_z$ and $a = 1 , b = 3 , c = 2$ then
+  1. Determine $\int \overrightarrow \nabla . \overrightarrow F dV$
+  2. Determine $\oint \overrightarrow F . \overrightarrow{dS}$
+  3. Verify Divergence Theorem
+
+1. Determining $\int \overrightarrow \nabla . \overrightarrow F dV$
+
+$\overrightarrow \nabla . \overrightarrow F = \frac{\partial (Fx)}{\partial x} +  \frac{\partial (Fy)}{\partial y} +  \frac{\partial (Fz)}{\partial z}$
+
+Which is
+$= y +z + x$
+
+- We have $a =1 , b=3 ,z =2$ which implies
+
+$0 \textless x \textless 1$
+$0 \textless y \textless 3$
+$0 \textless z \textless 2$
+
+- Therefore
+
+$\int \overrightarrow \nabla . \overrightarrow F dV =  \int_{0}^{2} \int_{0}^{3} \int_{0}^{1} (y+z+x)dxdydz$
+
+$=  \int_{0}^{2} \int_{0}^{3} [yx+z+\frac{x^2}{2}]_{0}^{1}dydz$
+
+$=  \int_{0}^{2} \int_{0}^{3} (y+z+\frac{1}{2})dydz$
+
+$=  \int_{0}^{2}  [{y^2 \over 2} +zy+\frac{1}{2}y]_{0}^{3}dz$
+
+$=  \int_{0}^{2}  ({9\over 2} +3z+\frac{3}{2})dz$
+
+$=  \int_{0}^{2}  ( 6+3z)dz$
+
+$=    [ 6z+{3z^2 \over 2} ]_{0}^{2}$
+
+$= 12 + 6 = 18$
+
+$\int \overrightarrow \nabla . \overrightarrow F dV = 18$
+
+#todo
+
+![00008-Example based on Divergence Theorem, Verification of Divergence Theorem, DivergenceTheorem](BTech/S6/ElectroMagnetics/Videos/00008-Example%20based%20on%20Divergence%20Theorem,%20Verification%20of%20Divergence%20Theorem,%20DivergenceTheorem.mp4)
+
+---
+
+### Stokes Theorem
+
+- Stokes theorem explains relationship in between ==line Integration== and ==surface integration==
+- Stokes theorem is based on [[Curl|Curl]] of the function
+
+#statement
+
+$$
+\oint \overrightarrow P.dl = \int \overrightarrow \nabla \times \overrightarrow P \ dS
+$$
+
+#proof
+
+1. Curl of a function $\overrightarrow P$ is
+
+$Curl(\overrightarrow P) =  \overrightarrow \nabla \times \overrightarrow P = \underset{\Delta S \to 0}{\lim} \frac {\oint \overrightarrow P dl}{\Delta S}$
+
+2.
+
+=> $\underset{\Delta S \to 0}{\lim} \overrightarrow \nabla \times \overrightarrow P \ \Delta S = \underset{\Delta S \to 0}{\lim} \oint \overrightarrow P dl$
+
+_Which is basically [[Science/Maths/Integration|integration]]_
+
+> [!NOTE] Integration
+> $\underset{\Delta S \to 0}{\lim} a \ function = its \ integral$
+
+3.
+
+$$
+\oint \overrightarrow P.dl = \int \overrightarrow \nabla \times \overrightarrow P \ dS
+$$
+
+---
+
+#exampleProblem
+![00009-Example based on Stokes theorem, Verification of Stokes theorem, StokesTheorem](BTech/S6/ElectroMagnetics/Videos/00009-Example%20based%20on%20Stokes%20theorem,%20Verification%20of%20Stokes%20theorem,%20StokesTheorem.mp4)
+
+---
+
+### Electric Charge
+
+![](BTech/S6/ElectroMagnetics/Videos/00018-Examples%20on%20Electric%20Charge,%20ExamplesOnElectricCharge,%20ElectricCharge.mp4)
+
+#### Electric Field by point charge
+
+![](BTech/S6/ElectroMagnetics/Videos/00019-Electric%20Field%20due%20to%20point%20charge,%20Electric%20Field%20due%20to%20point%20charge%20Derivation,%20ElectricField.mp4)
+
+![](BTech/S6/ElectroMagnetics/Videos/00020-Examples%20of%20Electric%20field%20due%20to%20point%20charge,%20ElectricField,%20PointCharge,%20Problems.mp4)
+![](BTech/S6/ElectroMagnetics/Videos/00021-Examples%20on%20Electric%20Field%20due%20to%20point%20charge,%20ElectricField,%20PointCharge,%20Problems.mp4)
+
+![](BTech/S6/ElectroMagnetics/Videos/00022-Examples%20of%20Electric%20field%20for%20charges%20located%20on%20triangle,%20ElectricField,%20Problems.mp4)
+
+### Line Charge Density and Surface charge Density and Volume charge Density
+
+![](BTech/S6/ElectroMagnetics/Videos/00023-Line%20Charge%20Density,%20Surface%20Charge%20Density%20and%20Volume%20Charge%20Density.mp4)
+
+![](BTech/S6/ElectroMagnetics/Videos/00024-Examples%20based%20on%20Line%20Charge%20Density,%20Surface%20Charge%20Density%20and%20Volume%20Charge%20Density.mp4)
+
+![](BTech/S6/ElectroMagnetics/Videos/00025-Examples%20due%20to%20Volume%20Charge%20Density,%20VolumeChargeDensity,%20Problems.mp4)
+
+### Electric Field due to line charge Density
+
+![](BTech/S6/ElectroMagnetics/Videos/00027-Examples%20of%20Electric%20field%20due%20to%20line%20charge%20density,%20ElectricField,%20LineChargeDensity,%20Problems.mp4)
+
+![](BTech/S6/ElectroMagnetics/Videos/00027-Examples%20of%20Electric%20field%20due%20to%20line%20charge%20density,%20ElectricField,%20LineChargeDensity,%20Problems.mp4)
+
+![](BTech/S6/ElectroMagnetics/Videos/00028-Electric%20field%20due%20to%20Surface%20Charge%20Density,%20ElectricField,%20SurfaceChargeDensity.mp4)
+
+![](BTech/S6/ElectroMagnetics/Videos/00030-Electric%20Field%20on%20Axis%20of%20Uniformly%20Charged%20Ring,%20ElectricField,%20UniformlyChargedRing.mp4)
+
+![](BTech/S6/ElectroMagnetics/Videos/00031-Electric%20Field%20on%20the%20axis%20of%20Uniformly%20charged%20Disc,%20ElectricField,%20UniformlyChargedDisc.mp4)
+
+![](BTech/S6/ElectroMagnetics/Videos/00032-Examples%20on%20Electric%20Field,%20ElectricField,%20ElectromagneticTheory.mp4)

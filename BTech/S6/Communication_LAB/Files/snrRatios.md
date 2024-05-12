@@ -1,6 +1,7 @@
 
 
-function[r ]= snrRatios(l)
+```cpp
+function[r]= snrRatios(l)
 time=0:0.005:0.05;
 msgFreq=100;
 dcOffset=2;
@@ -20,4 +21,4 @@ end
 noise=quants-samp_signal;
 r=snr(index,noise);
 end
-
+```

@@ -5,14 +5,15 @@
 		- [Triangle](#area%20of%20triangle)
 	- [Differentiation](#differentiation)
 		- [Product Rule](#product%20rule)
-- [Vector Algebra](#vector%20algebra)
-	- [Dot Product](#dot%20product)
-	- 
+- [[Vector Algebra]]
+- [Roots of Polynomial](#roots%20of%20polynomial)
+	- [Quadratic](#quadratic)
 - [Matrices](#Matrices)
 	- [Multiplication](#matrix%20multiplication)
 
 - [Sets](#sets)
 	- [Mandelbrot Set](#mandelbrot%20set)
+- [[Newton's Method]]
 #### Properties
 
 $$
@@ -75,7 +76,7 @@ $$
 $$
 There are 4 possible operations with $\nabla$
 - [[Gradient of a Scalar]] $\nabla V$
-- [[Divergence of a Vector]] $\overrightarrow A \ as \  \nabla \textbullet \overrightarrow A$
+- [[Divergence]] $\overrightarrow A \ as \  \nabla \textbullet \overrightarrow A$
 - [[Curl of a Vector ]] $\overrightarrow A \ as \  \nabla \times \overrightarrow A$
 - [[Laplacian of a Scalar V]]
 
@@ -92,9 +93,34 @@ $$
 
 
 
+### Roots of Polynomial
+
+#### Quadratic
+#example 
+$$
+x^2 + x - 16 = 0
+$$
+#solution 
+
+$$
+x = \frac{-b \underset {-}{+}\sqrt{b^2 - 4ac}}{2a}
+$$
+
+#### Cubic
+#example 
+$$
+x^3 + px +q = 0
+$$
+#solution 
+
+$$
+
+
+x = \sqrt[3]{\frac{-b + \sqrt{b^2 - 4ac}}{2a}} + \sqrt[3]{\frac{-b - \sqrt{b^2 - 4ac}}{2a}}
+$$
 
 ### Matrix
-#### Matrix Product
+### Matrix Product
 The product AB between matrices 
 $$
 A \in R_m\times_l\  and B \in R_l \times _n
@@ -132,9 +158,28 @@ let a = arr2(&[[1, 2, 3], [4, 5, 6]]);
 [[Science/Maths/Gauss–Jordan elimination]]
 
  
-##### Matrix Multiplication
+### Matrix Multiplication
 
+### Determinant
+
+$$
+det(A) = |A| = \begin{vmatrix}
+a & b & c\\
+d & e & f\\
+g & h & i
+\end{vmatrix} = a\begin{vmatrix}
+e & f\\
+h & i
+\end{vmatrix} - b\begin{vmatrix}
+d & f\\
+g & i
+\end{vmatrix} + c\begin{vmatrix}
+d & e\\
+g & h
+\end{vmatrix}
+$$
 [Source](https://youtu.be/aAFP5wsmH2k?si=6OVmgu5MlKmEk48q)
+
 
 
 ### Mandelbrot Set
