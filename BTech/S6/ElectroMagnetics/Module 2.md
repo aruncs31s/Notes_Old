@@ -9,8 +9,6 @@
 - Boundary condition of electric field and magnetic field from Maxwells equations.
 - Solution of wave equation.
 
-#### ElectroMagnetic Field
-*A field which consists of both `electric` `magnetic` componets is called electromagnetic field*
 
 
 
