@@ -25,8 +25,10 @@ Created : 2024-05-13 17:07
 9. Explain why TEM wave cannot propagate in a single conductor hollow waveguide.
 10. A rectangular waveguide with dimensions 5x3cm operates at $10GHz$. Find $f_c$ ,$\lambda_c$ and $\lambda_g$ for the dominant mode.
 
-[^1]:
-    $\overrightarrow A \cdot \overrightarrow B = \left( 2 \overrightarrow a_{x}+ \overrightarrow a_{y} - 2 \overrightarrow a_z \right) \cdot \left( 5 \overrightarrow a_x - 10 \overrightarrow a_y + 3 \overrightarrow a_z \right) = - 6 \times \frac{\overrightarrow B}{|B|^2} = -6 \times \frac{\overrightarrow B}{134}$
-    e
+
+
+
+
+[^1]:  $$\overrightarrow A \cdot \overrightarrow B = \left( 2 \overrightarrow a_{x}+ \overrightarrow a_{y} - 2 \overrightarrow a_z \right) \cdot \left( 5 \overrightarrow a_x - 10 \overrightarrow a_y + 3 \overrightarrow a_z \right) = - 6 \times \frac{\overrightarrow B}{|B|^2} = -6 \times \frac{\overrightarrow B}{134}$$
 
 [^2]: $\frac{Q}{4\pi \epsilon_0}\left({1 \over r_{1}} - {1 \over r_{2}} \right) = 25-9 = 16 \ Volts$
