@@ -19,7 +19,7 @@ $Curl(\overrightarrow P) =  \overrightarrow \nabla \times \overrightarrow P = \u
 
 => $\underset{\Delta S \to 0}{\lim} \overrightarrow \nabla \times \overrightarrow P \ \Delta S = \underset{\Delta S \to 0}{\lim} \oint \overrightarrow P dl$
 
-_Which is basically [[Science/Maths/Integration|integration]]_
+_Which is basically [[Integration|integration]]_
 
 > [!NOTE] Integration
 > $\underset{\Delta S \to 0}{\lim} a \ function = its \ integral$

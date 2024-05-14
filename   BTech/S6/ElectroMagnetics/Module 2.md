@@ -10,6 +10,14 @@
 - Boundary condition of electric field and magnetic field from Maxwells equations.
 - Solution of wave equation.
 
+#### Maxwell's Equations From Fundamental Laws
+1. [[Ampere's Law]]
+2. [[Faraday's Law of induction]]
+3. [[Gauss's Law]]
+
+3. From [[Gauss's Law]]
+
+
 
 
 

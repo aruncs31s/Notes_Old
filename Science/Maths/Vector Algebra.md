@@ -1,9 +1,22 @@
-# Vector Algebra
+<h1 align="center">Vector Algebra</h1>
+
+## Basics Of Vector
+
 A scalar is a quantity that has only magnitude ,eg: `time`, `mass` , `distance` , and a ==vector is a quantity which has both magnitude and direction==, eg: `Velocity`,`force` ,`displacement`
 
 $$
 \overrightarrow A =A_{x}\hat a_{x}+A_{y}\hat a_{y}+A_{z}\hat a_{z}
 $$
+##### Magnitude of Vector
+$$
+A = | \overrightarrow A | = \sqrt{A_{x}^2+ A_{y}^2 + A_{z}^2}
+$$
+
+> [!NOTE] Basis of A vector
+> $\large \hat i$, $\large \hat j$ are ==basis vectors== of $xy$ coordinate system
+>  
+
+
 #### Unit Vector
 It is defined as a vector whose magnitude is unity and direction is along $\overrightarrow A$
 
@@ -15,6 +28,29 @@ $$
 \overrightarrow A = A\  \hat a_{A}
 $$
 
+#### Law of Triangle
+![[Law of Triangle.excalidraw]]
+> In the first case the both $\overrightarrow A$ and $\overrightarrow B$ their direction is anti clockwise so the direction of resultant vector is in ==tail to head==
+
+>In The Second case the $\overrightarrow A$ is clockwise $\overrightarrow B$ is anticlockwise and $\overrightarrow C$ is clockwise 
+>$\therefore \overrightarrow A + \overrightarrow C - \overrightarrow B = 0$
+>
+#### Resultant of two vectors
+![[Resultant of two vectors.excalidraw]]
+#calculation
+$$
+\begin{align*}
+\overrightarrow C \cdot \overrightarrow C &= C^2\\
+&= (\overrightarrow A + \overrightarrow B) \cdot (\overrightarrow A + \overrightarrow B) \\
+&= A^2 + B^2 + 2 \overrightarrow A \cdot \overrightarrow B \\
+&= A^2 + B^2 + 2AB\cos\theta  
+\end{align*}
+$$
+> Where $\theta$ is the angle between $\overrightarrow A \& \overrightarrow B$ 
+#### Parallelogram Law
+
+#### Polygon Law
+
 ### Vector Algebra
 - [[#Vector Addition]]
 - [[#Dot Product]]
@@ -25,6 +61,8 @@ $$
 $$
 \overrightarrow A +\overrightarrow B = (A_{x} \pm B_{x})\hat a_{x}+(A_{y} \pm B_{y})\hat a_{y}+(A_{z} \pm B_{y })\hat a_{z}
 $$
+![[Vector Adition.excalidraw]]
+- Reference ![[newvideo.mp4| Vector addition]]
 
 
 
@@ -50,3 +88,4 @@ A \times B = - B \times A
 $$
 A \times B = \left| \begin{array}{ccc}   a_{x} &  a_{y} &  a_{z} \\ A_x & A_y & A_z \\  B_x & B_y & B_z \end{array}  \right|
 $$
+

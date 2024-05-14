@@ -1,3 +1,10 @@
+---
+tags:
+  - s6
+aliases:
+  - EMT
+---
+
 <h1 align="center">ElectroMagnetics Theory</h1>
 
 ## Contents

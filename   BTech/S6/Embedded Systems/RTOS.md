@@ -20,7 +20,7 @@ tag: {"Embedded Systems","RTOS"}
 ---
 #### History
 - Early resources like memory and processing power were very less
-- Industry Slowly moded from assembly to high level languages like `Fortran`,[[C programming|C]],[[  Coding/C++|C++]] etc
+- Industry Slowly moded from assembly to high level languages like `Fortran`,[[C programming|C]],[[ Coding/C++|C++]] etc
 - Operating Systems were there but they were generic
 - So people started writing custom operating system tailored to small end micro-controller
 - Some of them grew and started supporting many architectures peripherals etc.
