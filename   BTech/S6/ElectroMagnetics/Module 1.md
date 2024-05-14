@@ -11,13 +11,14 @@ Created : 2024-05-12 21:47
 - [[Vector Algebra]]
 - [[Maths#Del Operator]]
 ## Syllabus
-
-- Introduction to Electromagnetic Theory[^1].
-- Review of vector calculus - curl[^1.1], divergence[^1.2], gradient[^1.3].
-- Rectangular[^3.1], cylindrical[^3.2] and spherical coordinate systems[^3.3].
-- Expression of curl, divergence, and Laplacian in cartesian, cylindrical and spherical coordinate system.
-- Electric field and magnetic field, Review of Coulomb’s law, Gauss law and Amperes current law.
-- Poisson and Laplace equations, Determination of E and V using Laplace equation.
+- Part 1
+	- Introduction to [[#Introduction|Electromagnetic Theory]].
+	- Review of vector calculus - curl[^1.1], divergence[^1.2], gradient[^1.3].
+	- Rectangular[^3.1], cylindrical[^3.2] and spherical coordinate systems[^3.3].
+	- Expression of curl, divergence, and Laplacian in cartesian, cylindrical and spherical coordinate system.
+- Part 2
+	- Electric field and magnetic field, Review of Coulomb’s law, Gauss law and Amperes current law.
+	- Poisson and Laplace equations, Determination of E and V using Laplace equation.
 
 ---
 
@@ -32,6 +33,8 @@ _Electromagnetic theory is a branch of physics that deals with the study of elec
 3. **Electromagnetic Radiation**: This refers to the energy carried by electromagnetic waves. It includes various forms of radiation, such as light from the sun, radio waves from communication devices, and X-rays used in medical imaging.
 4. **Electromagnetic Phenomena**: Electromagnetic theory explains a wide range of phenomena, including the behavior of charged particles in electric and magnetic fields, the operation of electrical circuits, the generation and transmission of electromagnetic waves, and the interaction of light with matter.
 5. **Applications**: Electromagnetic theory has numerous practical applications in technology and engineering, including telecommunications, electronics, power generation and transmission, radar systems, medical imaging, and many others
+
+
 
 ### Vector Calculus
 ![[Vector Algebra.canvas|Vector Algebra]]
@@ -66,10 +69,20 @@ When the co-ordinates of point P are expanded to $(x + dx,y+dy+z+dz)$ or $(r + d
 
 
 ## Part 2
+
 ### Contents
 1. Electric field and magnetic field
 2. Review of Coulomb’s law
 3. Gauss law and Amperes current law
+
+#### Fields
+**Field is a function that specifies a particular quantity everywhere in a region**
+
+There are 2 types of fields
+1. Scalar Fields : If the quantity is scalar  eg : sound intensity in a theater
+2. Vector Fields : If the quantity is vector eg: Velocity of raindrops in the atmosphere
+
+
 
 ### Coulomb's Law
 ![[coulomb's law]]

@@ -1,0 +1,23 @@
+# Trigonometrics
+Created : 2024-05-14 20:50
+
+
+## Contents
+- 
+
+### Identities
+1. Unit Hypotenuse
+$$
+\sin^2 \theta + \cos^2 \theta = 1
+$$
+2. sico + cosi
+$$
+\sin(x+y) = \sin x \cos y + \cos x \sin y 
+$$
+3. coco - sisi
+$$
+   \cos\left(x+y\right) = \cos x \cos y - \sin x \sin y
+$$
+
+## References
+1. 

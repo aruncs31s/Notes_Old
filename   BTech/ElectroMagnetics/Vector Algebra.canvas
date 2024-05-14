@@ -1,0 +1,158 @@
+{
+  "nodes": [
+    {
+      "id": "67572bf59883d82b",
+      "type": "file",
+      "file": "  BTech/S6/ElectroMagnetics/Module 1/Curl.md",
+      "x": 340,
+      "y": -285,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "31bf92cc0cee8e79",
+      "type": "file",
+      "file": "  BTech/S6/ElectroMagnetics/Module 1/Divergence.md",
+      "x": 340,
+      "y": 135,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "0f51434415141301",
+      "type": "file",
+      "file": "  BTech/S6/ElectroMagnetics/Module 1/Gradient of a Scalar.md",
+      "x": 340,
+      "y": -705,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "ea0f534074284c1b",
+      "type": "text",
+      "text": "# Vector Algebra",
+      "x": -680,
+      "y": -65,
+      "width": 300,
+      "height": 50
+    },
+    {
+      "id": "9de829c8e5bf6054",
+      "type": "text",
+      "text": "![[Maths#Del Operator]]",
+      "x": -380,
+      "y": -1046,
+      "width": 485,
+      "height": 341
+    },
+    {
+      "id": "6c6653185f0df402",
+      "type": "text",
+      "text": "![[Vector Algebra#Cross Product]]",
+      "x": -420,
+      "y": 508,
+      "width": 300,
+      "height": 265
+    },
+    {
+      "id": "3da27107adb8c56b",
+      "type": "text",
+      "text": "![[Vector Algebra#Dot Product]]",
+      "x": -820,
+      "y": 508,
+      "width": 300,
+      "height": 265
+    },
+    {
+      "id": "de7ef1d2e38991a9",
+      "type": "text",
+      "text": "# EMT",
+      "x": -1540,
+      "y": -300,
+      "width": 120,
+      "height": 60
+    },
+    {
+      "id": "1e5460b465be1404",
+      "type": "text",
+      "text": "## Module 1",
+      "x": -1140,
+      "y": -145,
+      "width": 200,
+      "height": 80
+    }
+  ],
+  "edges": [
+    {
+      "id": "df8717a43a6372f0",
+      "fromNode": "ea0f534074284c1b",
+      "fromSide": "right",
+      "toNode": "67572bf59883d82b",
+      "toSide": "left"
+    },
+    {
+      "id": "06c80de5c9386735",
+      "fromNode": "ea0f534074284c1b",
+      "fromSide": "right",
+      "toNode": "31bf92cc0cee8e79",
+      "toSide": "left"
+    },
+    {
+      "id": "87ee0c1c8f24eef6",
+      "fromNode": "ea0f534074284c1b",
+      "fromSide": "right",
+      "toNode": "0f51434415141301",
+      "toSide": "left"
+    },
+    {
+      "id": "2de0ff8b05d50446",
+      "fromNode": "ea0f534074284c1b",
+      "fromSide": "bottom",
+      "toNode": "3da27107adb8c56b",
+      "toSide": "top"
+    },
+    {
+      "id": "9ed58e8916a7823e",
+      "fromNode": "ea0f534074284c1b",
+      "fromSide": "bottom",
+      "toNode": "6c6653185f0df402",
+      "toSide": "top"
+    },
+    {
+      "id": "f7f90fe6fd26b3f9",
+      "fromNode": "0f51434415141301",
+      "fromSide": "left",
+      "toNode": "9de829c8e5bf6054",
+      "toSide": "bottom"
+    },
+    {
+      "id": "165aade07f20965a",
+      "fromNode": "67572bf59883d82b",
+      "fromSide": "left",
+      "toNode": "9de829c8e5bf6054",
+      "toSide": "bottom"
+    },
+    {
+      "id": "3177819d4ed5abf4",
+      "fromNode": "31bf92cc0cee8e79",
+      "fromSide": "left",
+      "toNode": "9de829c8e5bf6054",
+      "toSide": "bottom"
+    },
+    {
+      "id": "ed81321294f19405",
+      "fromNode": "de7ef1d2e38991a9",
+      "fromSide": "right",
+      "toNode": "1e5460b465be1404",
+      "toSide": "left"
+    },
+    {
+      "id": "038f7d590f0f7b57",
+      "fromNode": "1e5460b465be1404",
+      "fromSide": "right",
+      "toNode": "ea0f534074284c1b",
+      "toSide": "left"
+    }
+  ],
+  "metadata": {}
+}

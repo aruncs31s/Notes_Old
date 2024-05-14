@@ -5,14 +5,16 @@
 		- [Triangle](#area%20of%20triangle)
 	- [Differentiation](#differentiation)
 		- [Product Rule](#product%20rule)
+- [[Trigonometrics]]
 - [[Vector Algebra]]
 - [Roots of Polynomial](#roots%20of%20polynomial)
 	- [Quadratic](#quadratic)
 - [Matrices](#Matrices)
 	- [Multiplication](#matrix%20multiplication)
 
-- [Sets](#sets)
+- [Sets](#sets) and Special Functions
 	- [Mandelbrot Set](#mandelbrot%20set)
+	- [[The Golden Ratio]]
 - [[Newton's Method]]
 #### Properties
 
@@ -119,68 +121,9 @@ $$
 x = \sqrt[3]{\frac{-b + \sqrt{b^2 - 4ac}}{2a}} + \sqrt[3]{\frac{-b - \sqrt{b^2 - 4ac}}{2a}}
 $$
 
-### Matrix
-### Matrix Product
-The product AB between matrices 
-$$
-A \in R_m\times_l\  and B \in R_l \times _n
-then \ C \in R_m \times _n
-$$
 
-$$
-c_ij = \sum_{k=1}^l a_ik \ b_kj 
-$$
-#rules
-
-> [!NOTE] Rows and Columns
-> The this notation
->$$ R_m \times _l $$
-> The `m` represents the rows and `l` represents the columns
-> To perform **multiplication of two matrices**, we should make sure that the number of columns in the 1st matrix is equal to the rows in the 2nd matrix.
-
-
-
-
-
-![](https://www.mathsisfun.com/algebra/images/matrix-multiply-a.svg)
-
-
-```rust
-use ndarray::arr2; 
-fn main() { 
-let a = arr2(&[[1, 2, 3], [4, 5, 6]]);
-90let b = arr2(&[[6, 3], [5, 2], [4, 1]]); println!("{}", a.dot(&b)); }
-```
-
-
-#### Reduced Row Echelon Form
-
-[[Science/Maths/Gauss–Jordan elimination]]
-
- 
-### Matrix Multiplication
-
-### Determinant
-
-$$
-det(A) = |A| = \begin{vmatrix}
-a & b & c\\
-d & e & f\\
-g & h & i
-\end{vmatrix} = a\begin{vmatrix}
-e & f\\
-h & i
-\end{vmatrix} - b\begin{vmatrix}
-d & f\\
-g & i
-\end{vmatrix} + c\begin{vmatrix}
-d & e\\
-g & h
-\end{vmatrix}
-$$
-[Source](https://youtu.be/aAFP5wsmH2k?si=6OVmgu5MlKmEk48q)
-
-
+### Matrices
+![[Matrices]]
 
 ### Mandelbrot Set
 

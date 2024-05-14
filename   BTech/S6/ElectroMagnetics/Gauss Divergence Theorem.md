@@ -41,7 +41,7 @@ $$
 
 1. It is used in application of fluid mechanics
 2. It is used to understand electromechanics
-3. It is used to understand the flaw of fields (eg : [[Science/Quantum Mechanics/Gravitational Field|Gravitational Fields]],[Electric Field](#electric%20fields)
+3. It is used to understand the flaw of fields (eg : [[Gravitational Field|Gravitational Fields]],[Electric Field](#electric%20fields)
 4. Used in aerodynamics
 
 #exampleProblem
