@@ -39,7 +39,19 @@ $$
 > The this notation
 > $$ R_m \times \_l $$
 > The `m` represents the rows and `l` represents the columns
-> To perform **multiplication of two matrices**, we should make sure that the number of columns in the 1st matrix is equal to the rows in the 2nd matrix. 
+> To perform **multiplication of two matrices**, we should make sure that the ==number of columns in the 1st matrix is equal to the rows in the 2nd matrix==. 
+> And if you multiply an $m\times n$ matrix with $n\times 1$ matrix then the result will be $n\times 1$ matrix 
+
+#### Inverse of a Matrix 
+Consider a Vector 
+$$
+\overrightarrow v = \begin{bmatrix} 1 & 2 & 3  \\  4& 5& 6  \\ 7& 8& 9 \end{bmatrix}
+$$
+Then $\overrightarrow v^{-1}$
+$$
+\overrightarrow v = \begin{bmatrix} 1 & 4 & 7  \\  2& 5& 8  \\ 3& 6& ==9== \end{bmatrix}
+$$
+
 
 #### Dot Product
 $$
