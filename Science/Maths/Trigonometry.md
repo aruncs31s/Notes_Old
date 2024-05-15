@@ -19,5 +19,9 @@ $$
    \cos\left(x+y\right) = \cos x \cos y - \sin x \sin y
 $$
 
+### Properties
+1. $\sin(90-x) = \cos(x)$
+1. $\cos(90-x) = \sin(x)$
 ## References
+
 1. 

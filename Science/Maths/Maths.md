@@ -5,7 +5,7 @@
 		- [Triangle](#area%20of%20triangle)
 	- [Differentiation](#differentiation)
 		- [Product Rule](#product%20rule)
-- [[Trigonometrics]]
+- [[Trigonometry]]
 - [[Vector Algebra]]
 - [Roots of Polynomial](#roots%20of%20polynomial)
 	- [Quadratic](#quadratic)
