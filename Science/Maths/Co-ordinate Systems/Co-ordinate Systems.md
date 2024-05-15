@@ -1,7 +1,8 @@
 ---
 id: Co-ordinate Systems
-aliases: []
-tags: []
+aliases: 
+tags:
+  - todo
 ---
 
 # Co-ordinate Systems
@@ -40,7 +41,7 @@ $$
 | $y$   | $\theta = \tan^{-1}(\frac{y}{x})$ |
 | $z$   | $z$                               |
 
-2. Cylindrical -> Cartesian
+2. Cylindrical -> Cartesian ^9663b2
 
 | Given  | Transform           |
 | ------ | ------------------- |
@@ -72,6 +73,73 @@ $$
 | $\phi$ | $\theta = \tan^{-1}\left(\frac{\rho}{z}\right)$ |
 | z      | $\phi = \phi$                                   |
 
-## References
+6. Spherical -> Cylindrical
 
+| Given    | Transform             |
+| -------- | --------------------- |
+| $r$      | $\rho = r\sin \theta$ |
+| $\theta$ | $\phi = \phi$         |
+| $\phi$   | $z = r \cos \theta$   |
+
+
+### Matrix Transform 
+
+1. Cartesian -> cylindrical 
+$$
+\begin{bmatrix}
+A_\rho  \\ A_\phi \\ A_z
+\end{bmatrix} = \begin{bmatrix}
+\cos\phi & \sin\phi & 0 \\ - \sin\phi & \cos\phi & 0  \\ 0 & 0 & 1
+\end{bmatrix}
+\begin{bmatrix}
+A_{x} \\ A_{y}  \\ A_z 
+\end{bmatrix}\tag{1}
+$$
+>if we consider eqn $(1)$ as 
+>$$
+A_{ca} = \overrightarrow T A_{cy}
+>$$
+>then 
+>$$
+\overrightarrow T^{-1} A_{ca} = \overrightarrow I A_{cy} = A_{cy}
+>$$
+>which is equal to 
+>$$
+\begin{bmatrix}
+A_{x} \\ A_{y}  \\ A_z 
+\end{bmatrix}
+= \begin{bmatrix}
+\cos\phi & - \sin\phi & 0 \\ \sin\phi & \cos\phi & 0  \\ 0 & 0 & 1
+\end{bmatrix}
+\begin{bmatrix}
+A_\rho  \\ A_\phi \\ A_z
+\end{bmatrix} 
+\tag{2}
+>$$
+> If we compare both eqn $(1)$ and $(2)$ we can see that it uses the it uses the [[Matrices#^fcc442|Inverse Matrix Property]] 
+
+1. Cartesian -> Spherical 
+
+$$
+\begin{bmatrix}
+A_{r} \\ A_{\theta}  \\ A_{\phi} 
+\end{bmatrix}
+= \begin{bmatrix}
+\sin\theta \cos\phi & \sin\theta \sin\phi & \cos\theta \\ - \cos\theta \cos\phi  & \cos\theta \sin\phi  & - \sin\theta  \\ - \sin\phi  & \cos\phi & 0
+\end{bmatrix}
+\begin{bmatrix}
+A_\rho  \\ A_\phi \\ A_z
+\end{bmatrix} 
+\tag{3}
+$$
+> We can do the same here by Multiplying the inverse of of the transformation matrix 
+>$$
+\begin{bmatrix} A_{x} \\ A_{y} \\ A_{z}  
+\end{bmatrix}
+= 
+\begin{bmatrix} \sin\theta \cos\phi & \cos\theta \cos\phi & \cos\theta  \\ \sin\theta \sin\phi & \cos\theta \cos\phi & \cos\phi  \\  \cos\theta & - \sin\theta & 0  \end{bmatrix} \begin{bmatrix} A_{r} \\ A_{\theta} \\ A_{\phi} \end{bmatrix}
+>$$
+
+## References
+   
 1.

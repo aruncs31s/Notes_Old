@@ -3,11 +3,14 @@
 - Stokes theorem explains relationship in between ==line Integration== and ==surface integration==
 - Stokes theorem is based on [[Curl|Curl]] of the function
 
-#statement
+> [!info] Statement 
+> The ==Line integral== of a Vector $\overrightarrow A$ around a closed path '$L$' is equal to the Surface integral of the Curl of Vector $\overrightarrow A$ over any close surface  
+>$$
+\oint \overrightarrow P.dl = \int  \nabla \times \overrightarrow P \ dS
+>$$
+>Or it states that the circulation of the vector field $\overrightarrow A$ around a closed path $L$ is equal to the surface intrgral og the [[Curl]] of $\overrightarrow A$ over an open surface $S$ bounded by $L$
 
-$$
-\oint \overrightarrow P.dl = \int \overrightarrow \nabla \times \overrightarrow P \ dS
-$$
+
 
 #proof
 
