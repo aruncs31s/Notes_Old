@@ -5,7 +5,7 @@ tags:
   - project
 ---
 # Gcek Wifi
-- [ ] [Connect to wifi using Curl](#connect%20to%20wifi%20using%20curl)
+- [x] [Connect to wifi using Curl](#connect%20to%20wifi%20using%20curl) ✅ 2024-05-18
 - [ ] [Connect to wifi using esp32](#2)
 
 ---

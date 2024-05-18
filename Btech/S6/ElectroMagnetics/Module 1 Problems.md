@@ -6,7 +6,7 @@ tags:
 
 ## Schaum's Problems
 
-2. [x] Find the $\overrightarrow A$ Directed from $(2,-4,1)$ to $(0,-2,0)$ in cartesian coordinate and find the unit vector along $\overrightarrow A$ [[#^e0abad|Answer]]
+2. [ ] Find the $\overrightarrow A$ Directed from $(2,-4,1)$ to $(0,-2,0)$ in cartesian coordinate and find the unit vector along $\overrightarrow A$ [[#^e0abad|Answer]]
 3. [ ] Find the distance between $(5,3\pi,0)$ and $(5,\frac{\pi}{2},10)$ in cylindrical coordinate system
 4. [ ] Show that $A=4a_{x} - 2a_{y}-a_z$ and $B=a_{x}+ 4a_{y} -4a_{z}$ are perpendicular 
 <details><summary>Hint</summary>

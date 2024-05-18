@@ -1,6 +1,5 @@
-l
-1
-
+### Plugins
+- [[Canvas Mindmap]]
 - [Data View](#data%20view)
 - [Callouts](#callouts)
 #### [[Data View]]

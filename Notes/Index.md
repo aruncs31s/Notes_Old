@@ -16,3 +16,10 @@ Table aliases as Nick , Date.Started as Started ,Date.Target as Target , Date.En
 FROM #project
 
 ```
+
+
+```tasks
+not done 
+short mode 
+limit 10
+```

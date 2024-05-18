@@ -1,4 +1,12 @@
-<h1 align="center">Module 2</h1>
+# Module 2
+## Contents 
+- [[#Todo]]
+- [[#Syllabus]]
+## Todo
+- [ ] Finish the Module
+- [ ] Fill the contents menu
+
+
 
 ## Syllabus 
 - Derivation of capacitance and inductance of two wire transmission line and coaxial cable.
@@ -7,15 +15,32 @@
 - Magnetic vector potential.
 - Relation between scalar potential and vector potential.
 - Maxwell’s equation from fundamental laws.
-- Boundary condition of electric field and magnetic field from Maxwells equations.
+- Boundary condition of electric field and magnetic field from Maxwell's equations.
 - Solution of wave equation.
+### Maxwell's Equations 
+*Maxwell equations are based on 3 fundamental laws*
+1. [[Ampere's Law]] 
+2. [[Faraday's Law of induction]] 
+3. [[Gauss's Law]] 
 
-#### Maxwell's Equations From Fundamental Laws
-1. [[Ampere's Law]]
-2. [[Faraday's Law of induction]]
-3. [[Gauss's Law]]
+#### From Ampere's Circuit Law
+$$
+\nabla  \overrightarrow H = \overrightarrow J
+$$
 
-3. From [[Gauss's Law]]
+> 
+
+#### Maxwell's 1st Equation with Integral Form And Differential Form 
+
+## References
+1. 
+
+
+
+
+
+
+
 
 
 

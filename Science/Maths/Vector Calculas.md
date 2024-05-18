@@ -4,7 +4,7 @@ aliases: []
 tags: []
 ---
 
-<h1 align="center">Vector Algebra</h1>
+<h1 align="center">Vector Calculas</h1>
 
 ## Basics Of Vector
 

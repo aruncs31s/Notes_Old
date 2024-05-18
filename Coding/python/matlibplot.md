@@ -6,11 +6,15 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-x = np.arange(0, 5 * np.pi, 0.1)
+x = np.arange(0, 6 * np.pi, 0.1)
 y = np.sin(x)
 
 # Plotting Sine Graph
-plt.plot(x, y, color="green")
+plt.plot(x, np.cos(x), color="green")
+plt.plot(x, np.sin((3.14/2 )- x), color="red")
+#plt.plot(x, np.tan(x), color="blue")
+
+
 plt.show()
 ```
 

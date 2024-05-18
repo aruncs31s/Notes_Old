@@ -5,8 +5,8 @@ tags: []
 ---
 
 #### Experiments
-- [ ] [[Experiment 1]]
-- [.] [[Error Performance of BPSK|Expt3]]
+- [x] [[Experiment 1]] ✅ 2024-05-18
+- [x] [[Error Performance of BPSK|Expt3]] ✅ 2024-05-18
 - [ ] [[Expt_2]]
 - [ ] [[Expt_3]]
 - [ ] [[Expt_4]]

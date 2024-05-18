@@ -6,7 +6,7 @@
 
 - *Cartesian Coordinates*
 $$
-\nabla V = \frac{\partial V \hat a_ x }{\partial x}+\frac{\partial V \hat a_ y }{\partial y}+\frac{\partial V \hat a_ z }{\partial z}
+\nabla V = \frac{\partial V  }{\partial x}\hat a_ x +\frac{\partial V  }{\partial y}\hat a_ y+\frac{\partial V }{\partial z}\hat a_ z 
 $$
 - *Cylindrical Coordinates*
 $$
