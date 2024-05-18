@@ -31,7 +31,33 @@ $$
 > 
 
 #### Maxwell's 1st Equation with Integral Form And Differential Form 
+##### Prerequisites
+1. [[Gauss's Law]] 
 
+> From [[Gauss's Law]]  
+>$$
+\oint D \cdot dS = Q_{enc}\tag{1}
+>$$
+> For volume charge
+>$$
+\int_v \rho_{v}dv = Q_{enc}\tag{2}
+>$$
+>Where $\rho_v$ is volume charge density 
+>by comparing equations $(1)$ and $(2)$ 
+$$
+\oint \overrightarrow D \cdot dS = \int_{v}\rho_{v}dv \tag{A}
+>$$
+>The above equation is known as *Integral form of [[Maxwell|Maxwell's]] First Equation*
+
+> As per [[Gauss Divergence Theorem]] 
+$$
+\overrightarrow A \cdot dS = \int \overrightarrow \nabla \cdot \overrightarrow A \ dv \tag{3}
+>$$
+>By comparing eqn $(A)$ with $(3)$
+$$
+\oint \overrightarrow \nabla \cdot \overrightarrow D \ dv = 
+$$
+- [ ] Research and complete the derivation .
 ## References
 1. 
 
