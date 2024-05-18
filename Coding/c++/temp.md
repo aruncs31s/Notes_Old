@@ -82,3 +82,35 @@ int main()
     return 0;
 }
 ```
+
+
+$$
+X + Y = K
+$$
+$$
+-K = -1(X + Y)
+$$
+$$
+\begin{align*}
+&= (-1\times X )+ (-1 \times Y)\\
+&= -X + -Y \\
+-K &= -X - Y
+\end{align*}
+$$
+
+```js
+let x = 5 ;
+let y = 10 ;
+let k= x + y;
+k  = -1 * k ;
+x = k + y;
+y = k - x ;
+console.log(k)
+console.log(x)
+console.log(y)
+
+```
+
+```js
+theta = (180 /180 )* 3.14;
+console.log("cos thta = "+  Math.cos(3.14))
