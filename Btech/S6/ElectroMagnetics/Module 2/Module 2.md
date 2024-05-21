@@ -126,12 +126,33 @@ $$
 - We know Magnetic field due to an infinite current carrying conductor
 $$
 \begin{align}
-H &= \frac{1}{2\pi \rho}\hat a_{\phi}\\
+H &= \frac{I}{2\pi \rho}\hat a_{\phi}\\
 B &= \mu H
 \end{align}
 $$
 - Substituting both the values of $B$ and $H$ in equation $(1)$
+$$
+\begin{align*}
+\Psi &=   \int_{\rho=a}^{b}\int_{z=0}^{l}\frac{\mu I}{2\pi \rho } \hat a_{\phi}\cdot \hat a_{\phi} d_{\rho}d_{z}\\
+&= \frac{\mu I}{2\pi  }\int_{z=0}^{l}d_{z}\int_{\rho=a}^{b} \frac{d\rho}{\rho}
 
+\end{align*}
+$$
+$$
+\Psi = \frac{\mu I}{2\pi}\ln ({b\over a})
+$$
+- Inductance 
+$$
+\begin{align*}
+ L &= {\Psi \over I}\\
+&= {\frac{\mu I}{2\pi}\ln ({b\over a}) \over I}
+
+\end{align*}
+$$
+$$
+\color{cyan}\boxed{
+L = \frac{\mu }{2\pi}\ln ({b\over a})}
+$$
 
 #### Maxwell's Equations 
  1. [[Ampere's Law]]
