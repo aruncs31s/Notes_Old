@@ -135,7 +135,6 @@ $$
 \begin{align*}
 \Psi &=   \int_{\rho=a}^{b}\int_{z=0}^{l}\frac{\mu I}{2\pi \rho } \hat a_{\phi}\cdot \hat a_{\phi} d_{\rho}d_{z}\\
 &= \frac{\mu I}{2\pi  }\int_{z=0}^{l}d_{z}\int_{\rho=a}^{b} \frac{d\rho}{\rho}
-
 \end{align*}
 $$
 $$
@@ -146,13 +145,14 @@ $$
 \begin{align*}
  L &= {\Psi \over I}\\
 &= {\frac{\mu I}{2\pi}\ln ({b\over a}) \over I}
-
 \end{align*}
 $$
 $$
 \color{cyan}\boxed{
 L = \frac{\mu }{2\pi}\ln ({b\over a})}
 $$
+
+
 
 #### Maxwell's Equations 
  1. [[Ampere's Law]]
