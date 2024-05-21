@@ -22,7 +22,7 @@
 >$$
 V_{ab} = \frac{1 }{2 \pi \epsilon} \left[ Q_{a}^{+} \ln \frac{D_{ab}}{D_{aa}} + Q_{b}^{-} \ln \frac{D_{bb} }{D_{ba}}\right]\tag{1}
 >$$
->Here $I_{a}= +I , I_{b}=-I$ , $D_{aa} = r$ and $D_{ab}=D$.
+>Here $Q_{a}= +Q , Q_{b}=-Q$ , $D_{aa} = r$ and $D_{ab}=D$.
 > After simplifying using [[Logerithemic#^fceeff|This Property]] and applying the values the equation (2) can be written as
 >$$
 V_{ab} = \frac{1}{2 \pi \epsilon }Q_{a}^{+} \ln  \left(\frac{D}{r}  \right)^2\tag{3}
@@ -90,9 +90,29 @@ L_{a} = \frac{\Psi}{L_{ab}} =\frac{\mu_{0}}{2\pi } \ln({D \over r}) }\tag{H/m}
 
 - [x] Need to check if the equation is right ✅ 2024-05-20
 
+#### Capacitance of coaxial cable
 
+![[capacitance of coax cable diagram]]
+coaxial cable is placed in z direction
+> Here 
+> 	1. $a$ -> radius of the inner conductor
+> 	2. $b$ -> radius of the outer conductor
+> 	3. $z$ -> length of the conductor
+> - Here V is given by the equation
+>$$
+V = - \int_b^{a} E \cdot dl\tag{1}
+>$$
+> - Where E -> electric field due to an infinite line charge
+>$$E = \frac{\rho_{l}}{2\pi\epsilon\rho} \hat a_\rho\tag{2}$$
+> by substituting equation $(2)$ -> $(1)$
+> $$V = -\int_{\rho=a}^b\frac{\rho_{l}}{2\pi\epsilon\rho} \hat a_{\rho}\cdot d\rho \cdot \hat a_\rho\tag{3}$$
+> We know $\hat a_{\rho}\cdot \hat a_{\rho}= 1$ 
+> $$\begin{align}V &=\frac{\rho_{l}}{2\pi\epsilon} \int_{\rho =a}^{b} {d\rho \over \rho }\\ &=\frac{\rho_{l}}{2\pi\epsilon} \ln{b \over a}\end{align}$$
+> - Capacitance 
+>   $$C = {Q \over V} = \frac{\rho_{L}l}{\frac{\rho_{l}}{2\pi\epsilon} \ln{b \over a}} =$$
+>$$C = \frac{2\pi \epsilon l}{ln({b\over a})}$$
 
-
+#### Inductance of coaxial cable
 
 #### Maxwell's Equations 
  1. [[Ampere's Law]]
