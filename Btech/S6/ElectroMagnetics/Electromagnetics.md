@@ -8,7 +8,6 @@ aliases:
 # ElectroMagnetics Theory
 
 ### Tasks 
-
 ```tasks
 folder includes Electromagnetics
 ```
