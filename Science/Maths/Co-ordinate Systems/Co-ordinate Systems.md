@@ -36,6 +36,22 @@ $$
 
 ### Cylindrical Coordinate System
 
+##### Differential Displacement
+$$
+dl = d_{\rho} a_{\rho} + \rho d_{\phi}a_{\psi} + d_{z}a_z
+$$
+##### Differential surface area
+$$
+\begin{align*}
+dS &= \rho d_{\phi}d_{z}a_\rho\\
+&= d_{\rho}d_za_\phi\\
+&= \rho d_{\rho}d_{\phi}a_z
+\end{align*}
+$$
+##### Differential volume
+$$
+dv= \rho d_{\rho}d_{\phi}d_z 
+$$
 ### Spherical Coordinate System
 
 ### Co-ordinate System Conversion

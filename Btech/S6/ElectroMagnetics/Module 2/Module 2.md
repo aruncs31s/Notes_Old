@@ -16,22 +16,22 @@
 
 1.  [ ] [[#Derivation of capacitance of 2 wire Line|Derivation of capacitance]] and inductance of two wire transmission line and coaxial cable. 2. [ ] Energy stored in Electric and Magnetic field. 3. [ ] Displacement current density, continuity equation. 4. [ ] Magnetic vector potential. 5. [ ] Relation between scalar potential and vector potential. 6. [ ] Maxwell’s equation from fundamental laws. 7. [ ] Boundary condition of electric field and magnetic field from Maxwell's equations. 8. [ ] Solution of wave equation.
 
-#### Derivation of capacitance of 2 wire Line
+#### Capacitance of 2 wire Line
 ![[capacitance of 2 wire line drawing]]
-> Potential difference btw conductor _a_ and _b_ is given by
+> - Potential difference btw conductor _a_ and _b_ is given by
 >$$
 V_{ab} = \frac{1 }{2 \pi \epsilon} \left[ Q_{a}^{+} \ln \frac{D_{ab}}{D_{aa}} + Q_{b}^{-} \ln \frac{D_{bb} }{D_{ba}}\right]\tag{1}
 >$$
->Here $Q_{a}= +Q , Q_{b}=-Q$ , $D_{aa} = r$ and $D_{ab}=D$.
-> After simplifying using [[Logerithemic#^fceeff|This Property]] and applying the values the equation (2) can be written as
+>- Here $Q_{a}= +Q , Q_{b}=-Q$ , $D_{aa} = r$ and $D_{ab}=D$.
+> - After simplifying using [[Logerithemic#^fceeff|This Property]] and applying the values the equation (2) can be written as
 >$$
 V_{ab} = \frac{1}{2 \pi \epsilon }Q_{a}^{+} \ln  \left(\frac{D}{r}  \right)^2\tag{3}
 >$$
->We know [[Logerithemic#^b6e3a2|This property]] the above equation can be simplified as
+>- We know [[Logerithemic#^b6e3a2|This property]] the above equation can be simplified as
 >$$
 V_{ab}=\frac{Q_a^{+}}{\pi\epsilon } \ln{D \over r}\tag{4}
 >$$
->The capacitance between the conductors is
+>- The capacitance between the conductors is
 >$$
 C_{ab}= \frac{Q_{a}^{+}}{V_{ab} } =  \frac{Q_{a}^+}{\frac{Q_a^{+}}{\pi\epsilon } \ln{D \over r}}\tag{5}
 >$$
@@ -39,6 +39,10 @@ C_{ab}= \frac{Q_{a}^{+}}{V_{ab} } =  \frac{Q_{a}^+}{\frac{Q_a^{+}}{\pi\epsilon }
 \boxed{\color{cyan}
 C_{ab}= \frac{\pi \epsilon }{ln{D \over r}}}
 >$$
+#summary
+- Draw the diagram of 2 conductor separated by a distance $D$
+- Write the equation of $V_{ab}$
+- 
 
 #### Inductance of Two wire
 ![[Inductance of 2 wire line]]
@@ -112,7 +116,22 @@ V = - \int_b^{a} E \cdot dl\tag{1}
 >   $$C = {Q \over V} = \frac{\rho_{L}l}{\frac{\rho_{l}}{2\pi\epsilon} \ln{b \over a}} =$$
 >$$C = \frac{2\pi \epsilon l}{ln({b\over a})}$$
 
+---
 #### Inductance of coaxial cable
+![[Pasted image 20240522002529.png]]
+- We know magnetic flux through a surface 
+$$
+\Psi = \int_{s} B \cdot dS \tag{1}
+$$
+- We know Magnetic field due to an infinite current carrying conductor
+$$
+\begin{align}
+H &= \frac{1}{2\pi \rho}\hat a_{\phi}\\
+B &= \mu H
+\end{align}
+$$
+- Substituting both the values of $B$ and $H$ in equation $(1)$
+
 
 #### Maxwell's Equations 
  1. [[Ampere's Law]]
