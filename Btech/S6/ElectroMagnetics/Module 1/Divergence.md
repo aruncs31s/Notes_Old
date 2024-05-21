@@ -1,14 +1,16 @@
 # Divergent of a Vector
 
-The Divergence of Vector $\overrightarrow A$ at a given point $P$ is the
+*The Divergence of Vector $\overrightarrow A$ at a given point $P$ is the outward flux per unit volume as the volume shrinks about P*
 
 #equation 
 
 $$
-\nabla \overrightarrow A = \lim_{\Delta V \to 0} \frac{\oint \overrightarrow A \, dS}{\Delta V}
+\nabla \cdot \overrightarrow A = \lim_{\Delta V \to 0} \frac{\oint \overrightarrow A \, dS}{\Delta V}
 $$
 
 *Where $\Delta V$ - Small differential Volume*
+
+
 
 
 
@@ -38,3 +40,10 @@ else
 > Contents
 
 - [ ] Do 3 #exampleProblem on [[Divergence]]  
+
+
+
+#### Derivation
+![[divergence drawing]]
+
+- [ ] https://youtu.be/EJ-rs4zocVo?si=0BE-c_NoRvZHpO00 Complete the derivation 

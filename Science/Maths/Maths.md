@@ -2,6 +2,7 @@
 
 - [[Priliminary]]
 - [[Trigonometry]]
+- [[Logerithemic]]
 - [[Polynomials]]
 - [[Differential Equations]]
 - [[Number Theory]]

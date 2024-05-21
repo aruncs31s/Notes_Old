@@ -1,10 +1,9 @@
-<h1 align="center"> Electromagnetics Module 3</h1>
-
-<h2 align="center">Contents</h2>
+# Module 3
+## Contents
  - [[#Syllabus]]
  - 
 
-<h3 align="center">Syllabus</h3>
+## Syllabus
 - Propagation of plane EM wave in 
 	- perfect dielectric
 	- lossy medium
@@ -39,10 +38,10 @@
 
 ^1fe371
 
-Poynting Vector Denoted by $\overrightarrow S$  is givent by the *vector product* of $\overrightarrow E \ \& \overrightarrow H$
+Poynting Vector Denoted by $\overrightarrow S$  is given by the *vector product* of $\overrightarrow E \ \& \overrightarrow H$
  $$ \overrightarrow S = \overrightarrow E \times \overrightarrow H $$
 
-> Pointing Vector measures the rate of flow of energy of the wave as it Propagates. The diection of $\overrightarrow S$ represents the direction of power flow and it is perpendicular to the plane containing $\overrightarrow E \ \& \ \overrightarrow H$
+> Pointing Vector measures the rate of flow of energy of the wave as it Propagates. The direction of $\overrightarrow S$ represents the direction of power flow and it is perpendicular to the plane containing $\overrightarrow E \ \& \ \overrightarrow H$
 
 
 #### Poynting Theorem
@@ -57,22 +56,24 @@ When ==electromagnetic wave Propagates through space, there will be a transfer o
 
 
 ##### Derivation
-Consider the field intensities $\overrightarrow E \ \& \overrightarrow H$ from `Maxwell's Eqn`
+Consider the field intensities $\overrightarrow E \ \& \overrightarrow H$ from [[Btech/S6/ElectroMagnetics/Module 2/Module 2#Maxwell's Equations|Maxwell's Equations]]
 
 1. $$\nabla \times \overrightarrow E = \frac{- \partial \overrightarrow B}{\partial t} = \frac{- \mu \partial \overrightarrow H}{\partial t}$$
 
-2. $$ \nabla \times \overrightarrow H = \overrightarrow J = \sigma \overrightarrow E + \frac{\partial \overrightarrow D}{\partial t}$$
-
-3. $$= \sigma \overrightarrow E + \epsilon \frac{\partial \overrightarrow E}{\partial t}$$
+2. $$ \begin{align*}
+\nabla \times \overrightarrow H = \overrightarrow J &= \sigma \overrightarrow E + \frac{\partial \overrightarrow D}{\partial t} \\
+&= \sigma \overrightarrow E + \epsilon \frac{\partial \overrightarrow E}{\partial t}
+\end{align*}
+   $$
+   
 > We know the Poynting vector
 $$ \overrightarrow S = \ \overrightarrow E \times \overrightarrow H$$
 Taking Dot product on both voltage 
-$$\nabla \overrightarrow S = \nabla .\ (\overrightarrow E \times \overrightarrow H)$$
->By Vector identity[^2]
+$$\nabla \cdot \overrightarrow S = \nabla .\ (\overrightarrow E \times \overrightarrow H)$$
+>By  [[Vector Calculas#^2c0ce5|Vector Identity]]
 
 $$\nabla . (\overrightarrow E \times \overrightarrow H) = \overrightarrow H .(\nabla \times \overrightarrow E) - \overrightarrow E .(\nabla \overrightarrow H)$$
 
-[^2]: Vector identity $\nabla .(\overrightarrow A \times \overrightarrow B) = \overrightarrow B (\nabla \times \overrightarrow A)$
 
 5. Substituting the values$$
 \nabla .(\overrightarrow E \times \overrightarrow H) = \overrightarrow H .(\frac{\mu \partial \overrightarrow H}{\partial t} ) - \overrightarrow H ( \sigma \overrightarrow E + \frac{\partial \overrightarrow D}{\partial t})
@@ -83,7 +84,7 @@ $$
 $$
 
  ^faf03e
-6. Let by [[Maths#Product Rule|Product Rule]]
+6. Let by [[Differential Equations#Product Rule]]
 $$
 {\partial (\overrightarrow H . \overrightarrow H) \over \partial t} = \overrightarrow H {\partial \overrightarrow H \over \partial t} + \overrightarrow H {\partial \overrightarrow H \over \partial t}$$
 $$
@@ -104,7 +105,7 @@ $$
 > 	->  Geometrically, when we take the cross product of a vector with itself, the resulting vector is **zero** (since the angle between them is zero).
 > 	-> Therefore, the magnitude of this zero vector is also zero: $|\overrightarrow{H} \times \overrightarrow{H}| = 0$
 > - ==while the cross product itself is zero, its magnitude squared is indeed equal to the square of the magnitude of vector **H**==
-> - In summary, we have: $\overrightarrow{H} \times \overrightarrow{H} = \overrightarrow{0} ] [ |\overrightarrow{H} \times \overrightarrow{H}| = H^2$
+> - In summary, we have: $\overrightarrow{H} \times \overrightarrow{H} = \overrightarrow{0}  |\overrightarrow{H} \times \overrightarrow{H}| = H^2$
 
 
 7. Substituting [[  BTech/S6/ElectroMagnetics/Module 3#^ec7bb9|A]] in [[  BTech/S6/ElectroMagnetics/Module 3#^faf03e|1]]
@@ -141,7 +142,7 @@ $$
 
 <h4 align="center" >Reflection of plane wave At Normal incidence</h4>
 
-#####  Deflection By Dielectric - Normal Incidence
+##### Deflection By Dielectric - Normal Incidence
 
 
 

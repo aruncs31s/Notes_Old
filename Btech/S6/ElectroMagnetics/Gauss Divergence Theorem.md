@@ -11,7 +11,8 @@
 #statement
 
 $$
-\oint P.dS = \oint \overrightarrow \nabla . \overrightarrow P \ dV
+\boxed{
+\oint P.dS = \oint \overrightarrow \nabla . \overrightarrow P \ dV}
 $$
 
 > [!WARNING] Relation
