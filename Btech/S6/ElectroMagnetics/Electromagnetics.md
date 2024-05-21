@@ -14,11 +14,12 @@ folder includes Electromagnetics
 ```
 
 
+
 ## Contents
 - [Text](https://drive.google.com/file/d/1lFXMNLvuTDy1JrL4NnVrQtpwg9xTWLt3/view?usp=drive_link)
-- [[ElectroMagnetics/Module 1|Module 1]] 
+- [[Btech/S6/ElectroMagnetics/Module 1/Module 1|Module 1]] 
 	- [[Module 1 Problems]]
-- [[ElectroMagnetics/Module 2|Module 2]]
+- [[Btech/S6/ElectroMagnetics/Module 2/Module 2|Module 2]]
 - [[/ElectroMagnetics/Module 3|Module 3]]
 - [[/ElectroMagnetics/Module 4|Module 4]]
 - [[PYQs]]

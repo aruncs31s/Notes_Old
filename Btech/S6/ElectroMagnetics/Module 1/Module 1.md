@@ -7,12 +7,7 @@ tags:
   - emt
   - emt_module1
 ---
-
-
-
 # Module 1
-Created : 2024-05-12 21:47
-
 
 ## [[Tasks]] 
 
@@ -50,9 +45,6 @@ _Electromagnetic theory is a branch of physics that deals with the study of elec
 ---
 
 ## Part 1
-
-
-
 ### Vector Calculus
 
 ![[Vector calculus.canvas|Vector Algebra]]
@@ -124,7 +116,7 @@ There are 2 types of fields
 
 #### Electric Field Due to a Point charge
 
-![[2 charges separated by r.excalidraw]]
+![[2 charges sep by r drawing]]
 Consider two charges $Q_1$ and $Q_2$ separated by a distance $R$
 
 - If $Q_{1} \times Q_{2} > 0$ similar charges
@@ -172,6 +164,9 @@ $$
 $$
 E = \frac{Q}{4 \pi \epsilon_{0 R^{2}}} \overrightarrow a_R\tag{Cartesian}
 $$
+
+#### Electric Flux Density 
+The flux 
 
 #### Charge Distributions
 - [[#Line charge]]

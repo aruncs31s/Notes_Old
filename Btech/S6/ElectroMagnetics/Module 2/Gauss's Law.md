@@ -48,7 +48,23 @@ $$
 Note that the $Q_{4}$ isn't accounted because the total flux entering will be equal to total flux leaving in case of $Q_{4}$ because it is outside of the closed surface
 
 
+
+#### Gauss's Law in Differential Form
+> Gauss's Law in integral form is given by
+>$$
+\oint \overrightarrow{D} \cdot dS = Q_{enc}\tag{1}
+>$$
+>  Let the closed surface S encloses a volume v . If charge density (charge per unit volume) is $\rho$ then the net charge enclosed by the surface $S$ within the volume $v$ will be $Q_{enc} = \int_v \rho dv$ 
+>  Then the equation $(1)$ can be modified as 
+>$$
+\oint D \cdot dS = \int_{v} \rho dv
+>$$
+>As the volume considered is reduced to element volume, this becomes the point relation 
+>$$
+\nabla \cdot \overrightarrow{D} = \rho
+>$$
+
 ## Prerequisites
-1. [[Electric Flux]]
+1. [[Electric Flux and Electric Flux Density]]
 ## References
 1. 

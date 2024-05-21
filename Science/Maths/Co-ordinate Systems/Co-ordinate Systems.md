@@ -27,6 +27,13 @@ $$
 \overrightarrow A = A_xa_{x}+ A_ya_{y}+ A_{z}a_z
 $$
 
+> One can identify the position of third axis using ==law of screw== 
+
+> [!Note] Law of Screw 
+> We can find the position or the direction of **x** if only 2 axis are given say **z** & **y**
+> and if you rotate from **y** to **z** then the direction of **x** will be positive ie, **i -> j -> k** this manner the direction will be positive  
+![[cartesian coordinate 3rd axis]]
+
 ### Cylindrical Coordinate System
 
 ### Spherical Coordinate System
