@@ -1,5 +1,3 @@
-
-
 # Module 2
 
 ## Contents
@@ -154,50 +152,52 @@ $$
 
 
 
+#### Energy stored in Electric Field
+![[energy stored in electric field diagram]]
+- We use **work done**
+- In this we consider charges $Q1$ ,$Q2$ and $Q3$ move from  $\infty$ to points $P1$ ,$P2$ and $P3$ 
+- Total work done used to bring those charges to respected position is the total work done 
+$$
+\begin{align*}
+W_{E}&=  W_{1}+ W_{2}+W_{3}\\
+&= 0 + Q_{2}V_{21}+Q_{3}V_{31}+Q_{3}V_{32}
+\end{align*}
+$$
+>[!NOTE] The 0
+> The zero is due to no charges is being present on the surface when moving the first time , and after the first charge is reached the surface it will create an electric field and it the $Q_{2}$ and $Q_{3}$ will experience that ,Also when moving $Q_3$ there will be 2 charges   
+
+
+
 #### Maxwell's Equations 
  1. [[Ampere's Law]]
  2. [[Faraday's Law of induction]]
  3. [[Gauss's Law]]
  - [ ] Fix this ⏫  
-    - Point Form
-      - Integral Form
-    - Sub title
-      - Sub title
-        - $\nabla \times \overrightarrow H=\overrightarrow J_{c} + \frac{\partial \overrightarrow D}{\partial t}$
-        - $$\oint \overrightarrow H \cdot \overrightarrow dl = \int_s\left(\overrightarrow {J_c}+\frac {\partial \overrightarrow D}{ \partial t}\right)\cdot dS \tag{Ampere's Law}$$
-      - Sub title
-        - $\nabla \times \overrightarrow E =- \frac{\partial \overrightarrow B}{\partial t}$
-        - $$\oint \overrightarrow E \cdot dl = \int_s\left(-\frac {\partial \overrightarrow B}{ \partial t}\right)\cdot dS\tag{Faraday's Law}$$
-      - Sub title
-        - $\nabla \cdot \overrightarrow D=\rho$
-        - $$\oint_s \overrightarrow D \cdot dS = \int_v \rho \ dv \tag{Gauss's Law}$$
-      - Sub title
-        - $\nabla \cdot \overrightarrow B$
-        - $$\oint _s \overrightarrow B \cdot dS = 0 \tag{nonexistance of monopole}$$
-      - Sub title
-        - Sub title
-        - Sub title
-  - From Ampere's Circuit Law
-  - Maxwell's 1st Equation with Integral Form And Differential Form
-    - Prerequisites
-      - Sub title
-        - 1. [[Gauss's Law]]
-      - > From [[Gauss's Law]]
-        $$
-        \oint D \cdot dS = Q_{enc}\tag{1}
-        $$
-        For volume charge
-        $$
-        \int_v \rho_{v}dv = Q_{enc}\tag{2}
-        $$
-        Where $\rho_v$ is volume charge density
-        by comparing equations $(1)$ and $(2)$
-        $$
-        \oint \overrightarrow D \cdot dS = \int_{v}\rho_{v}dv \tag{A}
-        $$
-      - > The above equation is known as _Integral form of [[Maxwell|Maxwell's]] First Equation_
-      - Sub title
-        - [ ] Research and complete the derivation .
+
+| Point Form                                                                                              | Integral Form                                                                                                                                                              |     |
+| ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+| $\nabla \times \overrightarrow H=\overrightarrow J_{c} + \frac{\partial \overrightarrow D}{\partial t}$ | $$\oint \overrightarrow H \cdot \overrightarrow dl = \int_s\left(\overrightarrow {J_c}+\frac {\partial \overrightarrow D}{ \partial t}\right)\cdot dS \tag{Ampere's Law}$$ |     |
+| $\nabla \times \overrightarrow E = \large - \frac{\partial \overrightarrow B}{\partial t}$              | $$\oint \overrightarrow E \cdot dl = \int_s\left(-\frac {\partial \overrightarrow B}{ \partial t}\right)\cdot dS\tag{Faraday's Law}$$                                      |     |
+| $\nabla \cdot \overrightarrow D=\rho$                                                                   | $$\oint_s \overrightarrow D \cdot dS = \int_v \rho \ dv \tag{Gauss's Law}$$                                                                                                |     |
+| $\nabla \cdot \overrightarrow B = 0$                                                                    | $$\oint _s \overrightarrow B \cdot dS = 0 \tag{nonexistance of monopole}$$                                                                                                 |     |
+
+ 
+  ##### From Ampere's Circuit Law
+#####   From [[Gauss's Law]]
+$$
+\oint D \cdot dS = Q_{enc}\tag{1}
+$$
+For volume charge
+$$
+\int_v \rho_{v}dv = Q_{enc}\tag{2}
+$$
+Where $\rho_v$ is volume charge density
+by comparing equations $(1)$ and $(2)$
+$$
+\oint \overrightarrow D \cdot dS = \int_{v}\rho_{v}dv \tag{A}
+$$
+- > The above equation is known as _Integral form of [[Maxwell|Maxwell's]] First Equation_
+- [ ] Research and complete the derivation .
 
 ## References
 

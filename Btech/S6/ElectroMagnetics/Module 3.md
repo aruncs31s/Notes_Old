@@ -15,6 +15,20 @@
 - Reflection and refraction of plane electromagnetic waves at boundaries for normal & oblique incidence (parallel and perpendicular polarization)
 - Snell’s law of refraction, Brewster angle.
 
+## Short Equations 
+
+
+
+| Var                             | Val                                                 |
+| ------------------------------- | --------------------------------------------------- |
+| $$\lambda$$                     | $$2\pi \over \beta$$                                |
+| $$\beta$$                       | $$\omega \sqrt{\mu \epsilon }$$                     |
+| $$\epsilon $$                   | $$\epsilon_0 \cdot \epsilon_r $$                    |
+| $$\mu$$                         | $$\mu_0 \cdot\mu_r$$                                |
+| $$c$$                           | $${1 \over \sqrt{\mu_r\epsilon_r} }= 3\times 10^8$$ |
+| $$v$$                           | $$\omega  \over \beta$$                             |
+| $$\eta$$                        | $$\sqrt{\mu \over \epsilon }$$                      |
+| $$\sqrt{\mu_0\over\epsilon_0}$$ | $$120\pi$$                                          |
 
 #### Introduction
 
@@ -70,7 +84,7 @@ Consider the field intensities $\overrightarrow E \ \& \overrightarrow H$ from [
 $$ \overrightarrow S = \ \overrightarrow E \times \overrightarrow H$$
 Taking Dot product on both voltage 
 $$\nabla \cdot \overrightarrow S = \nabla .\ (\overrightarrow E \times \overrightarrow H)$$
->By  [[Vector Calculas#^2c0ce5|Vector Identity]]
+>By  [[Vector Calculus#^2c0ce5|Vector Identity]]
 
 $$\nabla . (\overrightarrow E \times \overrightarrow H) = \overrightarrow H .(\nabla \times \overrightarrow E) - \overrightarrow E .(\nabla \overrightarrow H)$$
 
