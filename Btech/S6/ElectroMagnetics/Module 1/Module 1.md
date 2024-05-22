@@ -18,16 +18,18 @@ short mode
 ## Contents
 
 - [[#Syllabus]]
-- [[#Introduction]]
-- [[#Vector Calculus]]
-- [[#Co-ordinate Systems]]
-- [[#Curl]]
-- [[Gradient of a Scalar]]
-- [[Divergence]]
-- [[#Differential Volume , Surface, and Line Elements]]
+- [[#Part 1]]
+- [[#Part 2]]
 
 ## Prerequisites
-- [[Vector Calculas]]
+- [[Vector Calculus]]
+ - [[Stokes Theorem]]
+ - [[Divergence]]
+ - [[Gauss Divergence Theorem]]
+ - [[Curl]]
+ - [[Co-ordinate Systems]]
+ - [[coulomb's law]]
+
 ### Introduction
 
 _Electromagnetic theory is a branch of physics that deals with the study of electromagnetic fields, which are the interaction of electric and magnetic fields. It encompasses the laws and principles that govern these fields, as well as their behavior and effects on matter._
@@ -45,46 +47,12 @@ _Electromagnetic theory is a branch of physics that deals with the study of elec
 ---
 
 ## Part 1
-### Vector Calculus
-
-![[Vector calculus.canvas|Vector Algebra]]
-
-#### Vector Algebra
-
-![[Vector Calculas]]
-
-#### Line Integral
-
-![[Line Integral]]
-
-#### Surface Integral
-
-![[Surface Integral]]
-
-#### Volume Integral
-
-![[Volume Integral]]
-
-#### Stoke's Theorem
-
-![[Stokes Theorem]]
-
-#### Curl
-
-![[Curl]]
-
-#### Divergence
-
-![[Divergence]]
-
-#### Gauss Divergence Theorem
-
-![[Gauss Divergence Theorem]]
-
-### Co-ordinate Systems
-
-![[Co-ordinate Systems]]
-
+ - [[Vector Calculus]]
+ - [[Stokes Theorem]]
+ - [[Divergence]]
+ - [[Gauss Divergence Theorem]]
+ - [[Curl]]
+ - [[Co-ordinate Systems]]
 ### Differential Volume , Surface, and Line Elements
 
 When the co-ordinates of point P are expanded to $(x + dx,y+dy+z+dz)$ or $(r + dr,\phi + d\phi , z+ dz)$ or $(r+dr , \theta + d\theta , \phi + d\phi)$ a **differential volume** $dv$ is formed
@@ -98,6 +66,8 @@ When the co-ordinates of point P are expanded to $(x + dx,y+dy+z+dz)$ or $(r + d
 1. Electric field and magnetic field
 2. Review of Coulomb’s law
 3. Gauss law and Amperes current law
+4. [[coulomb's law]]
+5. 
 
 ### Fields
 
@@ -107,11 +77,6 @@ There are 2 types of fields
 
 1. Scalar Fields : If the quantity is scalar eg : sound intensity in a theater
 2. Vector Fields : If the quantity is vector eg: Velocity of raindrops in the atmosphere
-
-#### Coulomb's Law
-
-![[coulomb's law]]
-
 
 
 #### Electric Field Due to a Point charge

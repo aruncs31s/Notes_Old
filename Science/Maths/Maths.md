@@ -7,7 +7,7 @@
 - [[Differential Equations]]
 - [[Number Theory]]
 	- [Mandelbrot Set](#mandelbrot%20set)
-- [[Vector Calculas]]
+- [[Vector Calculus]]
 - [[Matrices]]
 - [[Newton's Method]]
 
