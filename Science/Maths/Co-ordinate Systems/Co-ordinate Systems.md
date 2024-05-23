@@ -1,6 +1,10 @@
 ---
 id: Co-ordinate Systems
-aliases: 
+aliases:
+  - co-ordinates
+  - cartesian
+  - cylindrical
+  - spherical
 tags:
   - todo
 ---
@@ -35,7 +39,7 @@ $$
 ![[cartesian coordinate 3rd axis]]
 
 ### Cylindrical Coordinate System
-
+![[Pasted image 20240522222300.png]]
 ##### Differential Displacement
 $$
 dl = d_{\rho} a_{\rho} + \rho d_{\phi}a_{\psi} + d_{z}a_z
@@ -53,24 +57,25 @@ $$
 dv= \rho d_{\rho}d_{\phi}d_z 
 $$
 ### Spherical Coordinate System
+![[Pasted image 20240522222416.png]]
 
 ### Co-ordinate System Conversion
 
 1. Cartesian -> Cylindrical
 
-| Given | Transform                         |
-| ----- | --------------------------------- |
-| $x$   | $\rho = \sqrt{x^2+y^2}$           |
-| $y$   | $\theta = \tan^{-1}(\frac{y}{x})$ |
-| $z$   | $z$                               |
+| Given | Transform                        |
+| ----- | -------------------------------- |
+| $x$   | $r= \sqrt{x^2+y^2}$              |
+| $y$   | $\phi  = \tan^{-1}(\frac{y}{x})$ |
+| $z$   | $z$                              |
 
 2. Cylindrical -> Cartesian ^9663b2
 
-| Given  | Transform           |
-| ------ | ------------------- |
-| $\rho$ | $x=\rho \cos \phi$  |
-| $\phi$ | $y= \rho \sin \phi$ |
-| z      | z                   |
+| Given  | Transform        |
+| ------ | ---------------- |
+| $r$    | $x=r\cos \phi$   |
+| $\phi$ | $y= r \sin \phi$ |
+| $z$    | $z$              |
 
 3. Cartesian -> Spherical
 

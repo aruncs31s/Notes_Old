@@ -67,8 +67,6 @@ When the co-ordinates of point P are expanded to $(x + dx,y+dy+z+dz)$ or $(r + d
 2. Review of Coulomb’s law
 3. Gauss law and Amperes current law
 4. [[coulomb's law]]
-5. 
-
 ### Fields
 
 **Field is a function that specifies a particular quantity everywhere in a region**
@@ -77,6 +75,9 @@ There are 2 types of fields
 
 1. Scalar Fields : If the quantity is scalar eg : sound intensity in a theater
 2. Vector Fields : If the quantity is vector eg: Velocity of raindrops in the atmosphere
+
+#### Electric Field
+**It is defined as the electric force per unit charge**, The **Electric Field** is radially outward from positive charge and the radially inward in the case of negative charge
 
 
 #### Electric Field Due to a Point charge
@@ -109,7 +110,9 @@ $$
 $\therefore$ Electric field due to a point charge is
 
 $$
-E = \frac{1}{4 \pi \epsilon_0} \frac{Q} {R^{2}}
+\color{cyan}
+\boxed{
+E = \frac{1}{4 \pi \epsilon_0} \frac{Q} {R^{2}}}
 $$
 
 ![[Electric field direction.excalidraw]]
@@ -127,7 +130,7 @@ $$
 E = \frac{Q}{4\pi \epsilon_{0}r^{2}} \overrightarrow a_{r}\tag{Spherical}
 $$
 $$
-E = \frac{Q}{4 \pi \epsilon_{0 R^{2}}} \overrightarrow a_R\tag{Cartesian}
+E = \frac{Q}{4 \pi \epsilon_{0} R^{2}} \overrightarrow a_R\tag{Cartesian}
 $$
 
 #### Electric Flux Density 
