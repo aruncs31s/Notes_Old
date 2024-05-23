@@ -34,3 +34,11 @@ Created : 2024-05-13 17:07
 [^8]: Explanation of Distortion less line,Condition ${R \over L} ={G \over C}$
 [^9]: Explanation of TEM wave cannot propagate in a single conductor hollow waveguide
 [^10]: TE10 mode is dominant $\large f_{c}= \frac{1}{2\pi \sqrt{\mu \epsilon}}\sqrt{{\left( \frac{m\pi}{a}\right)^{2}}+ \left( \frac{n \pi}{b} \right)^{2}}= 3Ghz$
+
+
+
+#### Soln
+![[Pasted image 20240523070101.png]]
+$$
+E = {F \over Q}
+$$
