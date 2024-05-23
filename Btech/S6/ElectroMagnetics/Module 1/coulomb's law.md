@@ -31,6 +31,11 @@ $$
 
 > [!IMPORTANT] Multiple Chargers 
 > When dealing with multiple charges we use [SuperPosition](superposition%20princliple.md) principle
+> ,And the #equation for finding the force when dealing with multiple charge is 
+>$$
+\overrightarrow F ={Q \over 4\pi \epsilon_{0}} \sum_{k=1}^N \frac{Q_{k}\left(\overrightarrow{r} - \overrightarrow{r_k}\right)}{|\overrightarrow{r} - \overrightarrow{r_k}|^3}
+
+>$$
 
 
 #exampleProblem 
