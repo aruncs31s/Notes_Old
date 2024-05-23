@@ -166,6 +166,20 @@ $$
 >[!NOTE] The 0
 > The zero is due to no charges is being present on the surface when moving the first time , and after the first charge is reached the surface it will create an electric field and it the $Q_{2}$ and $Q_{3}$ will experience that ,Also when moving $Q_3$ there will be 2 charges   
 
+![[Pasted image 20240523064927.png]]
+![[Pasted image 20240523064959.png]]
+![[Pasted image 20240523065013.png]]
+![[Pasted image 20240523065030.png]]
+![[Pasted image 20240523065053.png]]
+![[Pasted image 20240523065105.png]]
+At surface S becomes large the first term tends to zero 
+
+![[Pasted image 20240523065140.png]]
+![[Pasted image 20240523065248.png]]
+![[Pasted image 20240523065303.png]]
+
+
+
 
 
 #### Maxwell's Equations 
