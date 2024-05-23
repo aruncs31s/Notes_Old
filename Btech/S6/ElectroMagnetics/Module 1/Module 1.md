@@ -30,6 +30,14 @@ short mode
  - [[Co-ordinate Systems]]
  - [[coulomb's law]]
 
+## Short Equations 
+
+| Var                          | Val               |     |
+| ---------------------------- | ----------------- | --- |
+| **Electric Field Intensity** | $$E = -\nabla V$$ |     |
+|                              |                   |     |
+
+
 ### Introduction
 
 _Electromagnetic theory is a branch of physics that deals with the study of electromagnetic fields, which are the interaction of electric and magnetic fields. It encompasses the laws and principles that govern these fields, as well as their behavior and effects on matter._
@@ -53,6 +61,15 @@ _Electromagnetic theory is a branch of physics that deals with the study of elec
  - [[Gauss Divergence Theorem]]
  - [[Curl]]
  - [[Co-ordinate Systems]]
+### Curl , Divergence ,Gradient 
+
+
+| Var                             | Val                                                                                                                                                                                                                                     |
+| ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Curl$$\nabla \times A $$        | $$\nabla \times \overrightarrow A = \begin{bmatrix} \hat a_{x} & \hat a_{y} & \hat a_{z} \\ \frac{\partial}{\partial x} & \frac{\partial }{\partial y}& \frac{\partial }{\partial z} \\ A_x & A_y & A_z \end{bmatrix} \tag{Cartesian}$$ |
+| [[Divergence]]<br>$$\nabla A $$ | $$\nabla A$$                                                                                                                                                                                                                            |
+|                                 |                                                                                                                                                                                                                                         |
+
 ### Differential Volume , Surface, and Line Elements
 
 When the co-ordinates of point P are expanded to $(x + dx,y+dy+z+dz)$ or $(r + dr,\phi + d\phi , z+ dz)$ or $(r+dr , \theta + d\theta , \phi + d\phi)$ a **differential volume** $dv$ is formed
