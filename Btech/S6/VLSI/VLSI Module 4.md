@@ -1,4 +1,4 @@
-# Arithmetic circuits
+# Module 4 Arithmetic circuits
 - Adders:
 	- Static adder,
 	- Carry-Bypass adder,
@@ -70,3 +70,20 @@ $$
 > - $T{bypass}$ =propagation delay through bypass multiplexer of a single stage.  
 > - $T{sum}$=time to generate the sum of final stage  
 >- $T_p$ = Total propagation time  :  
+
+
+#### Linear Carry Select adder 
+- In ==ripple carry adder==, ==every full adder has to wait for incoming carry before an outgoing carry== can be generated.  
+-  One way to reduce this delay by ==calculating both possible values of carry input & evaluate the result for both possibilities in advance==.  
+- Once the real values of incoming carry is known, correct result is selected with a single multiplexer stage.
+
+![[Linear Carry adder.canvas|Linear Carry adder]]
+﻿  
+> Consider the block of adder, which is adding bits K to K+3.  
+> - Instead of waiting an arrival of the output carry of bit K-1, ==both 0 & 1 possibilities are analyzed==.  
+> - When CO,K-1 finally settles, either the result of the 0 or 1 path is selected by the multiplexer.  
+> - Worst case propagation delay  
+> $${Tadd}=T{setup} + Mt{carry} +(N/M)T{mux} + T{sum}$$
+
+
+![[Linear Carry adder 4 Block.canvas|Linear Carry adder 4 Block]]
