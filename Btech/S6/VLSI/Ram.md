@@ -23,10 +23,26 @@ It is a type of Random Access Memory(RAM) that uses latching circuit[^3](flip fl
 - Requires 6 transistors
 
 ![|400x300](<https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/SRAM_Cell_(6_Transistors).svg/800px-SRAM_Cell_(6_Transistors).svg.png>)
+*In this figure*
+*WL* -> WordLine
+*BL* -> WordLine
 
-Here
-![WordLine](WordLine.md)
-![BitLine](BitLine.md)
+
+> [!important]  Word Line
+> The Word Line is another signal line in [SRAM](Ram.md#SRAM) that is ==used to select a specific row of memory cells==.
+>  - ==When a word line is activated (brought to a high voltage),== it enables access to the memory cells in the corresponding row.
+>  - During a read operation, activating the word line allows the data stored in the selected row to be accessed via the bit lines.
+>  - During a write operation, activating the word line enables the selected memory cells to be written to or modified based on the data present on the bit lines.
+>  - Word Lines are used to select one particular row(or word) in memory
+ 
+
+ 
+> [!NOTE] Bit Line
+> Bit Line is a signal line in [SRAM](Ram.md#SRAM) that connects to the storage nodes of memory cells within a specific row ,
+> - During a read operation, the stored data is accessed by activating the appropriate word line and ==sensing the voltage level on the bit line to determine whether it represents a logic high or low==.
+> - During a write operation, the ==bit line is used to write data into the memory cells==. The desired data is placed on the bit line, and the appropriate word line is activated to store the data in the selected memory cell 
+> *While Reading*
+>While read operation, the contents of selected word will be available on bit lines.
 
 #working
 

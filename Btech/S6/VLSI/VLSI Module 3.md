@@ -1,5 +1,4 @@
-# VLSI Module 3
-Created : 2024-04-17 20:22
+# Dynamic logic Design and Storage Cells
 
 
 ## Contents
@@ -7,9 +6,3 @@ Created : 2024-04-17 20:22
 	- [SRAM](Ram.md#SRAM)
 - [ROM](ROM.md)
 
-
-![Ram](Ram.md)
-
-![ROM](ROM.md)
-## References
-1. 
