@@ -1,0 +1,8 @@
+---
+id: MOSFET
+aliases: 
+tags:
+---
+
+
+
