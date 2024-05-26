@@ -25,6 +25,7 @@ Created : 2024-05-24 02:58
   - Realization of logic functions with static CMOS logic,
   - Pass transistor logic, and transmission gate logic
 
+#### MOSF
 ## References
 
 1. Ktu Syllabus
