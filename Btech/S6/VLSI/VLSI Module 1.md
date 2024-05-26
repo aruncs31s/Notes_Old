@@ -5,9 +5,9 @@ tags: []
 mindmap-plugin: basic
 ---
 
-# VLSI Design methodologies
+# VLSI Design Methodologies
 
-## Contents ^3c942261-3e8a-8e68
+## Contents
 
 - Prerequisites
   - 1.  [[MOSFET]]
@@ -64,16 +64,63 @@ Digital CMOS (Complementary Metal Oxide Semiconductor) integrated circuits(ICs) 
 
 #### ASIC
 
-An application-specific integrated circuit is an integrated circuit (IC) that’s custom-designed for a particular task or application . Unlike FPGA boards that can be programmed to meet a variety of use case requirements after manufacturing, ==ASIC designs are tailored early in the design process to address specific needs==. The two primary ASIC design methods are gate-array and full-custom. 
-- ASIC may contain a very large part of the electronics needed on a single integrated circuit 
-#example 
+An application-specific integrated circuit is an integrated circuit (IC) that’s custom-designed for a particular task or application . Unlike FPGA boards that can be programmed to meet a variety of use case requirements after manufacturing, ==ASIC designs are tailored early in the design process to address specific needs==. The two primary ASIC design methods are gate-array and full-custom.
+
+- ASIC may contain a very large part of the electronics needed on a single integrated circuit
+  #example
+
 1. Chip for toy bear
 2. Chip for satellite
 
+##### ASIC Classification
+
+![|400x300](https://www.electronicshub.org/wp-content/uploads/2020/01/Types-of-ASIC.jpg)
+
+
+- Full Custom
+- [[#Semi-Custom ASIC|Semi Custom]]
+  - Standard Cell Based
+  - Gate array based
+    - Channeled
+    - Channel Less
+    - Structured Gate
+- Programmable
+  - PLD
+  - FPGA
+
+##### Semi-Custom ASIC
+﻿  
+- ==To shorten the design time and cut down the cost of full-custom ASICs==, numerous other design approaches have been developed and these are called as Semi- Custom ASIC Designs.  
+- All logic cells are pre-designed & some mask layers are customized.  
 
 
 
- ![[Pasted image 20240524184406.png]]
+###### Standard cell based:  
+![](https://www.electronicshub.org/wp-content/uploads/2020/01/Standard-Cell-Design.jpg)
+
+- A Standard Cell based ASIC uses predesigned, pretested & pre-characterised logic cells like Gates, Multiplexers, Flip-flops, Adders etc.  
+- Each standard cell can be optimized individually during the design of cell library each and every transistor can be chosen to reduce area & power.  
+- These logic cells are known as Standard Cells that are already designed and stored in a library.  
+- This library is imported into the CAD tool and the design can performed using the components of the library as inputs.  
+-  Standard cell areas are built of rows of standard cells like a wall of bricks.  
+- The standard cell design may also contain a larger and more complex predesigned cells like Microcontrollers or Microprocessors.  
+- These larger cells are called as Megacells. Also known as megacells, megafunctions, fullcustom blocks, system-level macros (SLMs), fixed blocks, cores, or Functional Standard Blocks (FSBs).  
+#advantages 
+- Reduced time and less risk compared to full custom designs.
+#disadvantages 
+- The disadvantage is the time and expense to make a standard library and to fabricate these designs.  
+
+
+##### Gate Array Based ASIC
+- In a gate-array-based ASIC, the transistors are predefined on the silicon wafer.  
+- The predefined pattern of transistors is called the base array.  
+- The smallest element that is replicated to make the base array is called the base or primitive cell.  
+- the ASIC designer can choose predesigned logic cells from the gate array library for better and easy design.  
+- The cells present in the gate array library are often called as Macros.  
+Three types: 
+- Channeled gate array  
+- Channelless gate array  
+- Structured gate array  
 
 ## References
 
