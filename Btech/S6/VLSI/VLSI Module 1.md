@@ -7,11 +7,11 @@ mindmap-plugin: basic
 
 # VLSI Design Methodologies
 
-## Contents
-
-- Prerequisites
+## Prerequisites
   - 1.  [[MOSFET]]
   - 2.
+## Contents
+
 
 ## Syllabus
 
@@ -68,10 +68,12 @@ An application-specific integrated circuit is an integrated circuit (IC) that’
 
 - ASIC may contain a very large part of the electronics needed on a single integrated circuit
   #example
-
-1. Chip for toy bear
-2. Chip for satellite
-
+	1. Chip for toy bear
+	2. Chip for satellite
+#disadvantages 
+- Low level flexibility for programming
+- high cost per unit
+- large time to market
 ##### ASIC Classification
 
 ![|400x300](https://www.electronicshub.org/wp-content/uploads/2020/01/Types-of-ASIC.jpg)
