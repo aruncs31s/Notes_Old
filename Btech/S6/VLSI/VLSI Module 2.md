@@ -148,6 +148,7 @@ where Vin is assumed to be in the voltage range [0, $V_{DD}$] with $V_{DD}$ the 
 | Input                               | 0               |
 | Current flow btw $V_{dd} \& V_{ss}$ | NO Current Flow |
 ###### Region 2 : Input = $V_{DD}$
+*Opposite of Region 1*
 
 | pMOS                                | OFF             |
 | ----------------------------------- | --------------- |
@@ -158,10 +159,14 @@ where Vin is assumed to be in the voltage range [0, $V_{DD}$] with $V_{DD}$ the 
 
 ###### Region 3 
 
-| nMOS  | Saturation        |
-| ----- | ----------------- |
-| pMOS  | Linear            |
-| Input | Slowly Increasing |
+| nMOS     | Saturation        |
+| -------- | ----------------- |
+| pMOS     | Linear            |
+| Input    | Slowly Increasing |
+| Output   | Slowly Decreasing |
+| $I_{ds}$ | Slowly Increases  |
+
+###### Region
 
 
 ## References
