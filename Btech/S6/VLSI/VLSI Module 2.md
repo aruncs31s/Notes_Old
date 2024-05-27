@@ -166,9 +166,41 @@ where Vin is assumed to be in the voltage range [0, $V_{DD}$] with $V_{DD}$ the 
 | Output   | Slowly Decreasing |
 | $I_{ds}$ | Slowly Increases  |
 
-###### Region
+###### Region 4 
 
+
+| nMOS     | Linear                      |
+| -------- | --------------------------- |
+| pMOS     | Saturation                  |
+| Input    | Increasing towards $V_{DD}$ |
+| Output   | Decreasing towards 0        |
+| $I_{ds}$ | Slowly Decreases            |
+
+###### Region 3
+
+| nMOS      | SAT       |
+| --------- | --------- |
+| pMOS      | SAT       |
+| Current   | MAX       |
+| $V_{in}$  | $V_{out}$ |
+| $V_{out}$ | $V_{in}$  |
+
+#### Properties
+- An important property of CMOS is that the output logic swing V, is given by  
+ $$VL = VOH-VOL = V DD$$ 
+ - This shows that the CMOS inverter exhibits a full-rail output voltage swing, i.e., the entire power supply range.  
+ - This helps provide ==well-defined logic 0 and logic 1== voltages.
+
+##### Input Low voltage ($V_{IL}$)
+- The input low voltage $V_{IL}$ represents the ==largest value of $V_{in}$== ==that can be interpreted as a logic 0== input.  
+- If the input voltage satisfies Vin<V1 then the output voltage Vout is either at VDD or close to it, indicating that the output can be interpreted as a logic 1.  
+- If Vin is increased above VIL, the circuit moves into the transition region. 
+-  Using stability arguments, we define $V_{IL}$  as the point where the slope of the VTC has a value of -1, i.e.,  
+$$
+{dV_{out} \over dV_{in}} = -1
+$$
 
 ## References
 
 1. Ktu Syllabus
+2. https://youtu.be/XEzzYu4wkw4?si=BEvwC6kDAsLNDimd
