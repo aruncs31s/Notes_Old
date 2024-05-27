@@ -45,6 +45,25 @@ In the saturation region, the MOSFETs have their _IDS_ constant in spite of an
 | $V_{gs} \gt V_t \& V_{ds} \lt \left(V_{gs} - V_t \right)$ | Linear Region     |
 | $V_{gs} \gt V_t \& V_{ds} \gt \left(V_{gs} - V_t \right)$ | Saturation Region |
 
+> [!NOTE] $V_{gs}$
+> $V_{gs}$​ is crucial because it determines the ==operational state of the MOS transistor==, specifically whether it is in cutoff, triode, or saturation mode.
 
+
+###### Cut-Off Region
+It happens when 
+$$
+V_{gs} \lt V_t
+$$
+- In this region, the MOS transistor is essentially off, and there is negligible current flowing from the Drain (D) to the Source (S).
+
+###### Linear/Triode Region
+It happens when 
+$$
+V_{gs} \gt V_t \& V_{ds} \lt \left(V_{gs} - V_t \right)
+$$
+- ie, $V_{gs} \gt V_{th}$ and  $V_{DS}$​ (the voltage difference between the Drain and the Source) is small enough $V_{ds} \lt \left(V_{gs} - V_t \right)$
+
+
+- [ ] finish $I_d$ MOS TRANSISTOR CURRENT EQUATIONS
 
 
