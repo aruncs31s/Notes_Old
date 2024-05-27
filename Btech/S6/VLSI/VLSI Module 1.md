@@ -9,10 +9,17 @@ mindmap-plugin: basic
 
 ## Prerequisites
   - 1.  [[MOSFET]]
-  - 2.
+  - 2. [[VLSI Module 2#CMOS INVERTER|CMOS]]
 ## Contents
-
-
+- [[#Syllabus]]
+- [[#Introduction]]
+- [[#ASIC]]
+	- [[#ASIC Classification]]
+	- [[#Semi-Custom ASIC]]
+	- [[#Standard cell based]]
+	- [[#Gate Array Based ASIC]]
+- [[#FPGA(Field Programmable Gate Array)]]
+- [[#References]]
 ## Syllabus
 
 - [[#Introduction]]:
@@ -37,7 +44,6 @@ Typically, the required computational and information processing power of these 
 
 - Less area/volume and therefore, compactness
 - Less power consumption
-
 * Less testing requirements at system level
 * Higher reliability, mainly due to improved on-chip interconnects
 * Higher speed, due to significantly reduced interconnection length
