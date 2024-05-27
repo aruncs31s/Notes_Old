@@ -10,8 +10,7 @@ mindmap-plugin: basic
 Created : 2024-05-24 02:58
 
 ## Contents
-
--
+- [[#Syllabus]]
 
 ## Syllabus
 
