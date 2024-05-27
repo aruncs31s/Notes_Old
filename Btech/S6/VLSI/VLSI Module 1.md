@@ -124,6 +124,26 @@ Three types:
 - Channelless gate array  
 - Structured gate array  
 
+
+#### SOC(System On Chip)
+A **system on a chip** or **system-on-chip** is an integrated circuit that integrates most or all components of a computer or other electronic system.
+#### FPGA(Field Programmable Gate Array)
+A **field-programmable gate array** (**FPGA**) is a ==type of configurable integrated circuit that can be repeatedly programmed post manufacturing==. FPGAs are a ==subset of logic devices referred to as programmable logic devices ("PLDs")==.
+
+>[!note] PLDs 
+>They consist of an array of programmable logic blocks with a connecting grid, that can be configured "in the field" to interconnect with other logic blocks to perform various digital functions.
+
+*FPGAs are often used in limited (low) quantity production of custom-made products, and in research and development, where the higher cost of individual FPGAs is not as important, and where creating and manufacturing a custom circuit wouldn't be feasible.* 
+
+#applications
+1. telecommunications
+2. automotive
+3. aerospace
+4. and industrial sectors, which benefit from their flexibility, high signal processing speed, and parallel processing abilities.
 ## References
 
-- 1. [Ktu Syllabus]()
+1. [Ktu Syllabus]()
+2. https://en.wikipedia.org/wiki/Field-programmable_gate_array
+3. 
+
+
