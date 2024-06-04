@@ -48,7 +48,7 @@ Created : 2024-05-24 02:58
 - ==NMOS acts as a switch==
 
 
-RESISTIVE LOAD NMOS INVERTER
+##### RESISTIVE LOAD NMOS INVERTER
 
 ![[Pasted image 20240527000401.png]]
 
@@ -146,7 +146,7 @@ where Vin is assumed to be in the voltage range [0, $V_{DD}$] with $V_{DD}$ the 
 | Output                              | VDD             |
 | Input                               | 0               |
 | Current flow btw $V_{dd} \& V_{ss}$ | NO Current Flow |
-###### Region 2 : Input = $V_{DD}$
+###### Region 5 : Input = $V_{DD}$
 *Opposite of Region 1*
 
 | pMOS                                | OFF             |
@@ -156,7 +156,7 @@ where Vin is assumed to be in the voltage range [0, $V_{DD}$] with $V_{DD}$ the 
 | Input                               | $V_{DD}$        |
 | Current flow btw $V_{dd} \& V_{ss}$ | NO Current flow |
 
-###### Region 3 
+###### Region 2
 
 | nMOS     | Saturation        |
 | -------- | ----------------- |

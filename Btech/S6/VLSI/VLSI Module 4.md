@@ -19,8 +19,8 @@ Adders can be optimized in either the `logic level` or `hardware` level
 
 > [!INFO] Key Terms
 >
-> - Carry propagation Delay : - Carry propagation delay of a full adder is the time taken by it to produce the output carry bit.
-> - Sum propagation delay of a full adder is the time taken by it to produce the output sum bit.
+> - Carry propagation Delay : - Carry propagation delay of a full adder is the ==time taken by it to produce the output carry bit==.
+> - Sum propagation delay of a full adder is the ==time taken by it to produce the output sum bit==.
 
 #### Ripple Carry Adder
 
@@ -57,7 +57,7 @@ $$
    Delete =  {\bar A \bar B}
    $$
 
-### Carry Bypass adder
+#### Carry Bypass adder
 
 ![](Pasted%20image%2020240417192854.png)
 if $P_0P_1P_2P_3 = BP =1$ carry is directly passed to ==next block== .ie , $C_{o,3}= C_{i}= 0$ when $BP = 1$
@@ -108,7 +108,7 @@ $$
 - For 2,3,4 stages the no bits is increased wrt to their order to take advantage of the carry generation
 
 #### Square-root Carry Select adder
-![[Pasted image 20240526021026.png]]
+![[Pasted image 20240526021026.png.jpg]]
 - Here we can see that the 1st stage only has 2 bits as input (A0,B0) and the input bits increasing as the block stage increases 3 Bits for 2 Block , 4 bits for 3rd Block so on,
 - This is done to take advantage of the calculation as debriefed below
 
