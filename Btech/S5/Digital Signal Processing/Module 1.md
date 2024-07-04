@@ -23,39 +23,16 @@
 
 ### Fourier Series
 The Fourier series is a mathematical tool used to ==represent a periodic function as the sum of simple sine and cosine functions==. It is named after Jean-Baptiste Joseph Fourier, who introduced the concept in the early 19th century. The Fourier series is particularly useful for ==analyzing signals that are periodic in nature==.
-`FS` is represented by $f(t)$ with time period $T$ and it is equal to 
-$$
-f(t) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[a_n \cos(n\omega_0 t) + b_n \sin(n\omega_0 t)\right]
-$$
-or
-$$
-x(t) = \sum_{k=-\infty}^\infty X[k]e^{jk\omega_0t}
-$$
-and 
-$$
-X[k] = {1 \over T} \int_{(t)} x(t)e^{-j\omega_0t} dt
-$$
-$x(t)$ has period T and $\omega_0 = {2 \pi \over T}$ 
 
-> [!IMPORTANT] Applicability
-> `Fourier Series` is only used for periodic signals 
+For More [[Fourier Series and Transform#Fourier Series|Click Here]]
 
 
 
 ### Fourier Transform
 The Fourier Transform is a mathematical technique used in signal processing and image analysis, among other fields, ==to transform a function of time (a signl) into a function of frequency==
 
-$$
-F(\omega) = \int_{-\infty}^{\infty} f(t) e^{-j\omega t} dt\
-$$
-where 
-- $F(\omega)$ Fourier transform coefficient of $f(t)$
-- $\omega$ is the Frequency
+For More [[Fourier Series and Transform#Fourier Transform|Click Here]]
 
-> [!NOTE] FT
-> The Fourier Transform decomposes a signal into its constituent
- frequencies,  allowing for the analysis of the signal's frequency
- components 
 #### Inverse Fourier Transform
 
 $$

@@ -1,8 +1,6 @@
 # Error Performance of BPSK
 ## Contents
-- [CodeFile Github](https://github.com/aruncs31s/BtechEC/blob/S6/Communication%20Lab/Expt_1_Generation_and_Detection_of_BPSK/generation_and_Detection_of_BPSK.md]
-
-
+- [CodeFile Github](https://github.com/aruncs31s/BtechEC/blob/S6/Communication%20Lab/Expt_1_Generation_and_Detection_of_BPSK/generation_and_Detection_of_BPSK.md)
 ---
 
 #### **Aim:** 
@@ -72,7 +70,7 @@ N=10000000;
 EbN0dB = -6:2:10;
 %---------------------------------------------
 data=randn(1,N)>=0; bpskModulated = 2*data-1;
-M=2;
+M=2; % message points 
 Rm=log2(M);
 Rc=1;
 BER = zeros(1,length(EbN0dB));
@@ -216,6 +214,10 @@ grid on;
 > grid on;
 > ```
 
+```
+theoreticalBER = 0.5 * erfc(sqrt(10.^(EbN0dB / 10)));
+```
+*This calculates the theoretical BER for BPSK using the complementary error function*
 
 
 [^3]: 
