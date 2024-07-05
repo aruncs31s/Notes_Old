@@ -1,7 +1,15 @@
+---
+id: Rust By Practice
+aliases: []
+tags: []
+---
+
 ## Variables
+
 - [Scope](#scope)
 
 1.  A variable can be used only if it has been initialized
+
 ```rust
 
 // Fix the error below with least amount of modification to the code
@@ -13,7 +21,9 @@ fn main() {
     println!("Success!");
 }
 ```
+
 soln
+
 ```rust
 
 // Fix the error below with least amount of modification to the code
@@ -32,19 +42,21 @@ fn main() {
 // Fill the blanks in the code to make it compile
 fn main() {
     let __ __ = 1;
-    __ += 2; 
-    
+    __ += 2;
+
     assert_eq!(x, 3);
     println!("Success!");
 }
 ```
+
 soln
+
 ```rust
 // Fill the blanks in the code to make it compile
 fn main() {
     let mut x = 1;
-    x += 2; 
-    
+    x += 2;
+
     assert_eq!(x, 3);
     println!("Success!");
 }
@@ -52,7 +64,8 @@ fn main() {
 
 ### Scope
 
-1. 
+1.
+
 ```rust
 // Fix the error below with least amount of modification
 fn main() {
@@ -61,6 +74,9 @@ fn main() {
         let y: i32 = 5;
         println!("The value of x is {} and value of y is {}", x, y);
     }
-    println!("The value of x is {} and value of y is {}", x, y); 
+    println!("The value of x is {} and value of y is {}", x, y);
 }
 ```
+
+### Char 
+
