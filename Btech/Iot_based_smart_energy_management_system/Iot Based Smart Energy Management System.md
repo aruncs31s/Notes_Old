@@ -45,6 +45,6 @@ Target Date: 2024-04-07
 ![[project_block_diagram.png]]
 
 #### References
-1. ![17_SI_10_CSDRA2020](17_SI_10_CSDRA2020.pdf)
-2. ![Solar Trackng System](Solar%20Trackng%20System.pdf)
+1. [17_SI_10_CSDRA2020](17_SI_10_CSDRA2020.pdf)
+2. [Solar Trackng System](Solar%20Trackng%20System.pdf)
 3. 

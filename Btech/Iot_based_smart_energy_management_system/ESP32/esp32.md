@@ -214,6 +214,9 @@ Serial.begin(115200);
 |        |               |                                                 |                   |
 | D04    | GPIO04        | Connecting Current Sensor                       | Energy Monitoring |
 | D05    | GPIO05        | Connecting Voltage Sensor                       | E Monitoring      |
+#### Exceptions
+- ADC2 is not available when the Wifi is turned on
+
 
 #pinDefine
 ```c
