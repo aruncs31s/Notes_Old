@@ -10,4 +10,20 @@ network={
     key_mgmt=WPA-PSK
 }
 ```
-- create the `/etc/systemd/system/wpa_supplicant.service` 
+2. create the `/etc/systemd/system/wpa_supplicant.service` 
+```bash
+```javascript
+[Unit]
+Description=WPA supplicant
+Wants=network.target
+After=network.target
+[Service]
+Type=simple
+ExecStartPre=/sbin/ifconfig wlan0 up
+ExecStart=/sbin/wpa_supplicant -i wlan0 -c /etc/wpa_supplicant/wpa_supplicant.conf
+RemainAfterExit=yes
+[Install]
+WantedBy=multi-user.target
+```
+
+```
