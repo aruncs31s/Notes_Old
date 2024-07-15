@@ -33,3 +33,4 @@ tags: []
 | Key        | Doing    |
 | ---------- | -------- |
 | <Leader>qn | next fix |
+| qp         | Previous |
