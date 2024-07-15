@@ -27,3 +27,9 @@ tags: []
 
 - `copen` to access quickfix list
 - or i can do telescope search through everyfile for a current word and add it to quick list by pressing `Ctrl+Q`
+
+##### Navigation
+
+| Key        | Doing    |
+| ---------- | -------- |
+| <Leader>qn | next fix |
