@@ -8,6 +8,7 @@ tags: []
 
 #### Standard Connection
 
+_Front facing the clip on the top , left to right_
 1 -> White Orenge
 2 -> Orenge
 3 -> White Green
