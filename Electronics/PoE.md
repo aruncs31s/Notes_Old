@@ -25,3 +25,8 @@ tags: []
 - Pin 5: Positive DC
 - Pin 7: Negative DC
 - Pin 8: Negative DC
+
+[[PowerBeamM5]] antena uses the Mode B which means
+
+- Blue pairs are _+ve_ and
+- Brown pairs are _-ve_
