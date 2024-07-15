@@ -14,6 +14,5 @@ tags: []
 4 -> Blue
 5 -> White Blue
 6 -> Green
-
-- [ ] 7 ->
-      8 ->
+7 -> White Brown
+8 -> Brown
