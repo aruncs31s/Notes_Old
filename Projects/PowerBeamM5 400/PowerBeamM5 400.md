@@ -1,7 +1,8 @@
 ---
 id: PowerBeamM5 400
 aliases: []
-tags: []
+tags:
+  - "[]:w"
 ---
 
 # Power Beam M5 400
