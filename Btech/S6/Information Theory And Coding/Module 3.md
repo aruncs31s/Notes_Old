@@ -41,9 +41,18 @@ A set _G_ on which binary operation $*$ is defined is called **Group** , and it 
    $$
 
 - e -> identity element of $G$
-  ![[Pasted image 20240531203656.png]]
+1. For any element $a$ in $G$, there exists another element $a\prime$ in $G$ such that 
+$$
+a \times a\prime = a\prime \times a = e
+$$
+- *Where $a\prime$ is called an inverse of a *
 
-![[Pasted image 20240531203730.png]]
+	 ![[Pasted image 20240531203656.png]]
+
+4. A group `G` is said to be commutative if its binary operation , also satisfies the following . For any `a` and `b` `G`
+$$
+a \times b = b \times a
+$$
 
 #example
 
