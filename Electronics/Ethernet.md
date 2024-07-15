@@ -13,6 +13,7 @@ tags: []
 3 -> White Green
 4 -> Blue
 5 -> White Blue
-6 ->
-7 ->
-8 ->
+6 -> Green
+
+- [ ] 7 ->
+      8 ->
