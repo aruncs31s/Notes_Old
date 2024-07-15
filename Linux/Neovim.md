@@ -19,6 +19,10 @@ tags: []
 - https://github.com/aruncs31s/Astronvim_config_new
 -
 
+#### Buffer
+
+- close buffer -> `bd`
+
 #### Quick Fix List
 
 - `copen` to access quickfix list
