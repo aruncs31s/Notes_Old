@@ -34,3 +34,9 @@ tags: []
 | ---------- | -------- |
 | <Leader>qn | next fix |
 | qp         | Previous |
+
+###### Search and Replace
+
+```bash
+cdo s/something/tosomething | update
+```
