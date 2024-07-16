@@ -33,5 +33,6 @@ I kept 13.1 V to constant to charge the battery from 01:14 AM to
 | ---------------- | --------------- | ------- |
 | 10 AM            |                 |         |
 | 12 PM            |                 |         |
-
-|
+| 2 PM             |                 |         |
+| 4 PM             |                 |         |
+|                  |                 |         |
