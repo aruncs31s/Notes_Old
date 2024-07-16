@@ -31,3 +31,7 @@ I kept 13.1 V to constant to charge the battery from 01:14 AM to
 
 | Measuring Points | Signal Strength | Climate |
 | ---------------- | --------------- | ------- |
+| 10 AM            |                 |         |
+| 12 PM            |                 |         |
+
+|
