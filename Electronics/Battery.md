@@ -50,7 +50,7 @@ There are four stages instead of 3 stages in [[#Sealed Lead Acid(SLA) Battery|SL
 ###### Stage 1 : Constant Current
 
 - $30\%$ to $100\%$ current of the capacity rating of the battery
-- Compared to SLA Batteries the LIFEPo4 battery takes only 1 hour to complete the first stage where as the SLA battery takes almost 4 ho ur to complete the first stage
+- [ ] Compared to SLA Batteries the LIFEPo4 battery takes only 1 hour to complete the first stage where as the SLA battery takes almost 4 ho ur to complete the first stage
 
 - The lithium Ion Battery can charge fast even with only .5C($50%$ of the charging capacity )
 
