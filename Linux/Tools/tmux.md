@@ -11,37 +11,35 @@ tags: []
 #Keybinding
 
 ## **Keybindings**
+
 - I'm Using **`Ctrl + b`** (default Leader) as my leader key or **`prefix`** and i will use **`^`** to denote Control.
-- And i Use **`M`** to denote *`Alt`*
+- And i Use **`M`** to denote _`Alt`_
 
-- ***Navigation***
+- **_Navigation_**
 
-| Combination | Used| 
-|--------------|-----| 
-|M-Left|  Select Left Pane| 
-|M-h|        Select Left Pane|
-|M-Right|Select Right Pane|
-|M-l|Select Right Pane|
-|M-Down| Select Bottom Pane|
-|M-j| Select Bottom Pane|
-|M-Up| Select Top Pane|
-|M-k| Select Top Pane|
-| Shift-Left| Select Left Window|
-|Shift-Right | Select Right Window| 
+| Combination | Used                |
+| ----------- | ------------------- |
+| M-Left      | Select Left Pane    |
+| M-h         | Select Left Pane    |
+| M-Right     | Select Right Pane   |
+| M-l         | Select Right Pane   |
+| M-Down      | Select Bottom Pane  |
+| M-j         | Select Bottom Pane  |
+| M-Up        | Select Top Pane     |
+| M-k         | Select Top Pane     |
+| Shift-Left  | Select Left Window  |
+| Shift-Right | Select Right Window |
 
+- **_Spliting_**
 
-- ***Spliting***
+| Combination | Used               |
+| ----------- | ------------------ |
+| M-v         | Split Vertically   |
+| M-g         | Split Horizontally |
 
-| Combination | Used| 
-|-----|------------|
-|M-v| Split Vertically|
-|M-g| Split Horizontally|
+\*You can also use default `^b + "` and `^b + %` to split
 
-*You can also use default `^b + "` and `^b + %` to split  
-
-
-
- - **workflow**
+- **workflow**
 
 | Combination | Used             |
 | ----------- | ---------------- |
@@ -55,18 +53,18 @@ tags: []
 | M-8         | Move to Window 8 |
 | M-9         | Move to Window 9 |
 
-
-| Combination | Used|
-|-----|-------|
-| M-c | New-Window|
-| M-r | Rotate Window|
-| M-z | Toggle Zoom| 
-| M-t | Toggle Clock |
-| M-w| Window Chooser|
-|M-f | tmux-fzf|
-|M-s | Create New Session |
+| Combination | Used               |
+| ----------- | ------------------ |
+| M-c         | New-Window         |
+| M-r         | Rotate Window      |
+| M-z         | Toggle Zoom        |
+| M-t         | Toggle Clock       |
+| M-w         | Window Chooser     |
+| M-f         | tmux-fzf           |
+| M-s         | Create New Session |
 
 #wholeCode
+
 ```bash
 # Do not close when detaching
 set-option -g detach-on-destroy off
@@ -104,7 +102,7 @@ bind -n M-g splitp -h
 
 bind -n M-w choose-window
 
-# reload the config 
+# reload the config
 bind C-r source ~/.tmux.conf
 
 # Create New Window
@@ -126,13 +124,13 @@ bind -n M-p new-session -A -s Git
 
 # Toggle the Status bar
 bind -n M-u set -g status off
-bind -n M-U set -g status on 
+bind -n M-U set -g status on
 
 
 # Vim style pane selection
 
 # bind h select-pane -L
-# bind j select-pane -D 
+# bind j select-pane -D
 # bind k select-pane -U
 # bind l select-pane -R
 #
@@ -178,7 +176,7 @@ bind -n M-0 select-window -t 10
 
 
 
-#### catppuccin 
+#### catppuccin
 # By https://github.com/omerxx/dotfiles/blob/master/tmux/tmux.conf
 
 
@@ -205,7 +203,7 @@ set -g @catppuccin_date_time_text "%H:%M"
 
 
 
-bind -n M-f run-shell "/home/aruncs/.tmux/plugins/tmux-fzf/main.sh"
+bind -n M-f run-shell "~/.tmux/plugins/tmux-fzf/main.sh"
 bind -n M-s run-shell "/home/aruncs/.tmux/plugins/tmux-fzf/scripts/session.sh switch"
 
 # bind -n M-f run "fzf-tmux"
@@ -215,7 +213,7 @@ TMUX_FZF_LAUNCH_KEY="C-f"
 
 run '~/.tmux/plugins/tpm/tpm'
 
-set -g status-position top 
+set -g status-position top
 
 # set vi-mode
 set-window-option -g mode-keys vi
@@ -225,13 +223,13 @@ bind-key -T copy-mode-vi C-v send-keys -X rectangle-toggle
 bind-key -T copy-mode-vi y send-keys -X copy-selection-and-cancel
 
 
-## match the working directory of new pane to current one 
+## match the working directory of new pane to current one
 bind '"' split-window -v -c "#{pane_current_path}"
 bind % split-window -h -c "#{pane_current_path}"
 ```
 
-
 #### Tmux Litle hacks
+
 source : https://aliquote.org/post/tmux-little-hacks/
 
 ```bash
@@ -290,7 +288,3 @@ bind-key -n M-y copy-mode
 bind-key -n M-z resize-pane -Z
 
 ```
-
-
-
-
