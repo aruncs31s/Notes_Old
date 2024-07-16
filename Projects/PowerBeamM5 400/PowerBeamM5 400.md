@@ -26,3 +26,8 @@ The sensor is a self-emptying tipping bucket collector. This means that for each
 | Charing | 12.40 Volts charges at a rate of 1 A per Sec |
 
 I kept 13.1 V to constant to charge the battery from 01:14 AM to
+
+### Measuring
+
+| Measuring Points | Signal Strength | Climate |
+| ---------------- | --------------- | ------- |
