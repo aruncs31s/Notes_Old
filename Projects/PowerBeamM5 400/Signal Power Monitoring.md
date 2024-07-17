@@ -34,9 +34,6 @@ tags: []
 ##### Batter Life LiFEPo4
 
 - Starting Voltage 13.1
-- Measured From 2024-07-17 5:10 PM to 10:02 PM Still Left Most of the life =>  `292 Minutes` => `~5 Hours`
-- Working continues till 8:20 AM => Total of `5 Hours`  + `7 Hours and 20 Minutes `
-
-
-
+- Measured From ==2024-07-16 5:10 PM== to ==10:02 PM== Still Left Most of the life =>  `292 Minutes` => `~5 Hours`
+- Working continues till ==2024-07-17 18:20 AM== => Total of `5 Hours`  + `7 Hours and 20 Minutes `
 
