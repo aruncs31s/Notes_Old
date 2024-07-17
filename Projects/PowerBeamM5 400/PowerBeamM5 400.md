@@ -27,12 +27,17 @@ The sensor is a self-emptying tipping bucket collector. This means that for each
 
 I kept 13.1 V to constant to charge the battery from 01:14 AM to
 
+##### Batter Life
+
+- Starting Voltage 13.1
+- Measured From 2024-07-17 5:10 PM to 10:02 PM Still Left Most of the life
+
 ### Measuring
 
-| Measuring Points | Signal Strength | Climate |
-| ---------------- | --------------- | ------- |
-| 10 AM            |                 |         |
-| 12 PM            |                 |         |
-| 2 PM             |                 |         |
-| 4 PM             |                 |         |
-| 8 PM             |                 |         |
+| Measuring Points | Status |
+| ---------------- | ------ |
+| 10 AM            |        |
+| 12 PM            |        |
+| 2 PM             |        |
+| 4 PM             |        |
+| 8 PM             | True   |
