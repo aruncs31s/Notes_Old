@@ -27,6 +27,12 @@ The sensor is a self-emptying tipping bucket collector. This means that for each
 
 I kept 13.1 V to constant to charge the battery from 01:14 AM to
 
+##### Batter Life
+
+- Starting Voltage 13.1
+- Measured From 2024-07-17 5:10 PM to 10:02 PM Still Left Most of the life
+- Now the voltage is 12.78 V
+
 ### Measuring
 
 | Measuring Points | Status |
