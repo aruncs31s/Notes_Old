@@ -3,7 +3,10 @@ Created : 2024-05-07 02:40
 
 
 ## Contents
-![[ESP8266-Ultrasonic-Sensor-Wiring-Fritzing-Diagram.webp]]
+
+
+![](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/06/ESP32-Ultrasonic-Sensor-Wiring-Fritzing-Diagram.png?w=846&quality=100&strip=all&ssl=1)
+
 
 
 - [[Ultrasonic Sensor Code]]

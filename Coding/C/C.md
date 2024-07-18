@@ -1,23 +1,28 @@
+---
+id: C
+aliases: []
+tags: []
+---
+
 ## Data Types
+
 #### Constant Strings
 
 ```c
 const char *str = "Hello, World!";
 ```
 
-####  Ternary
+#### Ternary
+
 ```c
 if ( a > b){
 a = 10;
 }
 else {
-a = 20 
+a = 20
 }
 ```
-
 
 ```c
 a = (a> b) ? 10 : 20
 ```
-
-
