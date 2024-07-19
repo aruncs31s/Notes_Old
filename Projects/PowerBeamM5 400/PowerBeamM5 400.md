@@ -7,6 +7,8 @@ tags:
 
 # Power Beam M5 400
 
+#### IP Configurations
+
 | IP           | Device            |
 | ------------ | ----------------- |
 | 172.16.36.10 | Raspberry Pi      |
@@ -20,12 +22,13 @@ The sensor is a self-emptying tipping bucket collector. This means that for each
 
 #### LIFEPo4 Battery
 
-| State   | Voltage                                      |
-| ------- | -------------------------------------------- |
-| Dead    | 3V and Kept Increasing after Disconnect      |
-| Charing | 12.40 Volts charges at a rate of 1 A per Sec |
+| State   | Voltage                                        |
+| ------- | ---------------------------------------------- |
+| Dead    | 3V and Kept Increasing after Disconnect        |
+| Charing | 12.40 Volts charges at a rate of 1 A per Sec   |
+| Charged | 13.14 Volts across the terminal after charging |
 
-I kept 13.1 V to constant to charge the battery from 01:14 AM to
+I kept 13.1 V to constant to charge the battery from 01:14 AM to ~4:00 AM
 
 ##### Batter Life
 
@@ -41,4 +44,4 @@ I kept 13.1 V to constant to charge the battery from 01:14 AM to
 | 12 PM            |        |
 | 2 PM             |        |
 | 4 PM             |        |
-| 8 PM             | True   |
+| 8 PM             |        |
