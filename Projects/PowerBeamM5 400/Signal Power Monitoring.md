@@ -8,10 +8,10 @@ tags: []
 
 | Date       | Item                  | Price |
 | ---------- | --------------------- | ----- |
-| 2024-07-15 |                       |
+| 2024-07-15 |                       |       |
 | 2024-07-17 | Masking Tape          | 74    |
 |            | Insulation Tape       |       |
-|            | Double Side Tap       |
+|            | Double Side Tap       |       |
 |            | DC-DC Boost Converter | 80    |
 |            | Auto Riksha Cost      | 80    |
 |            | Total                 | 234/- |

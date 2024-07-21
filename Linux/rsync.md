@@ -10,8 +10,6 @@ Created : 2024-05-28 20:59
 
 ## Contents
 
-
-
 #### Basic Usage
 
 ```bash
@@ -26,7 +24,8 @@ rsync -arch -v /home/user/Pictures/ /mnt/BACKUP/Pictures/
 
 -> -a : preserve `permissions` , `timestamps` , `symbolic links`
 -> -v : verbose
--> -h : human redable
+-> -h : human readable
+-> -c : compress
 
 > [!warning] Naming conventions
 > Never Put ==/path/to/somethng== insted use ==/path/to/something/==
@@ -84,6 +83,37 @@ output:
     └── 5
 ```
 
+#### Copying over ssh
+
+1. From ssh to local
+
+```bash
+rsync [options] user@ip:/path/ destination --rsync-path=/bin/rsync
+```
+
+2. From Local to ssh
+
+```bash
+rsync [options] source user@ip:/path/ --rsync-path=/bin/rsync
+```
+
+4. Arch -> PI
+
+| Command      | Doings             |
+| ------------ | ------------------ |
+| `--progress` | Shows the progress |
+| `z`          | compress           |
+
+#### With Crontab
+
+```bash
+crontab -e
+```
+
+```bash
+0 2 * * * rsync -avh --delete /path/to/source/ /path/to/destination/
+```
+
 ## References
 
-1.
+1. [Crontab](https://www.tutorialspoint.com/unix_commands/crontab.htm)

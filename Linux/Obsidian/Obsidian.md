@@ -1,8 +1,11 @@
 ### Plugins
+
 - [[Canvas Mindmap]]
 - [Data View](#data%20view)
 - [Callouts](#callouts)
+
 #### [[Data View]]
+
 - https://dannyhatcher.com/obsidian-dataview-for-beginners/
 - https://obsidian.rocks/dataview-in-obsidian-a-beginners-guide/
 - https://obsidian.rocks/obsidian-search-five-hidden-features/#embedded-search
@@ -14,7 +17,9 @@
 
 > [!error] A tip
 > This is a callout
+
 ##### Varip
+
 - note (blue)
 - abstract, summary, tldr (green)
 - info (blue)
@@ -28,3 +33,7 @@
 - bug (red)
 - example (purple)
 - quote, cite (grey)
+
+#### Drawings
+
+[source](https://support.typora.io/Draw-Diagrams-With-Markdown/)
