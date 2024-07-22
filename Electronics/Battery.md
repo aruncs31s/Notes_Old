@@ -3,7 +3,6 @@ id: Battery
 aliases: []
 tags: []
 ---
-
 #### Battery Percentages
 
 ###### mAh to Watt Hours
@@ -19,7 +18,7 @@ $$
 #### Sealed Lead Acid(SLA) Battery
 
 It is a 3 stage process
-![[SEALED-LEAD-ACID-BATTERY-CHARGING-PROFILE.webp]]
+![[SEALED-LEAD-ACID-BATTERY-CHARGING-PROFILE.excalidraw]]
 
 ###### Stage 1
 
@@ -42,9 +41,10 @@ It is a 3 stage process
 
 ![](https://www.renogy.com/product_images/uploaded_images/image-3-charging-parameters-chart.jpg)
 
-##### Charging
+##### LIFEPo4 Battery Charging
+![[LiFEPO4-BATTERY-CHARGING-PROFILE.excalidraw]]
 
-![[LIFEPO4-BATTERY-CHARGING-PROFILE.webp]]
+
 There are four stages instead of 3 stages in [[#Sealed Lead Acid(SLA) Battery|SLA]]
 
 ###### Stage 1 : Constant Current
