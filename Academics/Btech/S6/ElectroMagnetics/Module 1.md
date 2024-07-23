@@ -9,8 +9,6 @@ tags:
 ---
 # Module 1
 
-## [[Notes/Tasks]] 
-
 ```tasks
 due 2024-05-20 
 short mode

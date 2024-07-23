@@ -11,7 +11,7 @@ tags: []
 - [Initial Setup](#initial%20setup)
 - [Basics](#basics)
   - [Getting a Git repo]()
-    - [Adding local directory to git](Linux/Tools/1709452138-SMNE.md)
+	 - [[#Kick Start]] or  [Adding local directory to git](Linux/Tools/1709452138-SMNE.md)
     - [Cloning a repo]()
   - [Submitting that change]()
 - [[#Dropping Commits]]
@@ -84,6 +84,7 @@ git config --list
 ### **Basics**
 
 - [Creatig a repo](#creating%20a%20repo)
+- [[#Kick Start]]
 
 #### Creating a repo
 
@@ -91,6 +92,7 @@ git config --list
 
 - [Merge Conflict](#mergeconflict)
 
+#### Kick Start
 - To upload local folder/repo to `github`
 
 ```bash

@@ -11,7 +11,7 @@ tags: []
 - [[#Unit Vector]]
 - [[#Magnitude of Vector]]
 - [[#Resultant of two vectors]]
-- Laws
+- [[#Laws]]
   - [[#Triangle Law of Vector Addition]]
   - [[#Parallelogram Law]]
   - [[#Polygon Law]]
@@ -48,7 +48,7 @@ $$
 $$
 \overrightarrow A = A\  \hat a_{A}
 $$
-
+### Laws
 #### Triangle Law of Vector Addition
 
 ![[Law of Triangle.excalidraw]]
