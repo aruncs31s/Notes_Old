@@ -27,4 +27,6 @@ WantedBy=multi-user.target
 ```
 
 ##### Method 2 
+
 Edit the `/etc/NetworkManager/system-connections/preconfigured.nmconnection`
+

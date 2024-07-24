@@ -6,4 +6,8 @@ tags: []
 
 # Seminar
 
-1. [[Tocpic 1]]
+1. [[Topic 1]] --> Linux as an OS
+2. [[Topic 2]] --> Getting Fast In computing
+
+
+
