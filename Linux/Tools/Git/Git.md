@@ -85,6 +85,7 @@ git config --list
 
 - [Creatig a repo](#creating%20a%20repo)
 - [[#Kick Start]]
+- [[#Git Stash]]
 
 #### Creating a repo
 
@@ -112,6 +113,9 @@ git remote add origin https://github.com/BloBuster/tic_tac_toe.git
 git branch -M main
 git push -u origin main
 ```
+
+
+
 
 #### Merge Conflict
 
@@ -233,4 +237,31 @@ git branch -d branch_name
 
 ```bash
 git push origin --delete branch_name
+```
+
+
+#### Git Stash
+
+```bash
+git stash list
+```
+- To show the `stashes`
+
+```bash
+git stash show <stash index>
+```
+
+```bash
+git stash pop
+```
+
+
+
+```bash
+git stash drop
+```
+
+
+```bash
+git stash apply
 ```
