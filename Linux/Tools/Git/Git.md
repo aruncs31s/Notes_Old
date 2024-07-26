@@ -11,8 +11,7 @@ tags: []
 - [Initial Setup](#initial%20setup)
 - [Basics](#basics)
   - [Getting a Git repo]()
-	 - [[#Kick Start]] or  [Adding local directory to git](Linux/Tools/1709452138-SMNE.md)
-    - [Cloning a repo]()
+	 - [[#Kick Start]] 
   - [Submitting that change]()
 - [[#Dropping Commits]]
 - [[#Merge Conflict]]
