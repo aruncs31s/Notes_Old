@@ -37,6 +37,7 @@ I would rate this a [rating:: 9]! It was [mood:: acceptable].
 
 - [ ] [Check Out](https://blacksmithgu.github.io/obsidian-dataview/annotation/add-metadata/#inline-fields)
 
+
 #### References
 
 - https://blacksmithgu.github.io/obsidian-dataview/

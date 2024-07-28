@@ -1,8 +1,10 @@
-# {{title}}
-Created : {{date}} {{time}}
+---
+aliases: 
+Date: "{{date}}"
+---
 
+
+# {{title}}
 
 ## Contents
 - 
-## References
-1. 

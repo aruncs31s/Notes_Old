@@ -14,6 +14,7 @@ tags: []
 
 ## Contents
 
+- [ ]
 - [Zip](#zip)
 - [List](#list)
 
@@ -22,8 +23,16 @@ tags: []
 - [Iterating over the zip objects](#iterating%20over%20the%20zip%20objects)
 
 ```python
-print(zip(weights, biases))
-# <zip object at 0x7a2c4d5b3240>
+x = [1, 0]
+y = [2, 0]
+z = zip(x, y)
+print(tuple(z))
+```
+
+#output
+
+```
+((1, 2), (0, 0))
 ```
 
 - The zip() function adds i_th element at the end of the i_th element of weights

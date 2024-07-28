@@ -4,4 +4,8 @@ aliases: []
 tags: []
 ---
 
-- [ ] mv plank.bak to plank
+- [x] mv plank.bak to plank
+
+#### 2024-07-28
+
+- [ ] Secure weechat using gnupg
