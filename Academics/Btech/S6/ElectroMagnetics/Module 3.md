@@ -54,7 +54,7 @@
 
 Poynting Vector Denoted by $\overrightarrow S$  is given by the *vector product* of $\overrightarrow E \ \& \overrightarrow H$
  $$ \overrightarrow S = \overrightarrow E \times \overrightarrow H $$
-
+> Poynting vector ($\vec{S}$) points in the direction of energy flow and its magnitude gives the rate of energy transfer per unit area perpendicular to the direction of propagation
 > Pointing Vector measures the rate of flow of energy of the wave as it Propagates. The direction of $\overrightarrow S$ represents the direction of power flow and it is perpendicular to the plane containing $\overrightarrow E \ \& \ \overrightarrow H$
 
 
