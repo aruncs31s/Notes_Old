@@ -1,6 +1,13 @@
+---
+id: Vivaldo And hls4ml
+aliases: []
+tags: []
+---
+
 #### Requirements
+
 ```bash
-sudo apt-get install python3-venv git cmake 
+sudo apt-get install python3-venv git cmake
 ```
 
 ```bash
@@ -11,6 +18,7 @@ source venv_hls4ml/bin/activate
 pip install --upgrade pip
 pip install notebook
 ipython kernel install --user --name=.venv_hls4ml
+pip install hls4ml[rolling]
 ```
 
 ^1d13b4
@@ -29,7 +37,6 @@ pip install -e . -v
 
 ```
 
-
 #### For Cent OS
 
 ##### Requirements
@@ -41,4 +48,3 @@ sudo yum install python-pip python3-venv git cmake
 ```
 
 Then do [[#^1d13b4]]
-
