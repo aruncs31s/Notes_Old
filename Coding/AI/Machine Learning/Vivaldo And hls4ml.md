@@ -11,8 +11,9 @@ source venv_hls4ml/bin/activate
 pip install --upgrade pip
 pip install notebook
 ipython kernel install --user --name=.venv_hls4ml
-
 ```
+
+^1d13b4
 
 #### onnx install
 
@@ -27,3 +28,17 @@ export CMAKE_ARGS=-DONNX_USE_LITE_PROTO=ON
 pip install -e . -v
 
 ```
+
+
+#### For Cent OS
+
+##### Requirements
+
+```bash
+sudo yum install epel-release
+sudo yum groupinstall 'development tools'
+sudo yum install python-pip python3-venv git cmake
+```
+
+Then do [[#^1d13b4]]
+
