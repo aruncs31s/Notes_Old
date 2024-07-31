@@ -1,3 +1,8 @@
+---
+tags:
+  - daily_notes
+---
+
 # {{title}}
 
 ### Important
