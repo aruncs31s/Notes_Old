@@ -1,14 +1,17 @@
 ---
 id: Fourier Series and Transform
-aliases: []
-tags: []
+cssclasses:
+  - wide-page
+tags:
 ---
 
-- [[#Fourier Series]]
-- [[#Fourier Transform]]
-- [[#Inverse Fourier Transform]]
-- [[#Discrete-Time Fourier Series]]
-- [[#Discrete Fourier Transform(DFT)]]
+>[!important|right] Topics
+>- [[#Fourier Series]]
+>- [[#Fourier Transform]]
+>- [[#Inverse Fourier Transform]]
+>- [[#Discrete-Time Fourier Series]]
+>- [[#Discrete Fourier Transform(DFT)]]
+
 
 ### Fourier Series
 
@@ -27,14 +30,17 @@ $$
 
 and
 
+
 $$
 X[k] = {1 \over T} \int_{(t)} x(t)e^{-j\omega_0t} dt
 $$
 
-$x(t)$ has period T and $\omega_0 = {2 \pi \over T}$
 
-> [!IMPORTANT] Applicability
-> `Fourier Series` is only used for periodic signals
+> [!IMPORTANT|right] Applicability
+> `Fourier Series` is only used for periodic signals 
+
+
+$x(t)$ has period T and $\omega_0 = {2 \pi \over T}$
 
 ### Discrete-Time Fourier Series
 
@@ -53,22 +59,19 @@ $$
 $$
 
 ### Fourier Transform
+> [!NOTE|right] FT
+> The Fourier Transform decomposes a signal into its constituent
+> frequencies, allowing for the analysis of the signal's frequency
+> components
+where
 
 The Fourier Transform is a mathematical technique used in signal processing and image analysis, among other fields, ==to transform a function of time (a signl) into a function of frequency==
 
 $$
 F(\omega) = \int_{-\infty}^{\infty} f(t) e^{-j\omega t} dt\
 $$
-
-where
-
 - $F(\omega)$ Fourier transform coefficient of $f(t)$
 - $\omega$ is the Frequency
-
-> [!NOTE] FT
-> The Fourier Transform decomposes a signal into its constituent
-> frequencies, allowing for the analysis of the signal's frequency
-> components
 
 #### Inverse Fourier Transform
 

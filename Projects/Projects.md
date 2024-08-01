@@ -1,3 +1,9 @@
+---
+banner: "Projects/banner.jpg"
+banner_y: 0.628
+cssclasses:
+  - wide-page
+---
 #### Projects
 
 ```dataview

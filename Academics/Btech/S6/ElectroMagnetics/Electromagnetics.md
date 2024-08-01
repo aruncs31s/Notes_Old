@@ -3,6 +3,8 @@ tags:
   - s6
 aliases:
   - EMT
+banner: "https://w0.peakpx.com/wallpaper/602/288/HD-wallpaper-hii-is-awarded-electromagnetic-spectrum-contract-to-support.jpg"
+banner_y: 0.376
 ---
 
 # ElectroMagnetics Theory
@@ -16,7 +18,7 @@ folder includes Electromagnetics
 
 ## Contents
 - [Text](https://drive.google.com/file/d/1lFXMNLvuTDy1JrL4NnVrQtpwg9xTWLt3/view?usp=drive_link)
-- [[Academics/Btech/S6/ElectroMagnetics/Module 1|Module 1]] 
+- [[Module_1|Module_1]] 
 	- [[Module 1 Problems]]
 - [[Academics/Btech/S6/ElectroMagnetics/Module 2/Module 2|Module 2]]
 - [[/ElectroMagnetics/Module 3|Module 3]]

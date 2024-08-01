@@ -1,12 +1,19 @@
 ---
 id: Topic 3
-aliases: []
-tags: []
+aliases:
+  - matter,iot
+tags: 
+cssclasses:
+  - wide-page
+banner: "https://www.mistywest.com/wp-content/uploads/2022/04/MistyWest_Matter_Smart-Home-KeyMedia-01-1.png"
+banner_x: 0
+banner_y: 0.664
 ---
 
-# Matter Protocol
+# Matter Standard
+Matter is a freely available connectivity standard for smart home and Internet of Things(Iot). Matter Standard formerly known as **CHIP**(**Connected Home over IP**)
 
-- It aims to improve `interoperability` and compatibility between diffrent manufacturer and security and also allow local control.
+- It aims to improve `interoperability` and compatibility between different manufacturer and security and also allow local control.
 - It came to exits because of the lack of interoperability among various standrds, protocols and manufacturer .
 
 

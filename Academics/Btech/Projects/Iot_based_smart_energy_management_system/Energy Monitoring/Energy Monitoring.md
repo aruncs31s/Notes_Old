@@ -9,19 +9,11 @@
 
 - [ZMPT101B](Academics/Btech/Projects/Iot_based_smart_energy_management_system/Sensors/ZMPT101B.md)
 - [SCT 013](Academics/Btech/Projects/Iot_based_smart_energy_management_system/Sensors/SCT%20013.md)
-
-
-
-
-[source](https://youtu.be/FVGvR9qlEc8?si=gxnrYLnuNUXbOzdP)
-
 #### Introduction
-**
 
 #### Todo
 - [ ] Make a programm to measure the energy consumption
 - [ ] Purchase SCT013 
-- [ ] 
 
 #### References
 

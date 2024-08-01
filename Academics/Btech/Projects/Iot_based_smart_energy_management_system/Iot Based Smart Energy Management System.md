@@ -21,7 +21,7 @@ Target Date: 2024-04-07
 
 #### Todos
 <!-- TODO: Complete This -->
-- [ ] [[Academics/Btech/Projects/Iot_based_smart_energy_management_system/Energy Monitoring/Energy Monitoring]] 
+- [x] [[Academics/Btech/Projects/Iot_based_smart_energy_management_system/Energy Monitoring/Energy Monitoring]] ✅ 2024-07-31
 - [x] [[Academics/Btech/Projects/Iot_based_smart_energy_management_system/Solar Tracking/Solar Tracking]]
 	- [x] [Interfacing]()
 	- [ ] [Printing 3D Model]()

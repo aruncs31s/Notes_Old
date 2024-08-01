@@ -1,8 +1,8 @@
 {
 	"nodes":[
 		{"id":"b9de7b55f29b27a2","type":"text","text":"# [[Electromagnetics]] ","x":-418,"y":-120,"width":360,"height":60,"color":"#a84d4d"},
-		{"id":"27ccd2ac8813e544","x":-58,"y":31,"width":400,"height":400,"type":"file","file":"Academics/Btech/S6/ElectroMagnetics/Module 1.md"},
-		{"id":"80cacb39250bf74a","x":560,"y":-209,"width":563,"height":298,"type":"text","text":"![[Academics/Btech/S6/ElectroMagnetics/Module 1#Syllabus|Module 1]]\n"},
+		{"id":"27ccd2ac8813e544","x":-58,"y":31,"width":400,"height":400,"type":"file","file":"Academics/Btech/S6/ElectroMagnetics/Module_1.md"},
+		{"id":"80cacb39250bf74a","x":560,"y":-209,"width":563,"height":298,"type":"text","text":"![[Module_1#Syllabus|Module 1]]\n"},
 		{"id":"965967aee7c3a334","x":595,"y":254,"width":405,"height":106,"type":"text","text":""}
 	],
 	"edges":[

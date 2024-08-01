@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"c771d3dc78f8226f","type":"file","file":"Academics/Btech/S6/ElectroMagnetics/Module 1.md","x":-920,"y":-250,"width":400,"height":400},
+		{"id":"c771d3dc78f8226f","type":"file","file":"Academics/Btech/S6/ElectroMagnetics/Module_1.md","x":-920,"y":-250,"width":400,"height":400},
 		{"id":"7ba14adfe326b5da","type":"text","text":"# Module 4","x":-160,"y":-520,"width":250,"height":60},
 		{"id":"ba5ed3390af65b85","type":"file","file":"Academics/Btech/S6/ElectroMagnetics/Module 2/Module 2.md","x":46,"y":440,"width":674,"height":440},
 		{"id":"c965e8ba427e96dc","type":"file","file":"Science/Maths/Vector Calculus.md","x":-1890,"y":-359,"width":530,"height":509},

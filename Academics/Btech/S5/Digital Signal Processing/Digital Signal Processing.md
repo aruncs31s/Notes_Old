@@ -1,7 +1,12 @@
-# Digital Signal Processing
+---
+banner: "https://github.com/aruncs31s/wallpapers/blob/main/exodia/cat-sound.png?raw=true"
+banner_y: 0.46
+---
+ 
+<h1 align="center"> Digital Signal Processing</h1>
+
 ## Syllabus
-- [PDF](~/k.pdf)
-1. [Module 1](Academics/Btech/S5/Digital%20Signal%20Processing/Module%201.md)
+- [Module 1](Academics/Btech/S5/Digital%20Signal%20Processing/Module%201.md)
 	- Basic Elements of a DSP system
 	- Typical DSP applications
 	- Finite-length discrete transforms
@@ -67,11 +72,3 @@ plt.show()
 
 ```
 
-```bash
-
-
-
-
-tgpt "what is this"
-
-```

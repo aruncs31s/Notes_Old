@@ -1,8 +1,12 @@
 ---
 id: Git
-aliases: []
-tags: []
+cssclasses:
+  - wide-page
+tags:
+banner: "https://github.blog/wp-content/uploads/2023/05/1200.630-Security-wLogo.png?w=1200"
+banner_y: 0.552
 ---
+
 
 # Git
 
@@ -15,7 +19,9 @@ tags: []
   - [Submitting that change]()
 - [[#Dropping Commits]]
 - [[#Merge Conflict]]
-
+- [[#Advanced]]
+	- [[#aliasing]]
+	- 
 
 ### **Introduction**
 
@@ -264,3 +270,35 @@ git stash drop
 ```bash
 git stash apply
 ```
+
+
+### Advanced
+##### aliasing
+```bash
+git config --global alias.staash 'stash --all'
+```
+#example 
+```bash
+git config --global alias.po 'push origin main'
+```
+>[!floating|right-medium] 
+>we can also use `!script name.sh` instead of the normal git command 
+
+#example 
+```bash
+git config --global alias.something !some_script.sh
+```
+
+#### Blame
+```bash
+git blame -L x_1,x_2
+```
+git blame of specific lines where x_1 , x_2 indicating seperate lines
+
+```bash
+git blame -w -C -C -C 
+```
+- ignore white spaces
+- detect lines moved or copied in the same commit 
+- commit that created the file
+- any commit at all.

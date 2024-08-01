@@ -1,7 +1,10 @@
 ---
 id: Seminar
-aliases: []
-tags: []
+aliases:
+  - seminar
+tags: 
+cssclasses:
+  - wide-page
 ---
 
 # Seminar

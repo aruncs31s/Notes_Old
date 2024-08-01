@@ -1,9 +1,9 @@
 ---
 id: Vector Algebra
-aliases: []
-tags: []
+aliases: 
+cssclasses:
+  - wide-page
 ---
-
 # Vector Calculus 
 
 ## Contents
@@ -39,7 +39,7 @@ $$
 
 #### Unit Vector
 
-It is defined as a vector whose magnitude is unity and direction is along $\overrightarrow A$
+It is defined as a vector whose magnitude is unity and direction is along $\vec A$ 
 
 $$
 \hat a_{A} = \frac{\overrightarrow A}{|\overrightarrow A|} = \frac{\overrightarrow A}{\overrightarrow A}
@@ -51,7 +51,8 @@ $$
 ### Laws
 #### Triangle Law of Vector Addition
 
-![[Law of Triangle.excalidraw]]
+>[!blank|right-medium]
+>![[Law of Triangle.excalidraw]]
 
 > In the first case the both $\overrightarrow A$ and $\overrightarrow B$ their direction is anti clockwise so the direction of resultant vector is in ==tail to head==
 
