@@ -1,27 +1,29 @@
 ---
 id: Git
+aliases: []
+tags: []
+banner: https://github.blog/wp-content/uploads/2023/05/1200.630-Security-wLogo.png?w=1200
+banner_y: 0.552
 cssclasses:
   - wide-page
-tags:
-banner: "https://github.blog/wp-content/uploads/2023/05/1200.630-Security-wLogo.png?w=1200"
-banner_y: 0.552
 ---
 
-
 # Git
+
+- [[1722694456-PFUM|Branchers]]
 
 - [Introduction](#introduction)
 - [Installation](#installation)
 - [Initial Setup](#initial%20setup)
 - [Basics](#basics)
   - [Getting a Git repo]()
-	 - [[#Kick Start]] 
+  - [[#Kick Start]]
   - [Submitting that change]()
 - [[#Dropping Commits]]
 - [[#Merge Conflict]]
 - [[#Advanced]]
-	- [[#aliasing]]
-	- 
+  - [[#aliasing]]
+  -
 
 ### **Introduction**
 
@@ -99,6 +101,7 @@ git config --list
 - [Merge Conflict](#mergeconflict)
 
 #### Kick Start
+
 - To upload local folder/repo to `github`
 
 ```bash
@@ -118,9 +121,6 @@ git remote add origin https://github.com/BloBuster/tic_tac_toe.git
 git branch -M main
 git push -u origin main
 ```
-
-
-
 
 #### Merge Conflict
 
@@ -244,12 +244,12 @@ git branch -d branch_name
 git push origin --delete branch_name
 ```
 
-
 #### Git Stash
 
 ```bash
 git stash list
 ```
+
 - To show the `stashes`
 
 ```bash
@@ -260,45 +260,50 @@ git stash show <stash index>
 git stash pop
 ```
 
-
-
 ```bash
 git stash drop
 ```
-
 
 ```bash
 git stash apply
 ```
 
-
 ### Advanced
+
 ##### aliasing
+
 ```bash
 git config --global alias.staash 'stash --all'
 ```
-#example 
+
+#example
+
 ```bash
 git config --global alias.po 'push origin main'
 ```
->[!floating|right-medium] 
->we can also use `!script name.sh` instead of the normal git command 
 
-#example 
+> [!floating|right-medium]
+> we can also use `!script name.sh` instead of the normal git command
+
+#example
+
 ```bash
 git config --global alias.something !some_script.sh
 ```
 
 #### Blame
+
 ```bash
 git blame -L x_1,x_2
 ```
+
 git blame of specific lines where x_1 , x_2 indicating seperate lines
 
 ```bash
-git blame -w -C -C -C 
+git blame -w -C -C -C
 ```
+
 - ignore white spaces
-- detect lines moved or copied in the same commit 
+- detect lines moved or copied in the same commit
 - commit that created the file
 - any commit at all.
