@@ -9,3 +9,4 @@ tags: []
 #### 2024-07-28
 
 - [ ] Secure weechat using gnupg
+      https://www.gnome-look.org/p/1256209

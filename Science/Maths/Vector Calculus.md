@@ -4,9 +4,9 @@ aliases:
 cssclasses:
   - wide-page
 ---
-# Vector Calculus 
+<h1 align="center"> Vector Calculus </h1> 
 
-## Contents
+### Contents
 - [[#Basics Of Vector]]
 - [[#Unit Vector]]
 - [[#Magnitude of Vector]]
@@ -233,10 +233,13 @@ $$
 - Projection of vector $\overrightarrow A$ on $\overrightarrow B$ is $A \cos \theta$
 - Projection of vector $\overrightarrow B$ on $\overrightarrow A$  is $B \cos \theta$
 
-#### Position Vector $r_p$ 
+#### Position Vector .$r_p$ 
+
+>[!blank|right-medium]
+>![[position vector drawing]]
+
 Position vector of a point is the directed distance from the origin '0'to Point 'P' 
 
-![[position vector drawing]]
 
 $$
 \hat r_{p} = OP = x \hat{a}_{x}+ y\hat{a}_y+ z\hat{a}_z
@@ -244,9 +247,15 @@ $$
 It used to find the position of a vector in space 
 #eg 
 $\overrightarrow{P} =(1,2,3) = 1a_{x}+ 2a_y+3a_z$
+
+---
 #### Distance Vector
+>[!blank|right-medium]
+>![[distance Vector]]
+
+
 It is the displacement from one point to another. 
-![[distance Vector]]
+
 Consider two point **P** and **Q** , the distance vector is the displacement from **P** to **Q**
 Hence
 $$

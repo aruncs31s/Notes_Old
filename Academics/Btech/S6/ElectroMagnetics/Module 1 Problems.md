@@ -1,7 +1,8 @@
 ---
 id: Module 1 Problems
 aliases: 
-tags:
+cssclasses:
+  - wide-page
 ---
 
 ## Schaum's Problems
