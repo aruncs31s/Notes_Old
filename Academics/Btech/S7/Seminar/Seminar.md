@@ -9,8 +9,6 @@ cssclasses:
 
 # Seminar
 
-1. [[Topic 1]] --> Linux as an OS
-2. [[Topic 2]] --> Getting Fast In computing
 3. [[Seminar Topic 3]]
 
 

@@ -5,7 +5,8 @@ Created : 2024-07-28 15:08
 	- [[#Resisters]]
 		- [[#In Series]]
 		- [[#In parallel]]
-
+ - [[Academics/Btech/S6/Embedded Systems/Embedded Systems]]
+	 - [[Sensors]] 
 ## Basics
 
 

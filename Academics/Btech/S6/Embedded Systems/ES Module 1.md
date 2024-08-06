@@ -1,7 +1,7 @@
 # ES Module 1
 Created : 2024-06-05 13:25
 ## Contents
-- [Module 1 Syllabus](Embedded%20Systems.md#Module%201%20Syllabus)
+- [Module 1 Syllabus](Academics/Btech/S6/Embedded%20Systems/Embedded%20Systems.md#Module%201%20Syllabus)
 ## Syllabus 
 - [x] Complex Systems and Microprocessors ✅ 2024-06-06
 	- [x] Embedding Computers ✅ 2024-06-05

@@ -3,7 +3,7 @@ id: Seminar Topic 3
 aliases:
   - matter,iot
 tags: 
-banner: https://www.mistywest.com/wp-content/uploads/2022/04/MistyWest_Matter_Smart-Home-KeyMedia-01-1.png
+banner: "https://www.mistywest.com/wp-content/uploads/2022/04/MistyWest_Matter_Smart-Home-KeyMedia-01-1.png"
 banner_x: 0
 banner_y: 0.684
 cssclasses:

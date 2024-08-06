@@ -116,5 +116,5 @@ xReturned = xTaskCreate(
 
 ### Connected To
 
-[[Embedded Systems]]
+[[Academics/Btech/S6/Embedded Systems/Embedded Systems]]
 

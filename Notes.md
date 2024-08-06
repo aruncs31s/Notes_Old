@@ -19,5 +19,6 @@ cssclasses:
 > > - Series C: planned
 
 ## Navigation
-- 📓 [[Daily Notes]]
-- 🧑‍🎓 [[Academics]]
+- [[Daily Notes|📓 Daily Notes]]
+-  [[Academics|🧑‍🎓 Academics]]
+-  [[Linux|💻 Linux]]

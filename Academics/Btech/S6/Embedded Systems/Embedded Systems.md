@@ -1,7 +1,10 @@
 ---
-id: Module 2
-aliases: []
-tags: []
+id: 
+aliases:
+  - ktu
+tags: 
+cssclasses:
+  - wide-page
 ---
 # Embedded Systems
 
@@ -11,10 +14,10 @@ tags: []
 
 
 ## Contents
-- [Module 1](Embedded%20Systems.md#Module%201)
-	- - [Module 1 Syllabus](Embedded%20Systems.md#Module%201%20Syllabus)
+- [Module 1](Academics/Btech/S6/Embedded%20Systems/Embedded%20Systems.md#Module%201)
+	- - [Module 1 Syllabus](Academics/Btech/S6/Embedded%20Systems/Embedded%20Systems.md#Module%201%20Syllabus)
 	- 
-- [[Academics/Btech/S6/ElectroMagnetics/Module 2/Module 2]]
+- [[Academics/Btech/S6/ElectroMagnetics/Module 2/Module 2|Module 2]]
 	- [[Serial Comm|Serial Communication]]
 	- [[Btech/S6/Embedded Systems/Files/Module 2/Memory|Memory]]
 	- [[I_O Devices|I_O Devices]]

@@ -3,20 +3,58 @@ id: Python For Engineers
 aliases:
   - cst445
   - python
-tags: []
+cssclasses:
+  - wide-page
+Created: 2024-07-23
 ---
-
 # Python For Engineers
-
-Created : 2024-07-23 11:20
 
 ```python
 print("Hello World")
 ```
 
 ## Contents
+- [[#Module 1]]
+### Module 1
+- [[#Syllabus]]
+#### Syllabus
 
-- [[Academics/Btech/S7/Python For Engineers/Module 1|Module 1]]
+- Getting Started with Python Programming
+- Running code in the interactive shell,
+  Editing,
+  Saving,
+  and Running a script.
+- Using editors 
+  IDLE,
+  Jupyter.
+- Basic coding skills
+
+  - Working with data types,
+  - Numeric data types and Character sets,
+  - Keywords,
+  - Variables and
+  - Assignment statement,
+  - Operators,
+  - Expressions,
+  - Working with numeric data,
+  - Type conversions,
+  - Comments in the program,
+  - Input Processing,
+  - and Output,
+  - Formatting output.
+
+- How Python works.
+- Detecting and correcting syntax errors.
+- Using built in functions and modules in math module.
+- Control statements
+- Selection structure
+  - if-else,
+  - if-elif-else.
+- Iteration structure
+  - for, while.
+- Testing the control statements.
+- Lazy evaluation.
+
 
 ## References
 
