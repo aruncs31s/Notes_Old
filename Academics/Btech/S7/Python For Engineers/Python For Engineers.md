@@ -82,7 +82,7 @@ print("Sum is = " + sum(num_1,num_2))
   - Space is used insted of `{},() etc.`
 
 
-##### Control Statements
+#### Control Statements
 main -> Driver function in other languages
 In python
 
@@ -118,6 +118,45 @@ print("The Bigger Number is ", is_large(num_1,num_2) and num_1 or is_large(num_2
 # Even or off
 ```
 
+#### Iterative Statements(Loops)
+#####  For loop
+```python
+for <variable> in range(<an integer expression>):
+	code
+```
+#example 
+```python
+for i in range(4):
+	print(i)
+```
+
+#example 
+```python
+# print from 1 to 10 
+for i in range(1,11):
+    print(i)
+```
+
+##### while loops 
+# syntax
+```python
+while <condition>:
+	<code>
+```
+#example  
+```python
+i=1
+while (i<11):
+    print("2 times " , i , "= " , i*2)
+    i+=1
+```
+>[!info] Print all even number less than 20
+>```python
+>i = 1 
+>while(i<21):
+>	print(i)
+>	i+=2
+> ```
 
 
 ## References
