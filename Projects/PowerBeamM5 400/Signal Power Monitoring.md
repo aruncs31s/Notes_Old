@@ -1,7 +1,11 @@
 ---
 id: Signal Power Monitoring
-aliases: []
-tags: []
+aliases:
+  - signal power
+tags:
+  - project
+Starting Date: 2024-07-01
+Target Date: 2024-08-28
 ---
 
 ### Ledger
@@ -15,6 +19,8 @@ tags: []
 |            | DC-DC Boost Converter | 80    |
 |            | Auto Riksha Cost      | 80    |
 |            | Total                 | 234/- |
+
+
 
 2024-07-17 -> 74 For Tapes
 

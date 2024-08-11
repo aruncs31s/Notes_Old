@@ -7,6 +7,8 @@ tags:
   - mini-project
 Starting Date: 2024-01-26
 Target Date: 2024-04-07
+End Date: 2024-02-04
+Status: true
 ---
 <h1 align="center"> <b>Iot Based Smart Energy Managment System</b></h1>
 

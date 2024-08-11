@@ -92,6 +92,8 @@ R1 <- [1]
 [A] <- R1
 ```
 *This represents a store operation in which the contents of `R1` to *
+
+
 [^3]: https://levelup.gitconnected.com/five-stages-of-risc-pipeline-aad0c3eb1233
 
 ## References
