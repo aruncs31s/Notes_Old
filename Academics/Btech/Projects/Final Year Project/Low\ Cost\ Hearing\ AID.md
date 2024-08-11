@@ -51,7 +51,11 @@ A[Earing AIDs] --> B(IIC)
 1. Less Power(amplification?)[^2]
 2. Less battery life
 3. More vulnerable to moisture
-4.
+
+### Tympan
+_The Tympan project aims to develop a fully open source hearing aid that you can not only build yourself, but expand and modify to fit your exact specifications_[^4]
+
+[^4]:https://hackaday.com/2019/03/01/meet-tympan-the-open-hardware-hearing-aid/
 
 ### Paper 1
 
