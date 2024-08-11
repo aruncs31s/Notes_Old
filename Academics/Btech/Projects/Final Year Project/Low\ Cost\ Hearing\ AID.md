@@ -39,7 +39,7 @@ The main types of hearing aids are
 
 ```mermaid
 graph LR
-A(Earing AIDs] --> B(IIC)
+A[Earing AIDs] --> B(IIC)
 ```
 
 1. IIC (Invisible-in-the-canal)
